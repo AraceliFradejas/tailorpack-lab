@@ -9,7 +9,7 @@
 | Tecnologías | Python, JavaScript, HTML, CSS, SVG, Web Workers y Local Storage |
 | Repositorio | https://github.com/AraceliFradejas/tailorpack-lab |
 | Licencia | Apache 2.0 |
-| Versión | 0.1.0 · octubre de 2026 |
+| Versión | App 0.2.0 · motor Python 0.1.0 · octubre de 2026 |
 | App publicada | https://tailorpack-lab.vercel.app/ |
 
 ## 1 Contexto y motivación
@@ -107,7 +107,7 @@ El guardado local comprueba los resultados al leerlos. Si hay datos corruptos o 
 
 ## 8 Validación y resultados conservados
 
-La suite Python contiene 37 tests: 32 funcionan con la biblioteca estándar y cinco necesitan el notebook y las dependencias opcionales. Los 37 pasaron en el entorno local preparado; una ejecución sin ese entorno omite explícitamente los cinco oficiales. La app tiene quince tests de geometría, búsqueda y estado.
+La suite Python contiene 37 tests: 32 funcionan con la biblioteca estándar y cinco necesitan el notebook y las dependencias opcionales. Los 37 pasaron en el entorno local preparado; una ejecución sin ese entorno omite explícitamente los cinco oficiales. La app tiene 22 tests de geometría, búsqueda y estado.
 
 GitHub Actions comprueba Python 3.11, 3.12 y 3.13 y ejecuta los tests y el build de la app. Las [ejecuciones públicas](https://github.com/AraceliFradejas/tailorpack-lab/actions) permiten consultar el resultado correspondiente a cada commit.
 
@@ -152,6 +152,18 @@ También queda probar el recorrido en dispositivos táctiles reales y ampliar la
 El proyecto conecta una idea visual sencilla con cuestiones de geometría, precisión numérica y diseño de experimentos. Me ha servido para organizar una búsqueda que se pueda repetir y para distinguir una mejora ocasional de un método consistente.
 
 La app hace visible esa diferencia: mover una pieza puede reducir el espacio y, al mismo tiempo, crear un cruce. Poder observarlo y corregirlo convierte el resultado técnico en algo que otra persona puede explorar.
+
+## 13 Ampliación v0.2 · comparar dos motores
+
+He conservado el motor web original y añadido una segunda estrategia con rejilla escalonada, disposición girada, reinicios y movimientos de grupos de piezas. También extendí la construcción de cinco cuadrados a cuatro bloques de esquina y una pieza central: permite preparar casos de 17 y 37 cuadrados.
+
+El Laboratorio permite ejecutar ambos motores con el mismo tablero, semilla y presupuesto. Cada motor recibe sus propias propuestas; ejecutar la comparación duplica el total. La app conserva el mejor resultado recibido y marca como parciales las comparaciones interrumpidas.
+
+La serie de diez semillas, nueve tamaños y controles con construcción compartida reúne 240 ejecuciones. La v2 mejora desde la rejilla en 5, 17 y 37; no mejora los otros seis tamaños. Cuando doy la misma construcción a ambos motores, las treinta parejas empatan. La v2 consume más tiempo. No puedo atribuir las mejoras a los movimientos colectivos ni presentar superioridad general.
+
+La primera construcción pasaba las comprobaciones locales, pero el evaluador oficial dejaba algunos contactos como indecidibles. Añadí separación positiva entre las piezas de cada bloque y repetí los experimentos. El CSV corregido de nueve puzzles fue aceptado offline por el evaluador v17. El [informe v0.2](docs/search-v02.md) conserva protocolo, resultados, tiempos y validación; no se ha enviado a Kaggle.
+
+Esta ampliación está implementada en el motor JavaScript y se puede reproducir desde Node. El motor histórico de Python y las referencias anteriores siguen conservados. No he conectado Gemma: primero he creado una comparación que permitirá medir si un futuro agente aporta una mejora.
 
 ## Autora
 

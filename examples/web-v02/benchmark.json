@@ -1,0 +1,3845 @@
+{
+  "status": "LOCAL_FLOAT_ONLY_NOT_OFFICIALLY_VALIDATED",
+  "config": {
+    "ns": [
+      5,
+      9,
+      10,
+      11,
+      13,
+      16,
+      17,
+      20,
+      37
+    ],
+    "seeds": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "budget": 2500,
+    "method": "annealing",
+    "candidate_sha256": "bfb8c50171096cbfb253132b5a75f74a6a01da12264c55efc7f1e04fdddc14ad"
+  },
+  "sources": {
+    "engine.js": "f07dd87c7df6a9a0ad1ad921bf7f8fb355c234a54db70d5b70a567aa288a4d47",
+    "solver.js": "2bca9a2280d94f48cf83f8a0439cbf22b6b4e8142d548832b0b44cef39b6f4e7",
+    "solver-v1.js": "d834e44f89f9d247327f485e3a214211b8bb51e19adf9d7e6887ccfad736f711",
+    "search-moves.js": "dcf236fa7bd8bfa186b937a51175b0bf414651512c7463ba21e72680bf33d4fc"
+  },
+  "rows": [
+    {
+      "n": 5,
+      "start": "grid",
+      "seed": 10,
+      "strategy": "v1",
+      "initialL": 3,
+      "L": 3,
+      "step": 2500,
+      "accepted": 1444,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 5,
+      "start": "grid",
+      "seed": 10,
+      "strategy": "v2",
+      "initialL": 3,
+      "L": 2.707106795328683,
+      "step": 2500,
+      "accepted": 703,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1246,
+        "translate": 655,
+        "cluster": 595
+      }
+    },
+    {
+      "n": 5,
+      "start": "grid",
+      "seed": 11,
+      "strategy": "v1",
+      "initialL": 3,
+      "L": 2.8157031839488686,
+      "step": 2500,
+      "accepted": 1390,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 5,
+      "start": "grid",
+      "seed": 11,
+      "strategy": "v2",
+      "initialL": 3,
+      "L": 2.707106795328683,
+      "step": 2500,
+      "accepted": 694,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1213,
+        "translate": 658,
+        "cluster": 625
+      }
+    },
+    {
+      "n": 5,
+      "start": "grid",
+      "seed": 12,
+      "strategy": "v1",
+      "initialL": 3,
+      "L": 3,
+      "step": 2500,
+      "accepted": 1378,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 5,
+      "start": "grid",
+      "seed": 12,
+      "strategy": "v2",
+      "initialL": 3,
+      "L": 2.707106795328683,
+      "step": 2500,
+      "accepted": 713,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1208,
+        "translate": 648,
+        "cluster": 640
+      }
+    },
+    {
+      "n": 5,
+      "start": "grid",
+      "seed": 13,
+      "strategy": "v1",
+      "initialL": 3,
+      "L": 2.8163255435813306,
+      "step": 2500,
+      "accepted": 1331,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 5,
+      "start": "grid",
+      "seed": 13,
+      "strategy": "v2",
+      "initialL": 3,
+      "L": 2.707106795328683,
+      "step": 2500,
+      "accepted": 684,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1302,
+        "translate": 592,
+        "cluster": 602
+      }
+    },
+    {
+      "n": 5,
+      "start": "grid",
+      "seed": 14,
+      "strategy": "v1",
+      "initialL": 3,
+      "L": 3,
+      "step": 2500,
+      "accepted": 1415,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 5,
+      "start": "grid",
+      "seed": 14,
+      "strategy": "v2",
+      "initialL": 3,
+      "L": 2.707106795328683,
+      "step": 2500,
+      "accepted": 679,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1244,
+        "translate": 597,
+        "cluster": 655
+      }
+    },
+    {
+      "n": 5,
+      "start": "grid",
+      "seed": 15,
+      "strategy": "v1",
+      "initialL": 3,
+      "L": 2.952398161864191,
+      "step": 2500,
+      "accepted": 1443,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 5,
+      "start": "grid",
+      "seed": 15,
+      "strategy": "v2",
+      "initialL": 3,
+      "L": 2.707106795328683,
+      "step": 2500,
+      "accepted": 678,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1242,
+        "translate": 623,
+        "cluster": 631
+      }
+    },
+    {
+      "n": 5,
+      "start": "grid",
+      "seed": 16,
+      "strategy": "v1",
+      "initialL": 3,
+      "L": 2.968880713416287,
+      "step": 2500,
+      "accepted": 1378,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 5,
+      "start": "grid",
+      "seed": 16,
+      "strategy": "v2",
+      "initialL": 3,
+      "L": 2.707106795328683,
+      "step": 2500,
+      "accepted": 745,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1245,
+        "translate": 619,
+        "cluster": 632
+      }
+    },
+    {
+      "n": 5,
+      "start": "grid",
+      "seed": 17,
+      "strategy": "v1",
+      "initialL": 3,
+      "L": 2.847090799475225,
+      "step": 2500,
+      "accepted": 1428,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 5,
+      "start": "grid",
+      "seed": 17,
+      "strategy": "v2",
+      "initialL": 3,
+      "L": 2.707106795328683,
+      "step": 2500,
+      "accepted": 717,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1279,
+        "translate": 608,
+        "cluster": 609
+      }
+    },
+    {
+      "n": 5,
+      "start": "grid",
+      "seed": 18,
+      "strategy": "v1",
+      "initialL": 3,
+      "L": 2.9682023216267353,
+      "step": 2500,
+      "accepted": 1370,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 5,
+      "start": "grid",
+      "seed": 18,
+      "strategy": "v2",
+      "initialL": 3,
+      "L": 2.707106795328683,
+      "step": 2500,
+      "accepted": 758,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1224,
+        "translate": 657,
+        "cluster": 615
+      }
+    },
+    {
+      "n": 5,
+      "start": "grid",
+      "seed": 19,
+      "strategy": "v1",
+      "initialL": 3,
+      "L": 2.8507065992507803,
+      "step": 2500,
+      "accepted": 1398,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 5,
+      "start": "grid",
+      "seed": 19,
+      "strategy": "v2",
+      "initialL": 3,
+      "L": 2.707106795328683,
+      "step": 2500,
+      "accepted": 695,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1207,
+        "translate": 632,
+        "cluster": 657
+      }
+    },
+    {
+      "n": 5,
+      "start": "shared-construction",
+      "seed": 10,
+      "strategy": "v1",
+      "initialL": 2.7071067911865474,
+      "L": 2.7071067911865474,
+      "step": 2500,
+      "accepted": 1398,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 5,
+      "start": "shared-construction",
+      "seed": 10,
+      "strategy": "v2",
+      "initialL": 2.7071067911865474,
+      "L": 2.7071067911865474,
+      "step": 2500,
+      "accepted": 703,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1246,
+        "translate": 655,
+        "cluster": 595
+      }
+    },
+    {
+      "n": 5,
+      "start": "shared-construction",
+      "seed": 11,
+      "strategy": "v1",
+      "initialL": 2.7071067911865474,
+      "L": 2.7071067911865474,
+      "step": 2500,
+      "accepted": 1370,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 5,
+      "start": "shared-construction",
+      "seed": 11,
+      "strategy": "v2",
+      "initialL": 2.7071067911865474,
+      "L": 2.7071067911865474,
+      "step": 2500,
+      "accepted": 694,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1213,
+        "translate": 658,
+        "cluster": 625
+      }
+    },
+    {
+      "n": 5,
+      "start": "shared-construction",
+      "seed": 12,
+      "strategy": "v1",
+      "initialL": 2.7071067911865474,
+      "L": 2.7071067911865474,
+      "step": 2500,
+      "accepted": 1356,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 5,
+      "start": "shared-construction",
+      "seed": 12,
+      "strategy": "v2",
+      "initialL": 2.7071067911865474,
+      "L": 2.7071067911865474,
+      "step": 2500,
+      "accepted": 713,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1208,
+        "translate": 648,
+        "cluster": 640
+      }
+    },
+    {
+      "n": 5,
+      "start": "shared-construction",
+      "seed": 13,
+      "strategy": "v1",
+      "initialL": 2.7071067911865474,
+      "L": 2.7071067911865474,
+      "step": 2500,
+      "accepted": 1402,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 5,
+      "start": "shared-construction",
+      "seed": 13,
+      "strategy": "v2",
+      "initialL": 2.7071067911865474,
+      "L": 2.7071067911865474,
+      "step": 2500,
+      "accepted": 684,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1302,
+        "translate": 592,
+        "cluster": 602
+      }
+    },
+    {
+      "n": 5,
+      "start": "shared-construction",
+      "seed": 14,
+      "strategy": "v1",
+      "initialL": 2.7071067911865474,
+      "L": 2.7071067911865474,
+      "step": 2500,
+      "accepted": 1391,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 5,
+      "start": "shared-construction",
+      "seed": 14,
+      "strategy": "v2",
+      "initialL": 2.7071067911865474,
+      "L": 2.7071067911865474,
+      "step": 2500,
+      "accepted": 679,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1244,
+        "translate": 597,
+        "cluster": 655
+      }
+    },
+    {
+      "n": 5,
+      "start": "shared-construction",
+      "seed": 15,
+      "strategy": "v1",
+      "initialL": 2.7071067911865474,
+      "L": 2.7071067911865474,
+      "step": 2500,
+      "accepted": 1377,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 5,
+      "start": "shared-construction",
+      "seed": 15,
+      "strategy": "v2",
+      "initialL": 2.7071067911865474,
+      "L": 2.7071067911865474,
+      "step": 2500,
+      "accepted": 678,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1242,
+        "translate": 623,
+        "cluster": 631
+      }
+    },
+    {
+      "n": 5,
+      "start": "shared-construction",
+      "seed": 16,
+      "strategy": "v1",
+      "initialL": 2.7071067911865474,
+      "L": 2.7071067911865474,
+      "step": 2500,
+      "accepted": 1417,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 5,
+      "start": "shared-construction",
+      "seed": 16,
+      "strategy": "v2",
+      "initialL": 2.7071067911865474,
+      "L": 2.7071067911865474,
+      "step": 2500,
+      "accepted": 745,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1245,
+        "translate": 619,
+        "cluster": 632
+      }
+    },
+    {
+      "n": 5,
+      "start": "shared-construction",
+      "seed": 17,
+      "strategy": "v1",
+      "initialL": 2.7071067911865474,
+      "L": 2.7071067911865474,
+      "step": 2500,
+      "accepted": 1456,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 5,
+      "start": "shared-construction",
+      "seed": 17,
+      "strategy": "v2",
+      "initialL": 2.7071067911865474,
+      "L": 2.7071067911865474,
+      "step": 2500,
+      "accepted": 717,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1279,
+        "translate": 608,
+        "cluster": 609
+      }
+    },
+    {
+      "n": 5,
+      "start": "shared-construction",
+      "seed": 18,
+      "strategy": "v1",
+      "initialL": 2.7071067911865474,
+      "L": 2.7071067911865474,
+      "step": 2500,
+      "accepted": 1363,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 5,
+      "start": "shared-construction",
+      "seed": 18,
+      "strategy": "v2",
+      "initialL": 2.7071067911865474,
+      "L": 2.7071067911865474,
+      "step": 2500,
+      "accepted": 758,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1224,
+        "translate": 657,
+        "cluster": 615
+      }
+    },
+    {
+      "n": 5,
+      "start": "shared-construction",
+      "seed": 19,
+      "strategy": "v1",
+      "initialL": 2.7071067911865474,
+      "L": 2.7071067911865474,
+      "step": 2500,
+      "accepted": 1380,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 5,
+      "start": "shared-construction",
+      "seed": 19,
+      "strategy": "v2",
+      "initialL": 2.7071067911865474,
+      "L": 2.7071067911865474,
+      "step": 2500,
+      "accepted": 695,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1207,
+        "translate": 632,
+        "cluster": 657
+      }
+    },
+    {
+      "n": 9,
+      "start": "grid",
+      "seed": 10,
+      "strategy": "v1",
+      "initialL": 3,
+      "L": 3,
+      "step": 2500,
+      "accepted": 1665,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 9,
+      "start": "grid",
+      "seed": 10,
+      "strategy": "v2",
+      "initialL": 3,
+      "L": 3,
+      "step": 2500,
+      "accepted": 622,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1249,
+        "translate": 654,
+        "cluster": 594
+      }
+    },
+    {
+      "n": 9,
+      "start": "grid",
+      "seed": 11,
+      "strategy": "v1",
+      "initialL": 3,
+      "L": 3,
+      "step": 2500,
+      "accepted": 1688,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 9,
+      "start": "grid",
+      "seed": 11,
+      "strategy": "v2",
+      "initialL": 3,
+      "L": 3,
+      "step": 2500,
+      "accepted": 610,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1220,
+        "translate": 647,
+        "cluster": 630
+      }
+    },
+    {
+      "n": 9,
+      "start": "grid",
+      "seed": 12,
+      "strategy": "v1",
+      "initialL": 3,
+      "L": 3,
+      "step": 2500,
+      "accepted": 1574,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 9,
+      "start": "grid",
+      "seed": 12,
+      "strategy": "v2",
+      "initialL": 3,
+      "L": 3,
+      "step": 2500,
+      "accepted": 449,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1213,
+        "translate": 647,
+        "cluster": 637
+      }
+    },
+    {
+      "n": 9,
+      "start": "grid",
+      "seed": 13,
+      "strategy": "v1",
+      "initialL": 3,
+      "L": 3,
+      "step": 2500,
+      "accepted": 1685,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 9,
+      "start": "grid",
+      "seed": 13,
+      "strategy": "v2",
+      "initialL": 3,
+      "L": 3,
+      "step": 2500,
+      "accepted": 583,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1304,
+        "translate": 586,
+        "cluster": 607
+      }
+    },
+    {
+      "n": 9,
+      "start": "grid",
+      "seed": 14,
+      "strategy": "v1",
+      "initialL": 3,
+      "L": 3,
+      "step": 2500,
+      "accepted": 1701,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 9,
+      "start": "grid",
+      "seed": 14,
+      "strategy": "v2",
+      "initialL": 3,
+      "L": 3,
+      "step": 2500,
+      "accepted": 501,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1244,
+        "translate": 600,
+        "cluster": 653
+      }
+    },
+    {
+      "n": 9,
+      "start": "grid",
+      "seed": 15,
+      "strategy": "v1",
+      "initialL": 3,
+      "L": 3,
+      "step": 2500,
+      "accepted": 1597,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 9,
+      "start": "grid",
+      "seed": 15,
+      "strategy": "v2",
+      "initialL": 3,
+      "L": 3,
+      "step": 2500,
+      "accepted": 534,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1251,
+        "translate": 623,
+        "cluster": 623
+      }
+    },
+    {
+      "n": 9,
+      "start": "grid",
+      "seed": 16,
+      "strategy": "v1",
+      "initialL": 3,
+      "L": 3,
+      "step": 2500,
+      "accepted": 1616,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 9,
+      "start": "grid",
+      "seed": 16,
+      "strategy": "v2",
+      "initialL": 3,
+      "L": 3,
+      "step": 2500,
+      "accepted": 419,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1251,
+        "translate": 617,
+        "cluster": 629
+      }
+    },
+    {
+      "n": 9,
+      "start": "grid",
+      "seed": 17,
+      "strategy": "v1",
+      "initialL": 3,
+      "L": 3,
+      "step": 2500,
+      "accepted": 1642,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 9,
+      "start": "grid",
+      "seed": 17,
+      "strategy": "v2",
+      "initialL": 3,
+      "L": 3,
+      "step": 2500,
+      "accepted": 485,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1276,
+        "translate": 609,
+        "cluster": 612
+      }
+    },
+    {
+      "n": 9,
+      "start": "grid",
+      "seed": 18,
+      "strategy": "v1",
+      "initialL": 3,
+      "L": 3,
+      "step": 2500,
+      "accepted": 1699,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 9,
+      "start": "grid",
+      "seed": 18,
+      "strategy": "v2",
+      "initialL": 3,
+      "L": 3,
+      "step": 2500,
+      "accepted": 556,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1222,
+        "translate": 654,
+        "cluster": 621
+      }
+    },
+    {
+      "n": 9,
+      "start": "grid",
+      "seed": 19,
+      "strategy": "v1",
+      "initialL": 3,
+      "L": 3,
+      "step": 2500,
+      "accepted": 1581,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 9,
+      "start": "grid",
+      "seed": 19,
+      "strategy": "v2",
+      "initialL": 3,
+      "L": 3,
+      "step": 2500,
+      "accepted": 575,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1210,
+        "translate": 631,
+        "cluster": 656
+      }
+    },
+    {
+      "n": 10,
+      "start": "grid",
+      "seed": 10,
+      "strategy": "v1",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 1696,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 10,
+      "start": "grid",
+      "seed": 10,
+      "strategy": "v2",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 767,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1249,
+        "translate": 654,
+        "cluster": 594
+      }
+    },
+    {
+      "n": 10,
+      "start": "grid",
+      "seed": 11,
+      "strategy": "v1",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 1664,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 10,
+      "start": "grid",
+      "seed": 11,
+      "strategy": "v2",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 738,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1220,
+        "translate": 647,
+        "cluster": 630
+      }
+    },
+    {
+      "n": 10,
+      "start": "grid",
+      "seed": 12,
+      "strategy": "v1",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 1564,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 10,
+      "start": "grid",
+      "seed": 12,
+      "strategy": "v2",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 773,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1213,
+        "translate": 647,
+        "cluster": 637
+      }
+    },
+    {
+      "n": 10,
+      "start": "grid",
+      "seed": 13,
+      "strategy": "v1",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 1658,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 10,
+      "start": "grid",
+      "seed": 13,
+      "strategy": "v2",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 691,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1304,
+        "translate": 586,
+        "cluster": 607
+      }
+    },
+    {
+      "n": 10,
+      "start": "grid",
+      "seed": 14,
+      "strategy": "v1",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 1730,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 10,
+      "start": "grid",
+      "seed": 14,
+      "strategy": "v2",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 683,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1244,
+        "translate": 600,
+        "cluster": 653
+      }
+    },
+    {
+      "n": 10,
+      "start": "grid",
+      "seed": 15,
+      "strategy": "v1",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 1647,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 10,
+      "start": "grid",
+      "seed": 15,
+      "strategy": "v2",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 726,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1251,
+        "translate": 623,
+        "cluster": 623
+      }
+    },
+    {
+      "n": 10,
+      "start": "grid",
+      "seed": 16,
+      "strategy": "v1",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 1668,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 10,
+      "start": "grid",
+      "seed": 16,
+      "strategy": "v2",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 633,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1251,
+        "translate": 617,
+        "cluster": 629
+      }
+    },
+    {
+      "n": 10,
+      "start": "grid",
+      "seed": 17,
+      "strategy": "v1",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 1668,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 10,
+      "start": "grid",
+      "seed": 17,
+      "strategy": "v2",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 657,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1276,
+        "translate": 609,
+        "cluster": 612
+      }
+    },
+    {
+      "n": 10,
+      "start": "grid",
+      "seed": 18,
+      "strategy": "v1",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 1723,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 10,
+      "start": "grid",
+      "seed": 18,
+      "strategy": "v2",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 632,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1222,
+        "translate": 654,
+        "cluster": 621
+      }
+    },
+    {
+      "n": 10,
+      "start": "grid",
+      "seed": 19,
+      "strategy": "v1",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 1638,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 10,
+      "start": "grid",
+      "seed": 19,
+      "strategy": "v2",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 754,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1210,
+        "translate": 631,
+        "cluster": 656
+      }
+    },
+    {
+      "n": 11,
+      "start": "grid",
+      "seed": 10,
+      "strategy": "v1",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 1680,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 11,
+      "start": "grid",
+      "seed": 10,
+      "strategy": "v2",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 809,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1249,
+        "translate": 654,
+        "cluster": 594
+      }
+    },
+    {
+      "n": 11,
+      "start": "grid",
+      "seed": 11,
+      "strategy": "v1",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 1674,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 11,
+      "start": "grid",
+      "seed": 11,
+      "strategy": "v2",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 748,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1220,
+        "translate": 647,
+        "cluster": 630
+      }
+    },
+    {
+      "n": 11,
+      "start": "grid",
+      "seed": 12,
+      "strategy": "v1",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 1669,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 11,
+      "start": "grid",
+      "seed": 12,
+      "strategy": "v2",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 674,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1213,
+        "translate": 647,
+        "cluster": 637
+      }
+    },
+    {
+      "n": 11,
+      "start": "grid",
+      "seed": 13,
+      "strategy": "v1",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 1679,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 11,
+      "start": "grid",
+      "seed": 13,
+      "strategy": "v2",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 717,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1304,
+        "translate": 586,
+        "cluster": 607
+      }
+    },
+    {
+      "n": 11,
+      "start": "grid",
+      "seed": 14,
+      "strategy": "v1",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 1703,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 11,
+      "start": "grid",
+      "seed": 14,
+      "strategy": "v2",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 643,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1244,
+        "translate": 600,
+        "cluster": 653
+      }
+    },
+    {
+      "n": 11,
+      "start": "grid",
+      "seed": 15,
+      "strategy": "v1",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 1687,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 11,
+      "start": "grid",
+      "seed": 15,
+      "strategy": "v2",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 694,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1251,
+        "translate": 623,
+        "cluster": 623
+      }
+    },
+    {
+      "n": 11,
+      "start": "grid",
+      "seed": 16,
+      "strategy": "v1",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 1681,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 11,
+      "start": "grid",
+      "seed": 16,
+      "strategy": "v2",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 747,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1251,
+        "translate": 617,
+        "cluster": 629
+      }
+    },
+    {
+      "n": 11,
+      "start": "grid",
+      "seed": 17,
+      "strategy": "v1",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 1696,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 11,
+      "start": "grid",
+      "seed": 17,
+      "strategy": "v2",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 718,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1276,
+        "translate": 609,
+        "cluster": 612
+      }
+    },
+    {
+      "n": 11,
+      "start": "grid",
+      "seed": 18,
+      "strategy": "v1",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 1726,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 11,
+      "start": "grid",
+      "seed": 18,
+      "strategy": "v2",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 728,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1222,
+        "translate": 654,
+        "cluster": 621
+      }
+    },
+    {
+      "n": 11,
+      "start": "grid",
+      "seed": 19,
+      "strategy": "v1",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 1659,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 11,
+      "start": "grid",
+      "seed": 19,
+      "strategy": "v2",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 722,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1210,
+        "translate": 631,
+        "cluster": 656
+      }
+    },
+    {
+      "n": 13,
+      "start": "grid",
+      "seed": 10,
+      "strategy": "v1",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 1755,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 13,
+      "start": "grid",
+      "seed": 10,
+      "strategy": "v2",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 543,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1249,
+        "translate": 654,
+        "cluster": 594
+      }
+    },
+    {
+      "n": 13,
+      "start": "grid",
+      "seed": 11,
+      "strategy": "v1",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 1741,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 13,
+      "start": "grid",
+      "seed": 11,
+      "strategy": "v2",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 604,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1220,
+        "translate": 647,
+        "cluster": 630
+      }
+    },
+    {
+      "n": 13,
+      "start": "grid",
+      "seed": 12,
+      "strategy": "v1",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 1703,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 13,
+      "start": "grid",
+      "seed": 12,
+      "strategy": "v2",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 480,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1213,
+        "translate": 647,
+        "cluster": 637
+      }
+    },
+    {
+      "n": 13,
+      "start": "grid",
+      "seed": 13,
+      "strategy": "v1",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 1687,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 13,
+      "start": "grid",
+      "seed": 13,
+      "strategy": "v2",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 519,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1304,
+        "translate": 586,
+        "cluster": 607
+      }
+    },
+    {
+      "n": 13,
+      "start": "grid",
+      "seed": 14,
+      "strategy": "v1",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 1761,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 13,
+      "start": "grid",
+      "seed": 14,
+      "strategy": "v2",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 565,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1244,
+        "translate": 600,
+        "cluster": 653
+      }
+    },
+    {
+      "n": 13,
+      "start": "grid",
+      "seed": 15,
+      "strategy": "v1",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 1772,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 13,
+      "start": "grid",
+      "seed": 15,
+      "strategy": "v2",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 506,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1251,
+        "translate": 623,
+        "cluster": 623
+      }
+    },
+    {
+      "n": 13,
+      "start": "grid",
+      "seed": 16,
+      "strategy": "v1",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 1764,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 13,
+      "start": "grid",
+      "seed": 16,
+      "strategy": "v2",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 668,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1251,
+        "translate": 617,
+        "cluster": 629
+      }
+    },
+    {
+      "n": 13,
+      "start": "grid",
+      "seed": 17,
+      "strategy": "v1",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 1648,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 13,
+      "start": "grid",
+      "seed": 17,
+      "strategy": "v2",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 517,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1276,
+        "translate": 609,
+        "cluster": 612
+      }
+    },
+    {
+      "n": 13,
+      "start": "grid",
+      "seed": 18,
+      "strategy": "v1",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 1750,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 13,
+      "start": "grid",
+      "seed": 18,
+      "strategy": "v2",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 521,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1222,
+        "translate": 654,
+        "cluster": 621
+      }
+    },
+    {
+      "n": 13,
+      "start": "grid",
+      "seed": 19,
+      "strategy": "v1",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 1791,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 13,
+      "start": "grid",
+      "seed": 19,
+      "strategy": "v2",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 721,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1210,
+        "translate": 631,
+        "cluster": 656
+      }
+    },
+    {
+      "n": 16,
+      "start": "grid",
+      "seed": 10,
+      "strategy": "v1",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 1797,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 16,
+      "start": "grid",
+      "seed": 10,
+      "strategy": "v2",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 501,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1249,
+        "translate": 654,
+        "cluster": 594
+      }
+    },
+    {
+      "n": 16,
+      "start": "grid",
+      "seed": 11,
+      "strategy": "v1",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 1835,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 16,
+      "start": "grid",
+      "seed": 11,
+      "strategy": "v2",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 597,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1220,
+        "translate": 647,
+        "cluster": 630
+      }
+    },
+    {
+      "n": 16,
+      "start": "grid",
+      "seed": 12,
+      "strategy": "v1",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 1753,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 16,
+      "start": "grid",
+      "seed": 12,
+      "strategy": "v2",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 326,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1213,
+        "translate": 647,
+        "cluster": 637
+      }
+    },
+    {
+      "n": 16,
+      "start": "grid",
+      "seed": 13,
+      "strategy": "v1",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 1779,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 16,
+      "start": "grid",
+      "seed": 13,
+      "strategy": "v2",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 430,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1304,
+        "translate": 586,
+        "cluster": 607
+      }
+    },
+    {
+      "n": 16,
+      "start": "grid",
+      "seed": 14,
+      "strategy": "v1",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 1832,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 16,
+      "start": "grid",
+      "seed": 14,
+      "strategy": "v2",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 376,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1244,
+        "translate": 600,
+        "cluster": 653
+      }
+    },
+    {
+      "n": 16,
+      "start": "grid",
+      "seed": 15,
+      "strategy": "v1",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 1857,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 16,
+      "start": "grid",
+      "seed": 15,
+      "strategy": "v2",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 500,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1251,
+        "translate": 623,
+        "cluster": 623
+      }
+    },
+    {
+      "n": 16,
+      "start": "grid",
+      "seed": 16,
+      "strategy": "v1",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 1778,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 16,
+      "start": "grid",
+      "seed": 16,
+      "strategy": "v2",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 261,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1251,
+        "translate": 617,
+        "cluster": 629
+      }
+    },
+    {
+      "n": 16,
+      "start": "grid",
+      "seed": 17,
+      "strategy": "v1",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 1831,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 16,
+      "start": "grid",
+      "seed": 17,
+      "strategy": "v2",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 333,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1276,
+        "translate": 609,
+        "cluster": 612
+      }
+    },
+    {
+      "n": 16,
+      "start": "grid",
+      "seed": 18,
+      "strategy": "v1",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 1866,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 16,
+      "start": "grid",
+      "seed": 18,
+      "strategy": "v2",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 449,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1222,
+        "translate": 654,
+        "cluster": 621
+      }
+    },
+    {
+      "n": 16,
+      "start": "grid",
+      "seed": 19,
+      "strategy": "v1",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 1856,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 16,
+      "start": "grid",
+      "seed": 19,
+      "strategy": "v2",
+      "initialL": 4,
+      "L": 4,
+      "step": 2500,
+      "accepted": 466,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1210,
+        "translate": 631,
+        "cluster": 656
+      }
+    },
+    {
+      "n": 17,
+      "start": "grid",
+      "seed": 10,
+      "strategy": "v1",
+      "initialL": 5,
+      "L": 5,
+      "step": 2500,
+      "accepted": 1874,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 17,
+      "start": "grid",
+      "seed": 10,
+      "strategy": "v2",
+      "initialL": 5,
+      "L": 4.707106820181496,
+      "step": 2500,
+      "accepted": 533,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1246,
+        "translate": 655,
+        "cluster": 595
+      }
+    },
+    {
+      "n": 17,
+      "start": "grid",
+      "seed": 11,
+      "strategy": "v1",
+      "initialL": 5,
+      "L": 5,
+      "step": 2500,
+      "accepted": 1860,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 17,
+      "start": "grid",
+      "seed": 11,
+      "strategy": "v2",
+      "initialL": 5,
+      "L": 4.707106820181496,
+      "step": 2500,
+      "accepted": 747,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1213,
+        "translate": 658,
+        "cluster": 625
+      }
+    },
+    {
+      "n": 17,
+      "start": "grid",
+      "seed": 12,
+      "strategy": "v1",
+      "initialL": 5,
+      "L": 5,
+      "step": 2500,
+      "accepted": 1693,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 17,
+      "start": "grid",
+      "seed": 12,
+      "strategy": "v2",
+      "initialL": 5,
+      "L": 4.707106820181496,
+      "step": 2500,
+      "accepted": 564,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1208,
+        "translate": 648,
+        "cluster": 640
+      }
+    },
+    {
+      "n": 17,
+      "start": "grid",
+      "seed": 13,
+      "strategy": "v1",
+      "initialL": 5,
+      "L": 5,
+      "step": 2500,
+      "accepted": 1833,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 17,
+      "start": "grid",
+      "seed": 13,
+      "strategy": "v2",
+      "initialL": 5,
+      "L": 4.707106820181496,
+      "step": 2500,
+      "accepted": 531,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1302,
+        "translate": 592,
+        "cluster": 602
+      }
+    },
+    {
+      "n": 17,
+      "start": "grid",
+      "seed": 14,
+      "strategy": "v1",
+      "initialL": 5,
+      "L": 5,
+      "step": 2500,
+      "accepted": 1842,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 17,
+      "start": "grid",
+      "seed": 14,
+      "strategy": "v2",
+      "initialL": 5,
+      "L": 4.707106820181496,
+      "step": 2500,
+      "accepted": 696,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1244,
+        "translate": 597,
+        "cluster": 655
+      }
+    },
+    {
+      "n": 17,
+      "start": "grid",
+      "seed": 15,
+      "strategy": "v1",
+      "initialL": 5,
+      "L": 5,
+      "step": 2500,
+      "accepted": 1786,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 17,
+      "start": "grid",
+      "seed": 15,
+      "strategy": "v2",
+      "initialL": 5,
+      "L": 4.707106820181496,
+      "step": 2500,
+      "accepted": 746,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1242,
+        "translate": 623,
+        "cluster": 631
+      }
+    },
+    {
+      "n": 17,
+      "start": "grid",
+      "seed": 16,
+      "strategy": "v1",
+      "initialL": 5,
+      "L": 5,
+      "step": 2500,
+      "accepted": 1731,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 17,
+      "start": "grid",
+      "seed": 16,
+      "strategy": "v2",
+      "initialL": 5,
+      "L": 4.707106820181496,
+      "step": 2500,
+      "accepted": 696,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1245,
+        "translate": 619,
+        "cluster": 632
+      }
+    },
+    {
+      "n": 17,
+      "start": "grid",
+      "seed": 17,
+      "strategy": "v1",
+      "initialL": 5,
+      "L": 5,
+      "step": 2500,
+      "accepted": 1766,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 17,
+      "start": "grid",
+      "seed": 17,
+      "strategy": "v2",
+      "initialL": 5,
+      "L": 4.707106820181496,
+      "step": 2500,
+      "accepted": 616,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1279,
+        "translate": 608,
+        "cluster": 609
+      }
+    },
+    {
+      "n": 17,
+      "start": "grid",
+      "seed": 18,
+      "strategy": "v1",
+      "initialL": 5,
+      "L": 5,
+      "step": 2500,
+      "accepted": 1823,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 17,
+      "start": "grid",
+      "seed": 18,
+      "strategy": "v2",
+      "initialL": 5,
+      "L": 4.707106820181496,
+      "step": 2500,
+      "accepted": 763,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1224,
+        "translate": 657,
+        "cluster": 615
+      }
+    },
+    {
+      "n": 17,
+      "start": "grid",
+      "seed": 19,
+      "strategy": "v1",
+      "initialL": 5,
+      "L": 5,
+      "step": 2500,
+      "accepted": 1831,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 17,
+      "start": "grid",
+      "seed": 19,
+      "strategy": "v2",
+      "initialL": 5,
+      "L": 4.707106820181496,
+      "step": 2500,
+      "accepted": 437,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1207,
+        "translate": 632,
+        "cluster": 657
+      }
+    },
+    {
+      "n": 17,
+      "start": "shared-construction",
+      "seed": 10,
+      "strategy": "v1",
+      "initialL": 4.707106811186548,
+      "L": 4.707106811186548,
+      "step": 2500,
+      "accepted": 1867,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 17,
+      "start": "shared-construction",
+      "seed": 10,
+      "strategy": "v2",
+      "initialL": 4.707106811186548,
+      "L": 4.707106811186548,
+      "step": 2500,
+      "accepted": 533,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1246,
+        "translate": 655,
+        "cluster": 595
+      }
+    },
+    {
+      "n": 17,
+      "start": "shared-construction",
+      "seed": 11,
+      "strategy": "v1",
+      "initialL": 4.707106811186548,
+      "L": 4.707106811186548,
+      "step": 2500,
+      "accepted": 1896,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 17,
+      "start": "shared-construction",
+      "seed": 11,
+      "strategy": "v2",
+      "initialL": 4.707106811186548,
+      "L": 4.707106811186548,
+      "step": 2500,
+      "accepted": 747,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1213,
+        "translate": 658,
+        "cluster": 625
+      }
+    },
+    {
+      "n": 17,
+      "start": "shared-construction",
+      "seed": 12,
+      "strategy": "v1",
+      "initialL": 4.707106811186548,
+      "L": 4.707106811186548,
+      "step": 2500,
+      "accepted": 1761,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 17,
+      "start": "shared-construction",
+      "seed": 12,
+      "strategy": "v2",
+      "initialL": 4.707106811186548,
+      "L": 4.707106811186548,
+      "step": 2500,
+      "accepted": 564,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1208,
+        "translate": 648,
+        "cluster": 640
+      }
+    },
+    {
+      "n": 17,
+      "start": "shared-construction",
+      "seed": 13,
+      "strategy": "v1",
+      "initialL": 4.707106811186548,
+      "L": 4.707106811186548,
+      "step": 2500,
+      "accepted": 1860,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 17,
+      "start": "shared-construction",
+      "seed": 13,
+      "strategy": "v2",
+      "initialL": 4.707106811186548,
+      "L": 4.707106811186548,
+      "step": 2500,
+      "accepted": 531,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1302,
+        "translate": 592,
+        "cluster": 602
+      }
+    },
+    {
+      "n": 17,
+      "start": "shared-construction",
+      "seed": 14,
+      "strategy": "v1",
+      "initialL": 4.707106811186548,
+      "L": 4.707106811186548,
+      "step": 2500,
+      "accepted": 1859,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 17,
+      "start": "shared-construction",
+      "seed": 14,
+      "strategy": "v2",
+      "initialL": 4.707106811186548,
+      "L": 4.707106811186548,
+      "step": 2500,
+      "accepted": 696,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1244,
+        "translate": 597,
+        "cluster": 655
+      }
+    },
+    {
+      "n": 17,
+      "start": "shared-construction",
+      "seed": 15,
+      "strategy": "v1",
+      "initialL": 4.707106811186548,
+      "L": 4.707106811186548,
+      "step": 2500,
+      "accepted": 1870,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 17,
+      "start": "shared-construction",
+      "seed": 15,
+      "strategy": "v2",
+      "initialL": 4.707106811186548,
+      "L": 4.707106811186548,
+      "step": 2500,
+      "accepted": 746,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1242,
+        "translate": 623,
+        "cluster": 631
+      }
+    },
+    {
+      "n": 17,
+      "start": "shared-construction",
+      "seed": 16,
+      "strategy": "v1",
+      "initialL": 4.707106811186548,
+      "L": 4.707106811186548,
+      "step": 2500,
+      "accepted": 1802,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 17,
+      "start": "shared-construction",
+      "seed": 16,
+      "strategy": "v2",
+      "initialL": 4.707106811186548,
+      "L": 4.707106811186548,
+      "step": 2500,
+      "accepted": 696,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1245,
+        "translate": 619,
+        "cluster": 632
+      }
+    },
+    {
+      "n": 17,
+      "start": "shared-construction",
+      "seed": 17,
+      "strategy": "v1",
+      "initialL": 4.707106811186548,
+      "L": 4.707106811186548,
+      "step": 2500,
+      "accepted": 1747,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 17,
+      "start": "shared-construction",
+      "seed": 17,
+      "strategy": "v2",
+      "initialL": 4.707106811186548,
+      "L": 4.707106811186548,
+      "step": 2500,
+      "accepted": 616,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1279,
+        "translate": 608,
+        "cluster": 609
+      }
+    },
+    {
+      "n": 17,
+      "start": "shared-construction",
+      "seed": 18,
+      "strategy": "v1",
+      "initialL": 4.707106811186548,
+      "L": 4.707106811186548,
+      "step": 2500,
+      "accepted": 1792,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 17,
+      "start": "shared-construction",
+      "seed": 18,
+      "strategy": "v2",
+      "initialL": 4.707106811186548,
+      "L": 4.707106811186548,
+      "step": 2500,
+      "accepted": 763,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1224,
+        "translate": 657,
+        "cluster": 615
+      }
+    },
+    {
+      "n": 17,
+      "start": "shared-construction",
+      "seed": 19,
+      "strategy": "v1",
+      "initialL": 4.707106811186548,
+      "L": 4.707106811186548,
+      "step": 2500,
+      "accepted": 1804,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 17,
+      "start": "shared-construction",
+      "seed": 19,
+      "strategy": "v2",
+      "initialL": 4.707106811186548,
+      "L": 4.707106811186548,
+      "step": 2500,
+      "accepted": 437,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1207,
+        "translate": 632,
+        "cluster": 657
+      }
+    },
+    {
+      "n": 20,
+      "start": "grid",
+      "seed": 10,
+      "strategy": "v1",
+      "initialL": 5,
+      "L": 5,
+      "step": 2500,
+      "accepted": 1822,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 20,
+      "start": "grid",
+      "seed": 10,
+      "strategy": "v2",
+      "initialL": 5,
+      "L": 5,
+      "step": 2500,
+      "accepted": 458,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1249,
+        "translate": 654,
+        "cluster": 594
+      }
+    },
+    {
+      "n": 20,
+      "start": "grid",
+      "seed": 11,
+      "strategy": "v1",
+      "initialL": 5,
+      "L": 5,
+      "step": 2500,
+      "accepted": 1865,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 20,
+      "start": "grid",
+      "seed": 11,
+      "strategy": "v2",
+      "initialL": 5,
+      "L": 5,
+      "step": 2500,
+      "accepted": 573,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1220,
+        "translate": 647,
+        "cluster": 630
+      }
+    },
+    {
+      "n": 20,
+      "start": "grid",
+      "seed": 12,
+      "strategy": "v1",
+      "initialL": 5,
+      "L": 5,
+      "step": 2500,
+      "accepted": 1785,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 20,
+      "start": "grid",
+      "seed": 12,
+      "strategy": "v2",
+      "initialL": 5,
+      "L": 5,
+      "step": 2500,
+      "accepted": 432,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1213,
+        "translate": 647,
+        "cluster": 637
+      }
+    },
+    {
+      "n": 20,
+      "start": "grid",
+      "seed": 13,
+      "strategy": "v1",
+      "initialL": 5,
+      "L": 5,
+      "step": 2500,
+      "accepted": 1933,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 20,
+      "start": "grid",
+      "seed": 13,
+      "strategy": "v2",
+      "initialL": 5,
+      "L": 5,
+      "step": 2500,
+      "accepted": 354,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1304,
+        "translate": 586,
+        "cluster": 607
+      }
+    },
+    {
+      "n": 20,
+      "start": "grid",
+      "seed": 14,
+      "strategy": "v1",
+      "initialL": 5,
+      "L": 5,
+      "step": 2500,
+      "accepted": 1973,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 20,
+      "start": "grid",
+      "seed": 14,
+      "strategy": "v2",
+      "initialL": 5,
+      "L": 5,
+      "step": 2500,
+      "accepted": 444,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1244,
+        "translate": 600,
+        "cluster": 653
+      }
+    },
+    {
+      "n": 20,
+      "start": "grid",
+      "seed": 15,
+      "strategy": "v1",
+      "initialL": 5,
+      "L": 5,
+      "step": 2500,
+      "accepted": 1807,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 20,
+      "start": "grid",
+      "seed": 15,
+      "strategy": "v2",
+      "initialL": 5,
+      "L": 5,
+      "step": 2500,
+      "accepted": 464,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1251,
+        "translate": 623,
+        "cluster": 623
+      }
+    },
+    {
+      "n": 20,
+      "start": "grid",
+      "seed": 16,
+      "strategy": "v1",
+      "initialL": 5,
+      "L": 5,
+      "step": 2500,
+      "accepted": 1836,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 20,
+      "start": "grid",
+      "seed": 16,
+      "strategy": "v2",
+      "initialL": 5,
+      "L": 5,
+      "step": 2500,
+      "accepted": 456,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1251,
+        "translate": 617,
+        "cluster": 629
+      }
+    },
+    {
+      "n": 20,
+      "start": "grid",
+      "seed": 17,
+      "strategy": "v1",
+      "initialL": 5,
+      "L": 5,
+      "step": 2500,
+      "accepted": 1849,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 20,
+      "start": "grid",
+      "seed": 17,
+      "strategy": "v2",
+      "initialL": 5,
+      "L": 5,
+      "step": 2500,
+      "accepted": 444,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1276,
+        "translate": 609,
+        "cluster": 612
+      }
+    },
+    {
+      "n": 20,
+      "start": "grid",
+      "seed": 18,
+      "strategy": "v1",
+      "initialL": 5,
+      "L": 5,
+      "step": 2500,
+      "accepted": 1878,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 20,
+      "start": "grid",
+      "seed": 18,
+      "strategy": "v2",
+      "initialL": 5,
+      "L": 5,
+      "step": 2500,
+      "accepted": 572,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1222,
+        "translate": 654,
+        "cluster": 621
+      }
+    },
+    {
+      "n": 20,
+      "start": "grid",
+      "seed": 19,
+      "strategy": "v1",
+      "initialL": 5,
+      "L": 5,
+      "step": 2500,
+      "accepted": 1834,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 20,
+      "start": "grid",
+      "seed": 19,
+      "strategy": "v2",
+      "initialL": 5,
+      "L": 5,
+      "step": 2500,
+      "accepted": 431,
+      "restarts": 3,
+      "moves": {
+        "construction": 0,
+        "restart": 3,
+        "single": 1210,
+        "translate": 631,
+        "cluster": 656
+      }
+    },
+    {
+      "n": 37,
+      "start": "grid",
+      "seed": 10,
+      "strategy": "v1",
+      "initialL": 7,
+      "L": 7,
+      "step": 2500,
+      "accepted": 1975,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 37,
+      "start": "grid",
+      "seed": 10,
+      "strategy": "v2",
+      "initialL": 7,
+      "L": 6.707106845034308,
+      "step": 2500,
+      "accepted": 248,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1246,
+        "translate": 655,
+        "cluster": 595
+      }
+    },
+    {
+      "n": 37,
+      "start": "grid",
+      "seed": 11,
+      "strategy": "v1",
+      "initialL": 7,
+      "L": 7,
+      "step": 2500,
+      "accepted": 1845,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 37,
+      "start": "grid",
+      "seed": 11,
+      "strategy": "v2",
+      "initialL": 7,
+      "L": 6.707106845034308,
+      "step": 2500,
+      "accepted": 268,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1213,
+        "translate": 658,
+        "cluster": 625
+      }
+    },
+    {
+      "n": 37,
+      "start": "grid",
+      "seed": 12,
+      "strategy": "v1",
+      "initialL": 7,
+      "L": 7,
+      "step": 2500,
+      "accepted": 1937,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 37,
+      "start": "grid",
+      "seed": 12,
+      "strategy": "v2",
+      "initialL": 7,
+      "L": 6.707106845034308,
+      "step": 2500,
+      "accepted": 308,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1208,
+        "translate": 648,
+        "cluster": 640
+      }
+    },
+    {
+      "n": 37,
+      "start": "grid",
+      "seed": 13,
+      "strategy": "v1",
+      "initialL": 7,
+      "L": 7,
+      "step": 2500,
+      "accepted": 1950,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 37,
+      "start": "grid",
+      "seed": 13,
+      "strategy": "v2",
+      "initialL": 7,
+      "L": 6.707106845034308,
+      "step": 2500,
+      "accepted": 160,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1302,
+        "translate": 592,
+        "cluster": 602
+      }
+    },
+    {
+      "n": 37,
+      "start": "grid",
+      "seed": 14,
+      "strategy": "v1",
+      "initialL": 7,
+      "L": 7,
+      "step": 2500,
+      "accepted": 1994,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 37,
+      "start": "grid",
+      "seed": 14,
+      "strategy": "v2",
+      "initialL": 7,
+      "L": 6.707106845034308,
+      "step": 2500,
+      "accepted": 286,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1244,
+        "translate": 597,
+        "cluster": 655
+      }
+    },
+    {
+      "n": 37,
+      "start": "grid",
+      "seed": 15,
+      "strategy": "v1",
+      "initialL": 7,
+      "L": 7,
+      "step": 2500,
+      "accepted": 1853,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 37,
+      "start": "grid",
+      "seed": 15,
+      "strategy": "v2",
+      "initialL": 7,
+      "L": 6.707106845034308,
+      "step": 2500,
+      "accepted": 149,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1242,
+        "translate": 623,
+        "cluster": 631
+      }
+    },
+    {
+      "n": 37,
+      "start": "grid",
+      "seed": 16,
+      "strategy": "v1",
+      "initialL": 7,
+      "L": 7,
+      "step": 2500,
+      "accepted": 1659,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 37,
+      "start": "grid",
+      "seed": 16,
+      "strategy": "v2",
+      "initialL": 7,
+      "L": 6.707106845034308,
+      "step": 2500,
+      "accepted": 272,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1245,
+        "translate": 619,
+        "cluster": 632
+      }
+    },
+    {
+      "n": 37,
+      "start": "grid",
+      "seed": 17,
+      "strategy": "v1",
+      "initialL": 7,
+      "L": 7,
+      "step": 2500,
+      "accepted": 1860,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 37,
+      "start": "grid",
+      "seed": 17,
+      "strategy": "v2",
+      "initialL": 7,
+      "L": 6.707106845034308,
+      "step": 2500,
+      "accepted": 171,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1279,
+        "translate": 608,
+        "cluster": 609
+      }
+    },
+    {
+      "n": 37,
+      "start": "grid",
+      "seed": 18,
+      "strategy": "v1",
+      "initialL": 7,
+      "L": 7,
+      "step": 2500,
+      "accepted": 1721,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 37,
+      "start": "grid",
+      "seed": 18,
+      "strategy": "v2",
+      "initialL": 7,
+      "L": 6.707106845034308,
+      "step": 2500,
+      "accepted": 276,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1224,
+        "translate": 657,
+        "cluster": 615
+      }
+    },
+    {
+      "n": 37,
+      "start": "grid",
+      "seed": 19,
+      "strategy": "v1",
+      "initialL": 7,
+      "L": 7,
+      "step": 2500,
+      "accepted": 1930,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 37,
+      "start": "grid",
+      "seed": 19,
+      "strategy": "v2",
+      "initialL": 7,
+      "L": 6.707106845034308,
+      "step": 2500,
+      "accepted": 141,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1207,
+        "translate": 632,
+        "cluster": 657
+      }
+    },
+    {
+      "n": 37,
+      "start": "shared-construction",
+      "seed": 10,
+      "strategy": "v1",
+      "initialL": 6.707106831186548,
+      "L": 6.707106831186548,
+      "step": 2500,
+      "accepted": 1980,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 37,
+      "start": "shared-construction",
+      "seed": 10,
+      "strategy": "v2",
+      "initialL": 6.707106831186548,
+      "L": 6.707106831186548,
+      "step": 2500,
+      "accepted": 248,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1246,
+        "translate": 655,
+        "cluster": 595
+      }
+    },
+    {
+      "n": 37,
+      "start": "shared-construction",
+      "seed": 11,
+      "strategy": "v1",
+      "initialL": 6.707106831186548,
+      "L": 6.707106831186548,
+      "step": 2500,
+      "accepted": 1948,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 37,
+      "start": "shared-construction",
+      "seed": 11,
+      "strategy": "v2",
+      "initialL": 6.707106831186548,
+      "L": 6.707106831186548,
+      "step": 2500,
+      "accepted": 268,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1213,
+        "translate": 658,
+        "cluster": 625
+      }
+    },
+    {
+      "n": 37,
+      "start": "shared-construction",
+      "seed": 12,
+      "strategy": "v1",
+      "initialL": 6.707106831186548,
+      "L": 6.707106831186548,
+      "step": 2500,
+      "accepted": 1825,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 37,
+      "start": "shared-construction",
+      "seed": 12,
+      "strategy": "v2",
+      "initialL": 6.707106831186548,
+      "L": 6.707106831186548,
+      "step": 2500,
+      "accepted": 308,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1208,
+        "translate": 648,
+        "cluster": 640
+      }
+    },
+    {
+      "n": 37,
+      "start": "shared-construction",
+      "seed": 13,
+      "strategy": "v1",
+      "initialL": 6.707106831186548,
+      "L": 6.707106831186548,
+      "step": 2500,
+      "accepted": 1943,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 37,
+      "start": "shared-construction",
+      "seed": 13,
+      "strategy": "v2",
+      "initialL": 6.707106831186548,
+      "L": 6.707106831186548,
+      "step": 2500,
+      "accepted": 160,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1302,
+        "translate": 592,
+        "cluster": 602
+      }
+    },
+    {
+      "n": 37,
+      "start": "shared-construction",
+      "seed": 14,
+      "strategy": "v1",
+      "initialL": 6.707106831186548,
+      "L": 6.707106831186548,
+      "step": 2500,
+      "accepted": 1982,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 37,
+      "start": "shared-construction",
+      "seed": 14,
+      "strategy": "v2",
+      "initialL": 6.707106831186548,
+      "L": 6.707106831186548,
+      "step": 2500,
+      "accepted": 286,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1244,
+        "translate": 597,
+        "cluster": 655
+      }
+    },
+    {
+      "n": 37,
+      "start": "shared-construction",
+      "seed": 15,
+      "strategy": "v1",
+      "initialL": 6.707106831186548,
+      "L": 6.707106831186548,
+      "step": 2500,
+      "accepted": 2008,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 37,
+      "start": "shared-construction",
+      "seed": 15,
+      "strategy": "v2",
+      "initialL": 6.707106831186548,
+      "L": 6.707106831186548,
+      "step": 2500,
+      "accepted": 149,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1242,
+        "translate": 623,
+        "cluster": 631
+      }
+    },
+    {
+      "n": 37,
+      "start": "shared-construction",
+      "seed": 16,
+      "strategy": "v1",
+      "initialL": 6.707106831186548,
+      "L": 6.707106831186548,
+      "step": 2500,
+      "accepted": 1852,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 37,
+      "start": "shared-construction",
+      "seed": 16,
+      "strategy": "v2",
+      "initialL": 6.707106831186548,
+      "L": 6.707106831186548,
+      "step": 2500,
+      "accepted": 272,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1245,
+        "translate": 619,
+        "cluster": 632
+      }
+    },
+    {
+      "n": 37,
+      "start": "shared-construction",
+      "seed": 17,
+      "strategy": "v1",
+      "initialL": 6.707106831186548,
+      "L": 6.707106831186548,
+      "step": 2500,
+      "accepted": 1937,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 37,
+      "start": "shared-construction",
+      "seed": 17,
+      "strategy": "v2",
+      "initialL": 6.707106831186548,
+      "L": 6.707106831186548,
+      "step": 2500,
+      "accepted": 171,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1279,
+        "translate": 608,
+        "cluster": 609
+      }
+    },
+    {
+      "n": 37,
+      "start": "shared-construction",
+      "seed": 18,
+      "strategy": "v1",
+      "initialL": 6.707106831186548,
+      "L": 6.707106831186548,
+      "step": 2500,
+      "accepted": 1881,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 37,
+      "start": "shared-construction",
+      "seed": 18,
+      "strategy": "v2",
+      "initialL": 6.707106831186548,
+      "L": 6.707106831186548,
+      "step": 2500,
+      "accepted": 276,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1224,
+        "translate": 657,
+        "cluster": 615
+      }
+    },
+    {
+      "n": 37,
+      "start": "shared-construction",
+      "seed": 19,
+      "strategy": "v1",
+      "initialL": 6.707106831186548,
+      "L": 6.707106831186548,
+      "step": 2500,
+      "accepted": 1774,
+      "restarts": 0,
+      "moves": null
+    },
+    {
+      "n": 37,
+      "start": "shared-construction",
+      "seed": 19,
+      "strategy": "v2",
+      "initialL": 6.707106831186548,
+      "L": 6.707106831186548,
+      "step": 2500,
+      "accepted": 148,
+      "restarts": 3,
+      "moves": {
+        "construction": 1,
+        "restart": 3,
+        "single": 1207,
+        "translate": 632,
+        "cluster": 657
+      }
+    }
+  ],
+  "summary": [
+    {
+      "n": 5,
+      "start": "grid",
+      "v1": {
+        "best": 2.8157031839488686,
+        "median": 2.960300241745463,
+        "improved": 7
+      },
+      "v2": {
+        "best": 2.707106795328683,
+        "median": 2.707106795328683,
+        "improved": 10
+      },
+      "v2Wins": 10,
+      "v1Wins": 0,
+      "ties": 0
+    },
+    {
+      "n": 5,
+      "start": "shared-construction",
+      "v1": {
+        "best": 2.7071067911865474,
+        "median": 2.7071067911865474,
+        "improved": 0
+      },
+      "v2": {
+        "best": 2.7071067911865474,
+        "median": 2.7071067911865474,
+        "improved": 0
+      },
+      "v2Wins": 0,
+      "v1Wins": 0,
+      "ties": 10
+    },
+    {
+      "n": 9,
+      "start": "grid",
+      "v1": {
+        "best": 3,
+        "median": 3,
+        "improved": 0
+      },
+      "v2": {
+        "best": 3,
+        "median": 3,
+        "improved": 0
+      },
+      "v2Wins": 0,
+      "v1Wins": 0,
+      "ties": 10
+    },
+    {
+      "n": 10,
+      "start": "grid",
+      "v1": {
+        "best": 4,
+        "median": 4,
+        "improved": 0
+      },
+      "v2": {
+        "best": 4,
+        "median": 4,
+        "improved": 0
+      },
+      "v2Wins": 0,
+      "v1Wins": 0,
+      "ties": 10
+    },
+    {
+      "n": 11,
+      "start": "grid",
+      "v1": {
+        "best": 4,
+        "median": 4,
+        "improved": 0
+      },
+      "v2": {
+        "best": 4,
+        "median": 4,
+        "improved": 0
+      },
+      "v2Wins": 0,
+      "v1Wins": 0,
+      "ties": 10
+    },
+    {
+      "n": 13,
+      "start": "grid",
+      "v1": {
+        "best": 4,
+        "median": 4,
+        "improved": 0
+      },
+      "v2": {
+        "best": 4,
+        "median": 4,
+        "improved": 0
+      },
+      "v2Wins": 0,
+      "v1Wins": 0,
+      "ties": 10
+    },
+    {
+      "n": 16,
+      "start": "grid",
+      "v1": {
+        "best": 4,
+        "median": 4,
+        "improved": 0
+      },
+      "v2": {
+        "best": 4,
+        "median": 4,
+        "improved": 0
+      },
+      "v2Wins": 0,
+      "v1Wins": 0,
+      "ties": 10
+    },
+    {
+      "n": 17,
+      "start": "grid",
+      "v1": {
+        "best": 5,
+        "median": 5,
+        "improved": 0
+      },
+      "v2": {
+        "best": 4.707106820181496,
+        "median": 4.707106820181496,
+        "improved": 10
+      },
+      "v2Wins": 10,
+      "v1Wins": 0,
+      "ties": 0
+    },
+    {
+      "n": 17,
+      "start": "shared-construction",
+      "v1": {
+        "best": 4.707106811186548,
+        "median": 4.707106811186548,
+        "improved": 0
+      },
+      "v2": {
+        "best": 4.707106811186548,
+        "median": 4.707106811186548,
+        "improved": 0
+      },
+      "v2Wins": 0,
+      "v1Wins": 0,
+      "ties": 10
+    },
+    {
+      "n": 20,
+      "start": "grid",
+      "v1": {
+        "best": 5,
+        "median": 5,
+        "improved": 0
+      },
+      "v2": {
+        "best": 5,
+        "median": 5,
+        "improved": 0
+      },
+      "v2Wins": 0,
+      "v1Wins": 0,
+      "ties": 10
+    },
+    {
+      "n": 37,
+      "start": "grid",
+      "v1": {
+        "best": 7,
+        "median": 7,
+        "improved": 0
+      },
+      "v2": {
+        "best": 6.707106845034308,
+        "median": 6.707106845034308,
+        "improved": 10
+      },
+      "v2Wins": 10,
+      "v1Wins": 0,
+      "ties": 0
+    },
+    {
+      "n": 37,
+      "start": "shared-construction",
+      "v1": {
+        "best": 6.707106831186548,
+        "median": 6.707106831186548,
+        "improved": 0
+      },
+      "v2": {
+        "best": 6.707106831186548,
+        "median": 6.707106831186548,
+        "improved": 0
+      },
+      "v2Wins": 0,
+      "v1Wins": 0,
+      "ties": 10
+    }
+  ]
+}

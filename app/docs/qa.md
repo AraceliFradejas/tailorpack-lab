@@ -62,3 +62,15 @@ deshacer; también la búsqueda real en el Web Worker. Las capturas del
 
 El motor terminó en n=5 con lado 2,7868 tras 2.500 propuestas; la referencia
 restauró 2,7071. No se observaron advertencias ni errores de consola.
+
+## Comparación v0.2 · 24-10-2026
+
+En el navegador local se comprobó la comparación n=17, con 2.500 propuestas
+por motor; v1 conserva 5 y v2 obtiene 4,7071. El progreso suma ambos presupuestos.
+Una comparación n=1000 con 10.000 propuestas por motor se detuvo desde el botón
+principal: la página recuperó los controles y marcó los resultados como parciales.
+El nuevo reto limpia la comparación anterior. No hubo errores de consola.
+Los 22 tests web incluyen igualdad con ejecuciones independientes, independencia
+del tamaño de lote, conservación de un inicio fuerte y construcción hasta n=901.
+El informe de 240 ejecuciones y CSV se reprodujeron byte a byte en dos pasadas;
+los nueve puzzles corregidos pasaron el evaluador oficial offline v17.

@@ -15,6 +15,7 @@ jobs:
       - run: python -m tailorpack --out runs/ci
       - run: python -m tailorpack.portfolio
       - run: python tools/check_release.py
+      - run: python tools/check_web_benchmark.py
   web:
     runs-on: ubuntu-latest
     defaults:

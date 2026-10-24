@@ -1,5 +1,17 @@
 # Historial
 
+## App 0.2.0 — 24-10-2026
+
+- Motor web v1 conservado sin cambios y v2 experimental con inicios alternativos,
+  reinicios y movimientos colectivos; construcción explícita para 4k²+1 piezas.
+- Comparación en Laboratorio con el mismo tablero, semilla y presupuesto por motor.
+- 240 ejecuciones reproducibles; las mejoras observadas proceden de la construcción,
+  sin ventaja demostrada con inicio compartido ni en los otros seis tamaños.
+- Corregidos contactos exactos indecidibles mediante separación positiva interna.
+  Nueve puzzles aceptados offline por el evaluador oficial v17; sin envío a Kaggle.
+- 22 tests web, comprobación independiente en Python e informe en `docs/search-v02.md`.
+- README y memoria ampliados; motor histórico de Python sin cambios.
+
 ## Preparación de GitHub — 24-10-2026
 
 - Propuesta de nombre tAilorPack Lab / `tailorpack-lab`.
@@ -25,6 +37,6 @@
 - Playground web preparado para Vercel: juego manual, optimizador en worker,
   referencias precargadas, exportación CSV y diez tests adicionales de JavaScript.
 
-No hay publicación remota ni envío a Kaggle. La licencia definitiva sigue pendiente
-de decisión del propietario. M2 conserva una meta de calidad abierta: mejorar de
-forma consistente varios puzzles nuevos.
+El repositorio y la app están publicados en GitHub y Vercel con Apache 2.0.
+No hay envío a Kaggle. Sigue abierta la meta de mejorar la búsqueda de forma
+consistente en varios puzzles fuera de las construcciones preparadas.

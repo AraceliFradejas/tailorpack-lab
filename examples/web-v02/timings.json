@@ -1,0 +1,1687 @@
+{
+  "node": "v22.23.2",
+  "platform": "darwin",
+  "arch": "arm64",
+  "rows": [
+    {
+      "n": 5,
+      "start": "grid",
+      "seed": 10,
+      "strategy": "v1",
+      "seconds": 0.026490708
+    },
+    {
+      "n": 5,
+      "start": "grid",
+      "seed": 10,
+      "strategy": "v2",
+      "seconds": 0.042268792
+    },
+    {
+      "n": 5,
+      "start": "grid",
+      "seed": 11,
+      "strategy": "v1",
+      "seconds": 0.015008291
+    },
+    {
+      "n": 5,
+      "start": "grid",
+      "seed": 11,
+      "strategy": "v2",
+      "seconds": 0.04348054200000001
+    },
+    {
+      "n": 5,
+      "start": "grid",
+      "seed": 12,
+      "strategy": "v1",
+      "seconds": 0.011735250000000008
+    },
+    {
+      "n": 5,
+      "start": "grid",
+      "seed": 12,
+      "strategy": "v2",
+      "seconds": 0.032379125000000016
+    },
+    {
+      "n": 5,
+      "start": "grid",
+      "seed": 13,
+      "strategy": "v1",
+      "seconds": 0.009988957999999997
+    },
+    {
+      "n": 5,
+      "start": "grid",
+      "seed": 13,
+      "strategy": "v2",
+      "seconds": 0.02833737500000001
+    },
+    {
+      "n": 5,
+      "start": "grid",
+      "seed": 14,
+      "strategy": "v1",
+      "seconds": 0.009927290999999996
+    },
+    {
+      "n": 5,
+      "start": "grid",
+      "seed": 14,
+      "strategy": "v2",
+      "seconds": 0.028453374999999993
+    },
+    {
+      "n": 5,
+      "start": "grid",
+      "seed": 15,
+      "strategy": "v1",
+      "seconds": 0.009792166000000008
+    },
+    {
+      "n": 5,
+      "start": "grid",
+      "seed": 15,
+      "strategy": "v2",
+      "seconds": 0.027930875000000015
+    },
+    {
+      "n": 5,
+      "start": "grid",
+      "seed": 16,
+      "strategy": "v1",
+      "seconds": 0.009289290999999991
+    },
+    {
+      "n": 5,
+      "start": "grid",
+      "seed": 16,
+      "strategy": "v2",
+      "seconds": 0.027212749999999973
+    },
+    {
+      "n": 5,
+      "start": "grid",
+      "seed": 17,
+      "strategy": "v1",
+      "seconds": 0.009546542000000045
+    },
+    {
+      "n": 5,
+      "start": "grid",
+      "seed": 17,
+      "strategy": "v2",
+      "seconds": 0.027959542
+    },
+    {
+      "n": 5,
+      "start": "grid",
+      "seed": 18,
+      "strategy": "v1",
+      "seconds": 0.009676459000000023
+    },
+    {
+      "n": 5,
+      "start": "grid",
+      "seed": 18,
+      "strategy": "v2",
+      "seconds": 0.027587375000000008
+    },
+    {
+      "n": 5,
+      "start": "grid",
+      "seed": 19,
+      "strategy": "v1",
+      "seconds": 0.010097459000000015
+    },
+    {
+      "n": 5,
+      "start": "grid",
+      "seed": 19,
+      "strategy": "v2",
+      "seconds": 0.028164041999999993
+    },
+    {
+      "n": 5,
+      "start": "shared-construction",
+      "seed": 10,
+      "strategy": "v1",
+      "seconds": 0.009841749999999991
+    },
+    {
+      "n": 5,
+      "start": "shared-construction",
+      "seed": 10,
+      "strategy": "v2",
+      "seconds": 0.028103374999999972
+    },
+    {
+      "n": 5,
+      "start": "shared-construction",
+      "seed": 11,
+      "strategy": "v1",
+      "seconds": 0.009986167000000023
+    },
+    {
+      "n": 5,
+      "start": "shared-construction",
+      "seed": 11,
+      "strategy": "v2",
+      "seconds": 0.02804591700000003
+    },
+    {
+      "n": 5,
+      "start": "shared-construction",
+      "seed": 12,
+      "strategy": "v1",
+      "seconds": 0.009637959000000024
+    },
+    {
+      "n": 5,
+      "start": "shared-construction",
+      "seed": 12,
+      "strategy": "v2",
+      "seconds": 0.028501375000000054
+    },
+    {
+      "n": 5,
+      "start": "shared-construction",
+      "seed": 13,
+      "strategy": "v1",
+      "seconds": 0.009401499999999941
+    },
+    {
+      "n": 5,
+      "start": "shared-construction",
+      "seed": 13,
+      "strategy": "v2",
+      "seconds": 0.028459790999999995
+    },
+    {
+      "n": 5,
+      "start": "shared-construction",
+      "seed": 14,
+      "strategy": "v1",
+      "seconds": 0.009426624999999944
+    },
+    {
+      "n": 5,
+      "start": "shared-construction",
+      "seed": 14,
+      "strategy": "v2",
+      "seconds": 0.027258500000000026
+    },
+    {
+      "n": 5,
+      "start": "shared-construction",
+      "seed": 15,
+      "strategy": "v1",
+      "seconds": 0.009263374999999996
+    },
+    {
+      "n": 5,
+      "start": "shared-construction",
+      "seed": 15,
+      "strategy": "v2",
+      "seconds": 0.027464500000000044
+    },
+    {
+      "n": 5,
+      "start": "shared-construction",
+      "seed": 16,
+      "strategy": "v1",
+      "seconds": 0.009647832999999991
+    },
+    {
+      "n": 5,
+      "start": "shared-construction",
+      "seed": 16,
+      "strategy": "v2",
+      "seconds": 0.026744417
+    },
+    {
+      "n": 5,
+      "start": "shared-construction",
+      "seed": 17,
+      "strategy": "v1",
+      "seconds": 0.009442957999999975
+    },
+    {
+      "n": 5,
+      "start": "shared-construction",
+      "seed": 17,
+      "strategy": "v2",
+      "seconds": 0.028314042000000084
+    },
+    {
+      "n": 5,
+      "start": "shared-construction",
+      "seed": 18,
+      "strategy": "v1",
+      "seconds": 0.009607041999999979
+    },
+    {
+      "n": 5,
+      "start": "shared-construction",
+      "seed": 18,
+      "strategy": "v2",
+      "seconds": 0.02787737500000003
+    },
+    {
+      "n": 5,
+      "start": "shared-construction",
+      "seed": 19,
+      "strategy": "v1",
+      "seconds": 0.00941329200000007
+    },
+    {
+      "n": 5,
+      "start": "shared-construction",
+      "seed": 19,
+      "strategy": "v2",
+      "seconds": 0.028534749999999918
+    },
+    {
+      "n": 9,
+      "start": "grid",
+      "seed": 10,
+      "strategy": "v1",
+      "seconds": 0.022343375000000037
+    },
+    {
+      "n": 9,
+      "start": "grid",
+      "seed": 10,
+      "strategy": "v2",
+      "seconds": 0.05660804200000007
+    },
+    {
+      "n": 9,
+      "start": "grid",
+      "seed": 11,
+      "strategy": "v1",
+      "seconds": 0.021555208999999992
+    },
+    {
+      "n": 9,
+      "start": "grid",
+      "seed": 11,
+      "strategy": "v2",
+      "seconds": 0.05931675000000007
+    },
+    {
+      "n": 9,
+      "start": "grid",
+      "seed": 12,
+      "strategy": "v1",
+      "seconds": 0.021084625000000072
+    },
+    {
+      "n": 9,
+      "start": "grid",
+      "seed": 12,
+      "strategy": "v2",
+      "seconds": 0.05416283300000009
+    },
+    {
+      "n": 9,
+      "start": "grid",
+      "seed": 13,
+      "strategy": "v1",
+      "seconds": 0.021153999999999996
+    },
+    {
+      "n": 9,
+      "start": "grid",
+      "seed": 13,
+      "strategy": "v2",
+      "seconds": 0.05475554099999999
+    },
+    {
+      "n": 9,
+      "start": "grid",
+      "seed": 14,
+      "strategy": "v1",
+      "seconds": 0.021881708000000118
+    },
+    {
+      "n": 9,
+      "start": "grid",
+      "seed": 14,
+      "strategy": "v2",
+      "seconds": 0.05507616600000006
+    },
+    {
+      "n": 9,
+      "start": "grid",
+      "seed": 15,
+      "strategy": "v1",
+      "seconds": 0.023763082999999824
+    },
+    {
+      "n": 9,
+      "start": "grid",
+      "seed": 15,
+      "strategy": "v2",
+      "seconds": 0.05164270799999986
+    },
+    {
+      "n": 9,
+      "start": "grid",
+      "seed": 16,
+      "strategy": "v1",
+      "seconds": 0.021423833999999944
+    },
+    {
+      "n": 9,
+      "start": "grid",
+      "seed": 16,
+      "strategy": "v2",
+      "seconds": 0.051852292000000036
+    },
+    {
+      "n": 9,
+      "start": "grid",
+      "seed": 17,
+      "strategy": "v1",
+      "seconds": 0.020874917000000097
+    },
+    {
+      "n": 9,
+      "start": "grid",
+      "seed": 17,
+      "strategy": "v2",
+      "seconds": 0.051429624999999986
+    },
+    {
+      "n": 9,
+      "start": "grid",
+      "seed": 18,
+      "strategy": "v1",
+      "seconds": 0.02061845799999992
+    },
+    {
+      "n": 9,
+      "start": "grid",
+      "seed": 18,
+      "strategy": "v2",
+      "seconds": 0.05102995800000008
+    },
+    {
+      "n": 9,
+      "start": "grid",
+      "seed": 19,
+      "strategy": "v1",
+      "seconds": 0.02103208399999994
+    },
+    {
+      "n": 9,
+      "start": "grid",
+      "seed": 19,
+      "strategy": "v2",
+      "seconds": 0.0511840830000001
+    },
+    {
+      "n": 10,
+      "start": "grid",
+      "seed": 10,
+      "strategy": "v1",
+      "seconds": 0.024410499999999957
+    },
+    {
+      "n": 10,
+      "start": "grid",
+      "seed": 10,
+      "strategy": "v2",
+      "seconds": 0.05821720899999991
+    },
+    {
+      "n": 10,
+      "start": "grid",
+      "seed": 11,
+      "strategy": "v1",
+      "seconds": 0.024129707999999937
+    },
+    {
+      "n": 10,
+      "start": "grid",
+      "seed": 11,
+      "strategy": "v2",
+      "seconds": 0.05778700000000003
+    },
+    {
+      "n": 10,
+      "start": "grid",
+      "seed": 12,
+      "strategy": "v1",
+      "seconds": 0.02266520799999989
+    },
+    {
+      "n": 10,
+      "start": "grid",
+      "seed": 12,
+      "strategy": "v2",
+      "seconds": 0.061147666999999954
+    },
+    {
+      "n": 10,
+      "start": "grid",
+      "seed": 13,
+      "strategy": "v1",
+      "seconds": 0.02401974999999993
+    },
+    {
+      "n": 10,
+      "start": "grid",
+      "seed": 13,
+      "strategy": "v2",
+      "seconds": 0.05722695799999997
+    },
+    {
+      "n": 10,
+      "start": "grid",
+      "seed": 14,
+      "strategy": "v1",
+      "seconds": 0.025637249999999993
+    },
+    {
+      "n": 10,
+      "start": "grid",
+      "seed": 14,
+      "strategy": "v2",
+      "seconds": 0.05985366699999986
+    },
+    {
+      "n": 10,
+      "start": "grid",
+      "seed": 15,
+      "strategy": "v1",
+      "seconds": 0.024363791999999877
+    },
+    {
+      "n": 10,
+      "start": "grid",
+      "seed": 15,
+      "strategy": "v2",
+      "seconds": 0.057763584000000034
+    },
+    {
+      "n": 10,
+      "start": "grid",
+      "seed": 16,
+      "strategy": "v1",
+      "seconds": 0.024209207999999763
+    },
+    {
+      "n": 10,
+      "start": "grid",
+      "seed": 16,
+      "strategy": "v2",
+      "seconds": 0.05699704100000008
+    },
+    {
+      "n": 10,
+      "start": "grid",
+      "seed": 17,
+      "strategy": "v1",
+      "seconds": 0.023678707999999916
+    },
+    {
+      "n": 10,
+      "start": "grid",
+      "seed": 17,
+      "strategy": "v2",
+      "seconds": 0.05737300000000005
+    },
+    {
+      "n": 10,
+      "start": "grid",
+      "seed": 18,
+      "strategy": "v1",
+      "seconds": 0.024232916999999816
+    },
+    {
+      "n": 10,
+      "start": "grid",
+      "seed": 18,
+      "strategy": "v2",
+      "seconds": 0.06180795900000021
+    },
+    {
+      "n": 10,
+      "start": "grid",
+      "seed": 19,
+      "strategy": "v1",
+      "seconds": 0.023906958999999915
+    },
+    {
+      "n": 10,
+      "start": "grid",
+      "seed": 19,
+      "strategy": "v2",
+      "seconds": 0.05669391599999972
+    },
+    {
+      "n": 11,
+      "start": "grid",
+      "seed": 10,
+      "strategy": "v1",
+      "seconds": 0.027558500000000093
+    },
+    {
+      "n": 11,
+      "start": "grid",
+      "seed": 10,
+      "strategy": "v2",
+      "seconds": 0.06611958400000004
+    },
+    {
+      "n": 11,
+      "start": "grid",
+      "seed": 11,
+      "strategy": "v1",
+      "seconds": 0.027074874999999794
+    },
+    {
+      "n": 11,
+      "start": "grid",
+      "seed": 11,
+      "strategy": "v2",
+      "seconds": 0.0663621250000001
+    },
+    {
+      "n": 11,
+      "start": "grid",
+      "seed": 12,
+      "strategy": "v1",
+      "seconds": 0.02547195899999997
+    },
+    {
+      "n": 11,
+      "start": "grid",
+      "seed": 12,
+      "strategy": "v2",
+      "seconds": 0.06660304199999974
+    },
+    {
+      "n": 11,
+      "start": "grid",
+      "seed": 13,
+      "strategy": "v1",
+      "seconds": 0.02785616600000003
+    },
+    {
+      "n": 11,
+      "start": "grid",
+      "seed": 13,
+      "strategy": "v2",
+      "seconds": 0.06583483299999988
+    },
+    {
+      "n": 11,
+      "start": "grid",
+      "seed": 14,
+      "strategy": "v1",
+      "seconds": 0.028112167000000226
+    },
+    {
+      "n": 11,
+      "start": "grid",
+      "seed": 14,
+      "strategy": "v2",
+      "seconds": 0.0663444999999997
+    },
+    {
+      "n": 11,
+      "start": "grid",
+      "seed": 15,
+      "strategy": "v1",
+      "seconds": 0.02631487500000003
+    },
+    {
+      "n": 11,
+      "start": "grid",
+      "seed": 15,
+      "strategy": "v2",
+      "seconds": 0.06554229099999975
+    },
+    {
+      "n": 11,
+      "start": "grid",
+      "seed": 16,
+      "strategy": "v1",
+      "seconds": 0.025834124999999857
+    },
+    {
+      "n": 11,
+      "start": "grid",
+      "seed": 16,
+      "strategy": "v2",
+      "seconds": 0.06536487500000021
+    },
+    {
+      "n": 11,
+      "start": "grid",
+      "seed": 17,
+      "strategy": "v1",
+      "seconds": 0.026334667000000082
+    },
+    {
+      "n": 11,
+      "start": "grid",
+      "seed": 17,
+      "strategy": "v2",
+      "seconds": 0.0651590000000001
+    },
+    {
+      "n": 11,
+      "start": "grid",
+      "seed": 18,
+      "strategy": "v1",
+      "seconds": 0.02680645900000036
+    },
+    {
+      "n": 11,
+      "start": "grid",
+      "seed": 18,
+      "strategy": "v2",
+      "seconds": 0.06605533300000024
+    },
+    {
+      "n": 11,
+      "start": "grid",
+      "seed": 19,
+      "strategy": "v1",
+      "seconds": 0.02716549999999961
+    },
+    {
+      "n": 11,
+      "start": "grid",
+      "seed": 19,
+      "strategy": "v2",
+      "seconds": 0.07060908299999982
+    },
+    {
+      "n": 13,
+      "start": "grid",
+      "seed": 10,
+      "strategy": "v1",
+      "seconds": 0.035116333999999826
+    },
+    {
+      "n": 13,
+      "start": "grid",
+      "seed": 10,
+      "strategy": "v2",
+      "seconds": 0.0802039579999996
+    },
+    {
+      "n": 13,
+      "start": "grid",
+      "seed": 11,
+      "strategy": "v1",
+      "seconds": 0.03197112500000003
+    },
+    {
+      "n": 13,
+      "start": "grid",
+      "seed": 11,
+      "strategy": "v2",
+      "seconds": 0.08134970800000019
+    },
+    {
+      "n": 13,
+      "start": "grid",
+      "seed": 12,
+      "strategy": "v1",
+      "seconds": 0.03158387499999981
+    },
+    {
+      "n": 13,
+      "start": "grid",
+      "seed": 12,
+      "strategy": "v2",
+      "seconds": 0.08118466699999999
+    },
+    {
+      "n": 13,
+      "start": "grid",
+      "seed": 13,
+      "strategy": "v1",
+      "seconds": 0.03266304199999968
+    },
+    {
+      "n": 13,
+      "start": "grid",
+      "seed": 13,
+      "strategy": "v2",
+      "seconds": 0.08013225000000011
+    },
+    {
+      "n": 13,
+      "start": "grid",
+      "seed": 14,
+      "strategy": "v1",
+      "seconds": 0.03297449999999981
+    },
+    {
+      "n": 13,
+      "start": "grid",
+      "seed": 14,
+      "strategy": "v2",
+      "seconds": 0.08131708400000025
+    },
+    {
+      "n": 13,
+      "start": "grid",
+      "seed": 15,
+      "strategy": "v1",
+      "seconds": 0.039641417000000276
+    },
+    {
+      "n": 13,
+      "start": "grid",
+      "seed": 15,
+      "strategy": "v2",
+      "seconds": 0.0803403330000001
+    },
+    {
+      "n": 13,
+      "start": "grid",
+      "seed": 16,
+      "strategy": "v1",
+      "seconds": 0.03205699999999979
+    },
+    {
+      "n": 13,
+      "start": "grid",
+      "seed": 16,
+      "strategy": "v2",
+      "seconds": 0.08317445799999997
+    },
+    {
+      "n": 13,
+      "start": "grid",
+      "seed": 17,
+      "strategy": "v1",
+      "seconds": 0.03184325000000081
+    },
+    {
+      "n": 13,
+      "start": "grid",
+      "seed": 17,
+      "strategy": "v2",
+      "seconds": 0.08221395800000028
+    },
+    {
+      "n": 13,
+      "start": "grid",
+      "seed": 18,
+      "strategy": "v1",
+      "seconds": 0.03406237499999952
+    },
+    {
+      "n": 13,
+      "start": "grid",
+      "seed": 18,
+      "strategy": "v2",
+      "seconds": 0.0813408329999993
+    },
+    {
+      "n": 13,
+      "start": "grid",
+      "seed": 19,
+      "strategy": "v1",
+      "seconds": 0.03357758399999966
+    },
+    {
+      "n": 13,
+      "start": "grid",
+      "seed": 19,
+      "strategy": "v2",
+      "seconds": 0.08232408299999952
+    },
+    {
+      "n": 16,
+      "start": "grid",
+      "seed": 10,
+      "strategy": "v1",
+      "seconds": 0.046176290999999765
+    },
+    {
+      "n": 16,
+      "start": "grid",
+      "seed": 10,
+      "strategy": "v2",
+      "seconds": 0.10734391700000015
+    },
+    {
+      "n": 16,
+      "start": "grid",
+      "seed": 11,
+      "strategy": "v1",
+      "seconds": 0.04186595800000032
+    },
+    {
+      "n": 16,
+      "start": "grid",
+      "seed": 11,
+      "strategy": "v2",
+      "seconds": 0.10775258300000042
+    },
+    {
+      "n": 16,
+      "start": "grid",
+      "seed": 12,
+      "strategy": "v1",
+      "seconds": 0.04281558300000052
+    },
+    {
+      "n": 16,
+      "start": "grid",
+      "seed": 12,
+      "strategy": "v2",
+      "seconds": 0.11692037499999969
+    },
+    {
+      "n": 16,
+      "start": "grid",
+      "seed": 13,
+      "strategy": "v1",
+      "seconds": 0.04518691699999999
+    },
+    {
+      "n": 16,
+      "start": "grid",
+      "seed": 13,
+      "strategy": "v2",
+      "seconds": 0.12206725000000006
+    },
+    {
+      "n": 16,
+      "start": "grid",
+      "seed": 14,
+      "strategy": "v1",
+      "seconds": 0.042730958000000104
+    },
+    {
+      "n": 16,
+      "start": "grid",
+      "seed": 14,
+      "strategy": "v2",
+      "seconds": 0.11049337500000002
+    },
+    {
+      "n": 16,
+      "start": "grid",
+      "seed": 15,
+      "strategy": "v1",
+      "seconds": 0.04953054100000009
+    },
+    {
+      "n": 16,
+      "start": "grid",
+      "seed": 15,
+      "strategy": "v2",
+      "seconds": 0.11331220799999937
+    },
+    {
+      "n": 16,
+      "start": "grid",
+      "seed": 16,
+      "strategy": "v1",
+      "seconds": 0.04466329200000018
+    },
+    {
+      "n": 16,
+      "start": "grid",
+      "seed": 16,
+      "strategy": "v2",
+      "seconds": 0.10807437500000014
+    },
+    {
+      "n": 16,
+      "start": "grid",
+      "seed": 17,
+      "strategy": "v1",
+      "seconds": 0.04491104199999973
+    },
+    {
+      "n": 16,
+      "start": "grid",
+      "seed": 17,
+      "strategy": "v2",
+      "seconds": 0.10689970799999991
+    },
+    {
+      "n": 16,
+      "start": "grid",
+      "seed": 18,
+      "strategy": "v1",
+      "seconds": 0.045512416999999916
+    },
+    {
+      "n": 16,
+      "start": "grid",
+      "seed": 18,
+      "strategy": "v2",
+      "seconds": 0.10713087499999983
+    },
+    {
+      "n": 16,
+      "start": "grid",
+      "seed": 19,
+      "strategy": "v1",
+      "seconds": 0.043948124999999894
+    },
+    {
+      "n": 16,
+      "start": "grid",
+      "seed": 19,
+      "strategy": "v2",
+      "seconds": 0.11400025000000005
+    },
+    {
+      "n": 17,
+      "start": "grid",
+      "seed": 10,
+      "strategy": "v1",
+      "seconds": 0.04966054199999962
+    },
+    {
+      "n": 17,
+      "start": "grid",
+      "seed": 10,
+      "strategy": "v2",
+      "seconds": 0.1146260000000002
+    },
+    {
+      "n": 17,
+      "start": "grid",
+      "seed": 11,
+      "strategy": "v1",
+      "seconds": 0.044589834000000335
+    },
+    {
+      "n": 17,
+      "start": "grid",
+      "seed": 11,
+      "strategy": "v2",
+      "seconds": 0.11881800000000022
+    },
+    {
+      "n": 17,
+      "start": "grid",
+      "seed": 12,
+      "strategy": "v1",
+      "seconds": 0.0447339579999998
+    },
+    {
+      "n": 17,
+      "start": "grid",
+      "seed": 12,
+      "strategy": "v2",
+      "seconds": 0.11796487499999966
+    },
+    {
+      "n": 17,
+      "start": "grid",
+      "seed": 13,
+      "strategy": "v1",
+      "seconds": 0.0474054159999996
+    },
+    {
+      "n": 17,
+      "start": "grid",
+      "seed": 13,
+      "strategy": "v2",
+      "seconds": 0.1116011669999998
+    },
+    {
+      "n": 17,
+      "start": "grid",
+      "seed": 14,
+      "strategy": "v1",
+      "seconds": 0.04343637499999932
+    },
+    {
+      "n": 17,
+      "start": "grid",
+      "seed": 14,
+      "strategy": "v2",
+      "seconds": 0.11379329099999995
+    },
+    {
+      "n": 17,
+      "start": "grid",
+      "seed": 15,
+      "strategy": "v1",
+      "seconds": 0.049109916000000337
+    },
+    {
+      "n": 17,
+      "start": "grid",
+      "seed": 15,
+      "strategy": "v2",
+      "seconds": 0.11422108300000036
+    },
+    {
+      "n": 17,
+      "start": "grid",
+      "seed": 16,
+      "strategy": "v1",
+      "seconds": 0.047056083999999825
+    },
+    {
+      "n": 17,
+      "start": "grid",
+      "seed": 16,
+      "strategy": "v2",
+      "seconds": 0.11526983399999972
+    },
+    {
+      "n": 17,
+      "start": "grid",
+      "seed": 17,
+      "strategy": "v1",
+      "seconds": 0.04444729199999983
+    },
+    {
+      "n": 17,
+      "start": "grid",
+      "seed": 17,
+      "strategy": "v2",
+      "seconds": 0.11584370799999942
+    },
+    {
+      "n": 17,
+      "start": "grid",
+      "seed": 18,
+      "strategy": "v1",
+      "seconds": 0.048152999999999335
+    },
+    {
+      "n": 17,
+      "start": "grid",
+      "seed": 18,
+      "strategy": "v2",
+      "seconds": 0.11496658299999944
+    },
+    {
+      "n": 17,
+      "start": "grid",
+      "seed": 19,
+      "strategy": "v1",
+      "seconds": 0.047816917000000105
+    },
+    {
+      "n": 17,
+      "start": "grid",
+      "seed": 19,
+      "strategy": "v2",
+      "seconds": 0.1122882499999996
+    },
+    {
+      "n": 17,
+      "start": "shared-construction",
+      "seed": 10,
+      "strategy": "v1",
+      "seconds": 0.04874300000000039
+    },
+    {
+      "n": 17,
+      "start": "shared-construction",
+      "seed": 10,
+      "strategy": "v2",
+      "seconds": 0.11143495900000017
+    },
+    {
+      "n": 17,
+      "start": "shared-construction",
+      "seed": 11,
+      "strategy": "v1",
+      "seconds": 0.04427624999999989
+    },
+    {
+      "n": 17,
+      "start": "shared-construction",
+      "seed": 11,
+      "strategy": "v2",
+      "seconds": 0.11937774999999964
+    },
+    {
+      "n": 17,
+      "start": "shared-construction",
+      "seed": 12,
+      "strategy": "v1",
+      "seconds": 0.053352375000000396
+    },
+    {
+      "n": 17,
+      "start": "shared-construction",
+      "seed": 12,
+      "strategy": "v2",
+      "seconds": 0.14311850000000048
+    },
+    {
+      "n": 17,
+      "start": "shared-construction",
+      "seed": 13,
+      "strategy": "v1",
+      "seconds": 0.050025416999999836
+    },
+    {
+      "n": 17,
+      "start": "shared-construction",
+      "seed": 13,
+      "strategy": "v2",
+      "seconds": 0.11848312499999883
+    },
+    {
+      "n": 17,
+      "start": "shared-construction",
+      "seed": 14,
+      "strategy": "v1",
+      "seconds": 0.052709125000001224
+    },
+    {
+      "n": 17,
+      "start": "shared-construction",
+      "seed": 14,
+      "strategy": "v2",
+      "seconds": 0.12467599999999948
+    },
+    {
+      "n": 17,
+      "start": "shared-construction",
+      "seed": 15,
+      "strategy": "v1",
+      "seconds": 0.06733683299999939
+    },
+    {
+      "n": 17,
+      "start": "shared-construction",
+      "seed": 15,
+      "strategy": "v2",
+      "seconds": 0.11891400000000067
+    },
+    {
+      "n": 17,
+      "start": "shared-construction",
+      "seed": 16,
+      "strategy": "v1",
+      "seconds": 0.051285499999999956
+    },
+    {
+      "n": 17,
+      "start": "shared-construction",
+      "seed": 16,
+      "strategy": "v2",
+      "seconds": 0.13744062499999926
+    },
+    {
+      "n": 17,
+      "start": "shared-construction",
+      "seed": 17,
+      "strategy": "v1",
+      "seconds": 0.06365820799999893
+    },
+    {
+      "n": 17,
+      "start": "shared-construction",
+      "seed": 17,
+      "strategy": "v2",
+      "seconds": 0.1319310830000013
+    },
+    {
+      "n": 17,
+      "start": "shared-construction",
+      "seed": 18,
+      "strategy": "v1",
+      "seconds": 0.04966241699999955
+    },
+    {
+      "n": 17,
+      "start": "shared-construction",
+      "seed": 18,
+      "strategy": "v2",
+      "seconds": 0.11891062500000044
+    },
+    {
+      "n": 17,
+      "start": "shared-construction",
+      "seed": 19,
+      "strategy": "v1",
+      "seconds": 0.04769591599999876
+    },
+    {
+      "n": 17,
+      "start": "shared-construction",
+      "seed": 19,
+      "strategy": "v2",
+      "seconds": 0.11187787500000013
+    },
+    {
+      "n": 20,
+      "start": "grid",
+      "seed": 10,
+      "strategy": "v1",
+      "seconds": 0.05784162500000093
+    },
+    {
+      "n": 20,
+      "start": "grid",
+      "seed": 10,
+      "strategy": "v2",
+      "seconds": 0.13798020900000119
+    },
+    {
+      "n": 20,
+      "start": "grid",
+      "seed": 11,
+      "strategy": "v1",
+      "seconds": 0.05881754200000069
+    },
+    {
+      "n": 20,
+      "start": "grid",
+      "seed": 11,
+      "strategy": "v2",
+      "seconds": 0.14009358299999985
+    },
+    {
+      "n": 20,
+      "start": "grid",
+      "seed": 12,
+      "strategy": "v1",
+      "seconds": 0.0569124580000007
+    },
+    {
+      "n": 20,
+      "start": "grid",
+      "seed": 12,
+      "strategy": "v2",
+      "seconds": 0.13843887499999982
+    },
+    {
+      "n": 20,
+      "start": "grid",
+      "seed": 13,
+      "strategy": "v1",
+      "seconds": 0.05579883300000074
+    },
+    {
+      "n": 20,
+      "start": "grid",
+      "seed": 13,
+      "strategy": "v2",
+      "seconds": 0.14206133399999998
+    },
+    {
+      "n": 20,
+      "start": "grid",
+      "seed": 14,
+      "strategy": "v1",
+      "seconds": 0.056219708000000534
+    },
+    {
+      "n": 20,
+      "start": "grid",
+      "seed": 14,
+      "strategy": "v2",
+      "seconds": 0.13889458299999932
+    },
+    {
+      "n": 20,
+      "start": "grid",
+      "seed": 15,
+      "strategy": "v1",
+      "seconds": 0.06027091599999949
+    },
+    {
+      "n": 20,
+      "start": "grid",
+      "seed": 15,
+      "strategy": "v2",
+      "seconds": 0.13665187499999956
+    },
+    {
+      "n": 20,
+      "start": "grid",
+      "seed": 16,
+      "strategy": "v1",
+      "seconds": 0.05840329199999906
+    },
+    {
+      "n": 20,
+      "start": "grid",
+      "seed": 16,
+      "strategy": "v2",
+      "seconds": 0.14184062500000072
+    },
+    {
+      "n": 20,
+      "start": "grid",
+      "seed": 17,
+      "strategy": "v1",
+      "seconds": 0.05785212500000125
+    },
+    {
+      "n": 20,
+      "start": "grid",
+      "seed": 17,
+      "strategy": "v2",
+      "seconds": 0.13919495800000004
+    },
+    {
+      "n": 20,
+      "start": "grid",
+      "seed": 18,
+      "strategy": "v1",
+      "seconds": 0.05518633299999965
+    },
+    {
+      "n": 20,
+      "start": "grid",
+      "seed": 18,
+      "strategy": "v2",
+      "seconds": 0.13743974999999956
+    },
+    {
+      "n": 20,
+      "start": "grid",
+      "seed": 19,
+      "strategy": "v1",
+      "seconds": 0.056577291000001424
+    },
+    {
+      "n": 20,
+      "start": "grid",
+      "seed": 19,
+      "strategy": "v2",
+      "seconds": 0.13757387500000004
+    },
+    {
+      "n": 37,
+      "start": "grid",
+      "seed": 10,
+      "strategy": "v1",
+      "seconds": 0.12643995899999935
+    },
+    {
+      "n": 37,
+      "start": "grid",
+      "seed": 10,
+      "strategy": "v2",
+      "seconds": 0.2636572079999987
+    },
+    {
+      "n": 37,
+      "start": "grid",
+      "seed": 11,
+      "strategy": "v1",
+      "seconds": 0.11313550000000032
+    },
+    {
+      "n": 37,
+      "start": "grid",
+      "seed": 11,
+      "strategy": "v2",
+      "seconds": 0.2705729169999995
+    },
+    {
+      "n": 37,
+      "start": "grid",
+      "seed": 12,
+      "strategy": "v1",
+      "seconds": 0.1181051669999997
+    },
+    {
+      "n": 37,
+      "start": "grid",
+      "seed": 12,
+      "strategy": "v2",
+      "seconds": 0.2649487079999999
+    },
+    {
+      "n": 37,
+      "start": "grid",
+      "seed": 13,
+      "strategy": "v1",
+      "seconds": 0.13039666700000088
+    },
+    {
+      "n": 37,
+      "start": "grid",
+      "seed": 13,
+      "strategy": "v2",
+      "seconds": 0.2646230829999986
+    },
+    {
+      "n": 37,
+      "start": "grid",
+      "seed": 14,
+      "strategy": "v1",
+      "seconds": 0.11772037500000078
+    },
+    {
+      "n": 37,
+      "start": "grid",
+      "seed": 14,
+      "strategy": "v2",
+      "seconds": 0.26607641700000023
+    },
+    {
+      "n": 37,
+      "start": "grid",
+      "seed": 15,
+      "strategy": "v1",
+      "seconds": 0.14486579200000052
+    },
+    {
+      "n": 37,
+      "start": "grid",
+      "seed": 15,
+      "strategy": "v2",
+      "seconds": 0.277774875000001
+    },
+    {
+      "n": 37,
+      "start": "grid",
+      "seed": 16,
+      "strategy": "v1",
+      "seconds": 0.13827862500000082
+    },
+    {
+      "n": 37,
+      "start": "grid",
+      "seed": 16,
+      "strategy": "v2",
+      "seconds": 0.27713787500000037
+    },
+    {
+      "n": 37,
+      "start": "grid",
+      "seed": 17,
+      "strategy": "v1",
+      "seconds": 0.14804916700000104
+    },
+    {
+      "n": 37,
+      "start": "grid",
+      "seed": 17,
+      "strategy": "v2",
+      "seconds": 0.2661021660000006
+    },
+    {
+      "n": 37,
+      "start": "grid",
+      "seed": 18,
+      "strategy": "v1",
+      "seconds": 0.13800308399999994
+    },
+    {
+      "n": 37,
+      "start": "grid",
+      "seed": 18,
+      "strategy": "v2",
+      "seconds": 0.2646797910000005
+    },
+    {
+      "n": 37,
+      "start": "grid",
+      "seed": 19,
+      "strategy": "v1",
+      "seconds": 0.14895379200000025
+    },
+    {
+      "n": 37,
+      "start": "grid",
+      "seed": 19,
+      "strategy": "v2",
+      "seconds": 0.26167216600000026
+    },
+    {
+      "n": 37,
+      "start": "shared-construction",
+      "seed": 10,
+      "strategy": "v1",
+      "seconds": 0.11358158399999957
+    },
+    {
+      "n": 37,
+      "start": "shared-construction",
+      "seed": 10,
+      "strategy": "v2",
+      "seconds": 0.2615584580000013
+    },
+    {
+      "n": 37,
+      "start": "shared-construction",
+      "seed": 11,
+      "strategy": "v1",
+      "seconds": 0.11348895799999992
+    },
+    {
+      "n": 37,
+      "start": "shared-construction",
+      "seed": 11,
+      "strategy": "v2",
+      "seconds": 0.2677830420000009
+    },
+    {
+      "n": 37,
+      "start": "shared-construction",
+      "seed": 12,
+      "strategy": "v1",
+      "seconds": 0.11382237499999974
+    },
+    {
+      "n": 37,
+      "start": "shared-construction",
+      "seed": 12,
+      "strategy": "v2",
+      "seconds": 0.26299995899999884
+    },
+    {
+      "n": 37,
+      "start": "shared-construction",
+      "seed": 13,
+      "strategy": "v1",
+      "seconds": 0.10777429199999825
+    },
+    {
+      "n": 37,
+      "start": "shared-construction",
+      "seed": 13,
+      "strategy": "v2",
+      "seconds": 0.25976379100000124
+    },
+    {
+      "n": 37,
+      "start": "shared-construction",
+      "seed": 14,
+      "strategy": "v1",
+      "seconds": 0.10747270900000148
+    },
+    {
+      "n": 37,
+      "start": "shared-construction",
+      "seed": 14,
+      "strategy": "v2",
+      "seconds": 0.2648390839999993
+    },
+    {
+      "n": 37,
+      "start": "shared-construction",
+      "seed": 15,
+      "strategy": "v1",
+      "seconds": 0.15209858299999907
+    },
+    {
+      "n": 37,
+      "start": "shared-construction",
+      "seed": 15,
+      "strategy": "v2",
+      "seconds": 0.27084637499999736
+    },
+    {
+      "n": 37,
+      "start": "shared-construction",
+      "seed": 16,
+      "strategy": "v1",
+      "seconds": 0.125773459
+    },
+    {
+      "n": 37,
+      "start": "shared-construction",
+      "seed": 16,
+      "strategy": "v2",
+      "seconds": 0.2796013340000027
+    },
+    {
+      "n": 37,
+      "start": "shared-construction",
+      "seed": 17,
+      "strategy": "v1",
+      "seconds": 0.115114666999998
+    },
+    {
+      "n": 37,
+      "start": "shared-construction",
+      "seed": 17,
+      "strategy": "v2",
+      "seconds": 0.26122550000000044
+    },
+    {
+      "n": 37,
+      "start": "shared-construction",
+      "seed": 18,
+      "strategy": "v1",
+      "seconds": 0.12708516699999745
+    },
+    {
+      "n": 37,
+      "start": "shared-construction",
+      "seed": 18,
+      "strategy": "v2",
+      "seconds": 0.2680937080000003
+    },
+    {
+      "n": 37,
+      "start": "shared-construction",
+      "seed": 19,
+      "strategy": "v1",
+      "seconds": 0.12083987500000148
+    },
+    {
+      "n": 37,
+      "start": "shared-construction",
+      "seed": 19,
+      "strategy": "v2",
+      "seconds": 0.262158958
+    }
+  ]
+}

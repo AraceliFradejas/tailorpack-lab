@@ -33,6 +33,7 @@ function render(analysis=analyzePacking(pack)){
   $('selected-id').textContent=String(selected+1).padStart(2,'0');
   $('angle-value').textContent=`${fmt(angle,0)}°`;
   if(document.activeElement!==$('angle')) $('angle').value=angle;
+  $('compare').disabled=running;
   $('angle').disabled=running;
   $('rotate-left').disabled=$('rotate-right').disabled=running;
   $('undo').disabled=!history.length||running;
@@ -47,6 +48,7 @@ function render(analysis=analyzePacking(pack)){
 function update(){const analysis=analyzePacking(pack);saveBest(analysis);render(analysis);}
 function requestRender(){if(renderQueued)return;renderQueued=true;requestAnimationFrame(()=>{renderQueued=false;render();});}
 function stop(message){
+  if(running&&!$('comparison-results').hidden&&!$('compare-v2-steps').textContent.endsWith('✓'))$('comparison-note').textContent='Comparación interrumpida: las cifras son parciales.';
   worker?.terminate();worker=null;running=false;
   $('optimize').classList.remove('running');$('optimize-label').textContent='Que lo intente el motor';
   $('solver-progress').hidden=true;
@@ -55,7 +57,7 @@ function stop(message){
 }
 function puzzle(value){
   if(!Number.isInteger(value)||value<1||value>1000){say('Elige un número entero entre 1 y 1.000.');return;}
-  stop();n=value;pack=grid(n);selected=0;history=[];$('n-input').value=n;
+  stop();$('comparison-results').hidden=true;n=value;pack=grid(n);selected=0;history=[];$('n-input').value=n;
   if(n>100)$('budget').value='250';
   fit();update();say(n>100?'Reto grande: usa un presupuesto pequeño en Laboratorio. El tablero sigue siendo interactivo.':'Empiezas con una rejilla. ¿Puedes ocupar menos espacio?');
 }
@@ -101,13 +103,16 @@ $('reference').onclick=()=>{
 };
 function mode(lab){$('lab-settings').hidden=!lab;$('play-tab').classList.toggle('active',!lab);$('lab-tab').classList.toggle('active',lab);$('play-tab').setAttribute('aria-pressed',!lab);$('lab-tab').setAttribute('aria-pressed',lab);}
 $('play-tab').onclick=()=>mode(false);$('lab-tab').onclick=()=>mode(true);
-$('optimize').onclick=()=>{
+function optimize(compare=false){
   if(running){stop('Motor detenido. Se conserva la mejor configuración recibida.');return;}
   const seed=Number($('seed').value),budget=Number($('budget').value);
   if(!Number.isInteger(seed)||seed<0||seed>4294967295){say('La semilla debe ser un entero entre 0 y 4.294.967.295.');return;}
+  $('comparison-results').hidden=!compare;
+  if(compare){for(const v of ['v1','v2']){ $(`compare-${v}-side`).textContent='—';$(`compare-${v}-steps`).textContent='—';}$('comparison-note').textContent='Mismo tablero inicial, semilla y presupuesto por motor.';}
   remember();running=true;$('optimize').classList.add('running');$('optimize-label').textContent='Detener búsqueda';
-  $('solver-progress').hidden=false;$('solver-meter').max=budget;$('solver-meter').value=0;
-  say(n===5?'El motor parte de una familia constructiva y prueba movimientos y giros.':'El motor prueba movimientos y giros en este navegador. No garantiza superar la rejilla.');
+  $('solver-progress').hidden=false;$('solver-meter').max=compare?budget*2:budget;$('solver-meter').value=0;
+  $('solver-count').textContent=`0 / ${(compare?budget*2:budget).toLocaleString('es-ES')} propuestas`;
+  say(compare?'Comparando ambos motores desde el mismo tablero. Se conserva el mejor resultado recibido.':n===5?'El motor parte de una familia constructiva y prueba movimientos y giros.':'El motor prueba movimientos y giros en este navegador. No garantiza superar la rejilla.');
   try{worker=new Worker(new URL('./worker.js',import.meta.url),{type:'module'});}catch{stop('No se pudo iniciar el motor. Abre la app por HTTP o HTTPS, no como archivo local.');return;}
   const activeWorker=worker;
   worker.onerror=()=>{if(worker===activeWorker)stop('El motor encontró un problema. Tu tablero sigue disponible. Prueba un presupuesto menor.');};
@@ -116,12 +121,18 @@ $('optimize').onclick=()=>{
     if(data.error){stop(`El motor se ha detenido: ${data.error}`);return;}
     if(!valid(data.best,n)){stop('Se descartó una configuración inválida del motor.');return;}
     pack=data.best;selected=Math.min(selected,n-1);$('solver-meter').value=data.step;
-    $('solver-count').textContent=`${data.step.toLocaleString('es-ES')} / ${budget.toLocaleString('es-ES')} propuestas`;
+    $('solver-count').textContent=`${data.step.toLocaleString('es-ES')} / ${data.budget.toLocaleString('es-ES')} propuestas${compare?` · ${data.strategy==='v1'?'Actual':'Nuevo'}`:''}`;
+    if(data.comparison){
+      for(const [v,r] of Object.entries(data.comparison))if(r){$(`compare-${v}-side`).textContent=fmt(r.L);$(`compare-${v}-steps`).textContent=`${r.step.toLocaleString('es-ES')}${r.done?' ✓':''}`;}
+      if(data.done){const {v1,v2}=data.comparison,d=v1.L-v2.L;$('comparison-note').textContent=Math.abs(d)<1e-7?'Empate en este intento. El tablero conserva el mejor resultado.':`${d>0?'Nuevo · v2':'Actual · v1'} consiguió un lado menor en este intento. No demuestra superioridad general.`;}
+    }
     update();
     if(data.done){const L=bounds(pack).L;stop(`Búsqueda terminada: lado ${fmt(L)}. Resultado local; requiere evaluación oficial antes de usarlo en Kaggle.`);}
   };
-  worker.postMessage({n,initial:clone(pack),seed,budget,method:$('method').value});render();
-};
+  worker.postMessage({n,initial:clone(pack),seed,budget,method:$('method').value,strategy:$('strategy').value,compare});render();
+}
+$('optimize').onclick=()=>optimize();
+$('compare').onclick=()=>optimize(true);
 $('export').onclick=()=>{
   try{
     const url=URL.createObjectURL(new Blob([toCSV(pack)],{type:'text/csv;charset=utf-8'}));

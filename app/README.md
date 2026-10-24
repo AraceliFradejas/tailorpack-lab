@@ -70,7 +70,7 @@ No se añade límite de tiempo ni penalización de juego a las reglas oficiales.
 `public/`: controlador `app.js`, dibujo `board-view.js`, métricas `metrics.js`,
 persistencia `records.js`, geometría, solver, worker y referencias. El tema visual
 está separado en `cube.css`, sobre los estilos base legibles de `style.css`.
-`tests/`: quince tests del motor y estado web, incluida una rejilla de mil cuadrados.
+`tests/`: 22 tests del motor y estado web, incluida una rejilla de mil cuadrados.
 `tools/`: servidor local y build estático. [Comprobaciones realizadas](docs/qa.md).
 La [vista móvil](docs/preview-mobile.jpg) se comprobó a 390 px sin desbordamiento
 horizontal. Ratón y teclado se probaron en el navegador; no se probó un dispositivo
@@ -80,3 +80,16 @@ consultar `LICENSE` y `NOTICE` en la raíz del repositorio.
 Las referencias se regeneran desde la raíz del portfolio con
 `python3 tools/sync_references.py`; `--check` verifica que no haya divergencias
 respecto al candidato validado. La entrega independiente de la app ya las incluye.
+
+## Motores y comparación · v0.2
+
+En Laboratorio se puede elegir v1 o v2 y comparar ambos con el mismo tablero,
+semilla y presupuesto por motor. La v1 sigue siendo la opción por defecto. La v2
+es experimental: añade inicios, reinicios, grupos y construcciones explícitas;
+no demuestra superioridad general. Ver [resultados y protocolo](../docs/search-v02.md).
+La comparación usa un solo worker, ejecuta primero v1 y después v2 y conserva el
+mejor estado de ambos. Las cifras al detenerla son parciales.
+
+Desde la raíz, `node app/tools/benchmark.mjs --out runs/web-v02` reproduce la serie
+definida por defecto. `python3 tools/check_web_benchmark.py` comprueba la evidencia
+guardada; `--folder runs/web-v02` comprueba una nueva ejecución.

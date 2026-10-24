@@ -45,6 +45,12 @@ La app utiliza JavaScript vanilla y SVG. Para este tablero no necesitaba incorpo
 
 En Python mantengo una rejilla como punto de partida y comparo construcción geométrica, búsqueda greedy y simulated annealing. Guardo semillas y presupuestos para poder repetir los experimentos. Los checkpoints permiten continuar una búsqueda sin empezar desde cero.
 
+### Comparar motores · v0.2
+
+He añadido una segunda estrategia con otros puntos de partida, reinicios y movimientos de grupos de piezas. En **Laboratorio → Comparar actual y nuevo** puedes ejecutar ambos motores con el mismo tablero, semilla y presupuesto por motor. Se conserva el mejor resultado recibido; v1 sigue siendo la opción por defecto.
+
+En 240 ejecuciones, la v2 mejora los casos de 5, 17 y 37 cuadrados desde la rejilla. Las mejoras proceden de una construcción preparada: cuando ambos motores reciben ese mismo inicio, empatan. En los otros seis tamaños probados no hay mejora. La v2 también necesita más tiempo. He conservado los resultados y las limitaciones en el [informe v0.2](docs/search-v02.md).
+
 ### Resultados y relación con Kaggle
 
 | Caso | Lado de la rejilla | Mejor lado guardado | Origen |
@@ -111,7 +117,7 @@ El núcleo no requiere instalación ni GPU. Para repetir la validación oficial 
 
 ### Comprobaciones y próximos pasos
 
-Hay quince tests web y 37 tests Python: 32 se ejecutan sin dependencias adicionales y cinco necesitan el entorno oficial. GitHub Actions comprueba Python 3.11, 3.12 y 3.13 y construye la app. Puedes consultar las [ejecuciones](https://github.com/AraceliFradejas/tailorpack-lab/actions).
+Hay 22 tests web y 37 tests Python: 32 se ejecutan sin dependencias adicionales y cinco necesitan el entorno oficial. GitHub Actions comprueba Python 3.11, 3.12 y 3.13 y construye la app. Puedes consultar las [ejecuciones](https://github.com/AraceliFradejas/tailorpack-lab/actions).
 
 Quiero ampliar las inicializaciones y los movimientos para conseguir mejoras más consistentes. También me interesa comparar una política aprendida con la búsqueda actual, pero todavía no he entrenado un modelo. Los resultados actuales son una base de aprendizaje.
 
@@ -119,6 +125,7 @@ Quiero ampliar las inicializaciones y los movimientos para conseguir mejoras má
 
 - [Memoria del proyecto](MEMORIA.md).
 - [Reglas verificadas](docs/verification.md) y [validación oficial](docs/official-validation.md).
+- [Comparación v0.2](docs/search-v02.md).
 - [Búsqueda y resultados](docs/search-results.md) y [pruebas de escala](docs/scaling.md).
 - [Arquitectura y evolución](docs/architecture-roadmap.md).
 - [Procedencia, autoría y licencia](docs/provenance.md).
@@ -153,6 +160,12 @@ Move and rotate squares, check overlaps and container size, undo changes, run an
 
 The app uses vanilla JavaScript, SVG and a Web Worker. It has no accounts, game server or AI API. Python provides grid and constructive baselines, greedy search, simulated annealing, checkpoints and reproducible experiments.
 
+### Compare engines · v0.2
+
+In **Laboratorio → Comparar actual y nuevo**, both engines receive the same starting board, seed and proposal budget. The experimental v2 adds restarts, group moves and explicit geometric starts. The original v1 remains the default.
+
+Across 240 runs, v2 improves the 5-, 17- and 37-square grid starts. These gains come from the explicit construction: both engines tie when given the same constructed start. Neither improves the other six tested sizes. V2 takes more time. See the [v0.2 report, in Spanish](docs/search-v02.md).
+
 ### Results and scope
 
 The saved five-square construction reduces the container side from 3 to 2.7071067822. The best ten-square search reduces it from 4 to 3.9100797962; only three of ten seeds improved, and the median remained 4.
@@ -177,7 +190,7 @@ python3 -m unittest discover -s tests -v
 python3 -m tailorpack --max-n 16 --seed 42 --out runs/demo
 ```
 
-There are fifteen web tests and 37 Python tests, including five optional official-evaluator checks. [GitHub Actions](https://github.com/AraceliFradejas/tailorpack-lab/actions) checks Python 3.11–3.13 and the web build. A trained policy remains a future experiment; the current optimizer is not a trained AI model.
+There are 22 web tests and 37 Python tests, including five optional official-evaluator checks. [GitHub Actions](https://github.com/AraceliFradejas/tailorpack-lab/actions) checks Python 3.11–3.13 and the web build. A trained policy remains a future experiment; the current optimizer is not a trained AI model.
 
 ### Author
 
