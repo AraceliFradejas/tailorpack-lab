@@ -10,6 +10,7 @@
 | Repositorio | https://github.com/AraceliFradejas/tailorpack-lab |
 | Licencia | Apache 2.0 |
 | Versión | 0.1.0 · octubre de 2026 |
+| App publicada | https://tailorpack-lab.vercel.app/ |
 
 ## 1 Contexto y motivación
 
@@ -130,7 +131,13 @@ Los manifiestos de ZIP, preparativos de publicación y archivos temporales queda
 
 El repositorio público está en [AraceliFradejas/tailorpack-lab](https://github.com/AraceliFradejas/tailorpack-lab), con licencia Apache 2.0 y autoría de Araceli Fradejas Muñoz. La app se prepara para Vercel usando `app` como raíz, el comando `npm run build` y `dist` como carpeta de salida. No necesita variables de entorno.
 
-El despliegue público y sus capturas se incorporarán a esta memoria cuando se compruebe la URL real. No se ha enviado ningún CSV a Kaggle.
+La app está publicada en [tailorpack-lab.vercel.app](https://tailorpack-lab.vercel.app/), en el proyecto Hobby de mi cuenta Vercel y conectada al repositorio de GitHub. Se comprobó el acceso desde un navegador sin sesión de Vercel, la carga de referencias, los giros, los cruces, deshacer y la búsqueda en segundo plano. Las capturas siguientes proceden de esa URL pública el 24 de octubre de 2026.
+
+![App publicada: diez cuadrados con la estética de cubo de colores](docs/images/rubik-desktop.png)
+
+![Referencia de cinco cuadrados en la versión de Vercel](docs/images/rubik-five.png)
+
+No se ha enviado ningún CSV a Kaggle.
 
 ## 11 Qué quiero ampliar
 

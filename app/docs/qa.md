@@ -30,7 +30,7 @@ La CI define Node 22; no se ha ejecutado remotamente.
 
 Comprobado en el navegador integrado con la app servida por HTTP:
 
-- Giro manual provoca cruces, piezas rojas y exportación deshabilitada.
+- Giro manual provoca cruces, contornos magenta y exportación deshabilitada.
 - Deshacer restaura la configuración; arrastre real y flechas mueven las piezas.
 - Referencias n=5/n=10 muestran 2,7071 y 3,9101, sin cruces locales.
 - Descarga CSV: n=5, cinco filas completas y cabecera correcta.
@@ -48,5 +48,17 @@ Comprobado en el navegador integrado con la app servida por HTTP:
 
 Capturas [escritorio](preview.jpg) y [móvil](preview-mobile.jpg). No hay tests E2E
 automatizados persistentes: estas comprobaciones de interfaz fueron manuales con
-automatización del navegador. No se probó hardware táctil ni el despliegue real
-de Vercel. El motor web no ofrece la reanudación exacta del runner Python.
+automatización del navegador. No se probó hardware táctil. El despliegue real de Vercel se comprobó
+el 24-10-2026, como se recoge más abajo. El motor web no ofrece la reanudación exacta del runner Python.
+
+## Versión pública · 24-10-2026
+
+URL: https://tailorpack-lab.vercel.app/. Publicada desde GitHub con raíz `app`,
+preset Other, build `npm run build` y salida `dist`, sin variables de entorno.
+Acceso público comprobado sin sesión de Vercel en el navegador de prueba.
+Se comprobaron referencias, giro que produce cruces, bloqueo de exportación y
+deshacer; también la búsqueda real en el Web Worker. Las capturas del
+[README](../../README.md) se tomaron desde esta URL, sin componer ni generar imágenes.
+
+El motor terminó en n=5 con lado 2,7868 tras 2.500 propuestas; la referencia
+restauró 2,7071. No se observaron advertencias ni errores de consola.

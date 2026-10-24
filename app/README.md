@@ -1,13 +1,13 @@
 # tAilorPack Playground
 
-Juego visual de empaquetado de cuadrados, preparado para **Vercel**. Aplicación
+Juego visual de empaquetado de cuadrados, publicado en **[Vercel](https://tailorpack-lab.vercel.app/)**. Aplicación
 estática en HTML/CSS/JavaScript, sin dependencias de ejecución, cuentas ni backend.
 
 Tema visual inspirado en un cubo de colores: seis tonos, marcos negros y pegatinas
 con relieve. La selección lleva un borde azul y los cruces un contorno discontinuo
 magenta, para distinguirlos de las piezas de color rojo.
 
-![Vista del juego](docs/preview.jpg)
+![Vista real del juego publicado](../docs/images/rubik-desktop.png)
 
 ## Jugar y desarrollar
 

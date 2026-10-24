@@ -14,7 +14,16 @@ Después de tAilorCode quería seguir aprendiendo con un reto que pudiera llevar
 
 La estética está inspirada en los colores y las piezas de un cubo de Rubik: caras de colores, bordes oscuros y un tablero que invita a tocar. La mecánica sigue siendo la de empaquetar cuadrados.
 
-**Demo:** despliegue en Vercel en preparación. · **[Memoria del proyecto](MEMORIA.md)**
+**Demo:** [Jugar a tAilorPack en Vercel](https://tailorpack-lab.vercel.app/). · **[Memoria del proyecto](MEMORIA.md)**
+
+![Tablero real de tAilorPack publicado en Vercel, con diez piezas de colores giradas](docs/images/rubik-desktop.png)
+
+<details>
+<summary>Ver la referencia de cinco cuadrados</summary>
+
+![Cinco cuadrados en la app publicada: referencia con pieza central girada](docs/images/rubik-five.png)
+
+</details>
 
 ### Qué puedes hacer
 
@@ -134,7 +143,9 @@ tAilorPack is my geometry and optimization project inspired by [Kaggle Squares i
 
 After tAilorCode, I wanted another challenge I could learn from, include in my portfolio and enjoy trying. The project combines a reproducible Python lab with an interactive web app. Its colourful faces and dark edges take visual inspiration from a Rubik's cube.
 
-**Demo:** Vercel deployment in preparation. · **[Project report, in Spanish](MEMORIA.md)**
+**Demo:** [Play tAilorPack on Vercel](https://tailorpack-lab.vercel.app/). · **[Project report, in Spanish](MEMORIA.md)**
+
+![The published tAilorPack app: ten rotated squares in the Rubik-inspired theme](docs/images/rubik-desktop.png)
 
 ### What you can do
 
