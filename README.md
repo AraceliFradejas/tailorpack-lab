@@ -52,8 +52,8 @@ pueden afectar los últimos bits.
 **37 tests en la suite**: 32 ejecutables sin dependencias adicionales y 5
 regresiones opcionales contra el notebook oficial. Los 37 pasaron en el entorno
 local preparado; sin notebook los cinco opcionales se omiten explícitamente.
-La [CI](.github/workflows/tests.yml) define Python 3.11–3.13; aún no se ha ejecutado
-en GitHub porque el repositorio no se ha publicado.
+La [CI](.github/workflows/tests.yml) comprueba Python 3.11–3.13 y la app web en cada subida.
+Ver [ejecuciones en GitHub Actions](https://github.com/AraceliFradejas/tailorpack-lab/actions).
 
 ## Búsqueda y escala
 
