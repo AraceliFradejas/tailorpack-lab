@@ -1,152 +1,177 @@
 # tAilorPack Lab
 
-Geometría computacional y optimización reproducible para explorar
-[Kaggle Squares in Squares](https://www.kaggle.com/competitions/squares-in-squares).
+[Versión en castellano](#versión-en-castellano) · [English version](#english-version)
 
-**Autora: [Araceli Fradejas Muñoz](https://github.com/AraceliFradejas).**
+## Versión en castellano
 
-Repositorio: **[`tailorpack-lab`](https://github.com/AraceliFradejas/tailorpack-lab)**. El juego mantiene su nombre
-tAilorPack. [Revisión antes de publicar y siguientes pasos](docs/publication-plan.md).
+**Autora: Araceli Fradejas Muñoz.**
 
-**Proyecto de portfolio v0.1.0.** Construcción geométrica, búsqueda general y
-comprobaciones aceleradas hasta 1.000 cuadrados. Candidato validado **offline**
-con la métrica oficial v17. Sin envío a Kaggle, ranking ni afirmación de récord.
+> Todo encaja. Hasta que lo giras.
 
-**También puedes jugar:** [app web lista para Vercel](app/README.md), con tablero
-interactivo, rotación, detección de cruces y optimización en segundo plano.
+tAilorPack es mi proyecto para experimentar con geometría y optimización a partir de [Squares in Squares de Kaggle](https://www.kaggle.com/competitions/squares-in-squares). La idea parece sencilla: colocar cuadrados dentro de otro cuadrado y ocupar el menor espacio posible. En cuanto empiezas a girar las piezas, deja de serlo.
 
-![Comparación de la rejilla con los candidatos de cinco y diez cuadrados](docs/assets/gallery.png)
+Después de tAilorCode quería seguir aprendiendo con un reto que pudiera llevar a mi portfolio y que también fuera divertido de probar. Por eso el proyecto tiene dos partes: un laboratorio en Python para comparar resultados y una app donde puedes mover las piezas, girarlas y dejar que el ordenador intente mejorar tu solución.
 
-## Resultados que se pueden comprobar
+La estética está inspirada en los colores y las piezas de un cubo de Rubik: caras de colores, bordes oscuros y un tablero que invita a tocar. La mecánica sigue siendo la de empaquetar cuadrados.
 
-| Caso | Rejilla | Mejor lado guardado | Reducción del lado | Cómo se obtuvo |
-|---|---:|---:|---:|---|
-| 5 cuadrados | 3 | 2,7071067822 | 9,76 % | Familia constructiva; 45° incluido explícitamente |
-| 10 cuadrados | 4 | 3,9100797962 | 2,25 % | Annealing, 10.000 propuestas, mejor semilla 4 |
+**Demo:** despliegue en Vercel en preparación. · **[Memoria del proyecto](MEMORIA.md)**
 
-Para n=10 mejoraron 3 de 10 semillas; la mediana sigue en 4. No se infiere que
-el método sea superior en general. La construcción n=5 es un control geométrico,
-no un descubrimiento de la búsqueda. Los intentos sin mejora también se conservan.
+### Qué puedes hacer
 
-El [candidato más reciente](examples/m3-best/candidate_NOT_VALIDATED.csv) cubre
-**20 puzzles / 1.986 filas**: n=1..16 más 100,250,500,1000. Su
-[informe oficial offline](examples/m3-best/official-v17/official_validation.json)
-vincula el resultado al SHA-256 exacto del CSV y registra la aceptación de cada
-puzzle. Score offline sobre universo n=1..1000, incluidas las penalizaciones de los
-omitidos: **28,7782488224**. No es un score recibido del servidor.
+- Elegir el número de cuadrados, entre 1 y 1.000.
+- Mover piezas con el ratón o las flechas y girarlas con los controles o con Q/E.
+- Ver si las piezas se cruzan, cuánto mide el contenedor y qué espacio ocupan.
+- Deshacer, volver a la rejilla y ajustar la vista al conjunto.
+- Ejecutar la búsqueda automática sin bloquear los controles de la página.
+- Cargar las referencias de cinco y diez cuadrados y exportar la configuración a CSV.
+- Conservar tu mejor resultado válido en el navegador.
 
-## Reproducir en dos comandos
+Los récords se guardan en `localStorage`. No hay cuenta, servidor de partidas ni sincronización entre dispositivos. La app no necesita claves de API ni hace llamadas a un modelo de IA.
 
-Python **3.11+**; el núcleo usa solo la biblioteca estándar. Desde esta carpeta:
+### Decisiones del proyecto
+
+He separado el dibujo del tablero, la geometría, la búsqueda y el guardado de resultados. Así puedo cambiar el aspecto del juego sin tocar las reglas que comprueban las piezas.
+
+La app utiliza JavaScript vanilla y SVG. Para este tablero no necesitaba incorporar React ni un backend. La optimización se ejecuta en un Web Worker para que la página siga respondiendo mientras busca.
+
+En Python mantengo una rejilla como punto de partida y comparo construcción geométrica, búsqueda greedy y simulated annealing. Guardo semillas y presupuestos para poder repetir los experimentos. Los checkpoints permiten continuar una búsqueda sin empezar desde cero.
+
+### Resultados y relación con Kaggle
+
+| Caso | Lado de la rejilla | Mejor lado guardado | Origen |
+| --- | --- | --- | --- |
+| 5 cuadrados | 3 | 2,7071067822 | Construcción geométrica con el centro girado 45° |
+| 10 cuadrados | 4 | 3,9100797962 | Annealing; mejor resultado de diez semillas |
+
+En diez cuadrados mejoraron tres de las diez semillas; la mediana quedó en 4. El caso de cinco cuadrados es una referencia preparada, no un descubrimiento de la búsqueda.
+
+El [candidato guardado](examples/m3-best/candidate_NOT_VALIDATED.csv) contiene veinte puzzles y 1.986 filas. Se comprobó **offline con el evaluador oficial v17** y obtuvo 28,7782488224 sobre los 1.000 puzzles, incluidas las penalizaciones de los omitidos. Todavía no he enviado una submission a Kaggle.
+
+La comprobación del navegador usa decimales de JavaScript. Exportar un CSV desde el juego no significa que Kaggle lo haya aceptado: debe pasar por la validación oficial. El nombre `candidate_NOT_VALIDATED.csv` se mantiene como precaución para los archivos generados; el [informe](examples/m3-best/official-v17/official_validation.json) identifica por su huella el candidato exacto que se evaluó.
+
+### Tecnologías y estructura
+
+- Python 3.11 o posterior, con biblioteca estándar en el núcleo.
+- JavaScript con ES Modules, HTML, CSS y SVG.
+- Web Workers y Local Storage.
+- `unittest`, tests de Node.js y GitHub Actions.
+- Vercel para servir la app estática.
+
+```text
+.
+├── README.md
+├── MEMORIA.md
+├── app/          # Juego web, estilos y tests
+├── tailorpack/   # Geometría, búsqueda y exportación en Python
+├── tests/        # Pruebas de Python
+├── examples/     # Resultados conservados de los experimentos
+├── docs/         # Capturas, reglas y documentación técnica
+└── tools/        # Comprobación de referencias y documentación
+```
+
+### Ejecutar la app
+
+Requiere Node.js 22 o posterior.
+
+```sh
+git clone https://github.com/AraceliFradejas/tailorpack-lab.git
+cd tailorpack-lab/app
+npm ci
+npm run dev
+```
+
+Abre la dirección local que aparece al arrancar. Para comprobar la construcción de producción:
+
+```sh
+npm test
+npm run build
+```
+
+La [guía de la app](app/README.md) explica su estructura y configuración en Vercel.
+
+### Repetir un experimento en Python
+
+Desde la raíz del repositorio:
 
 ```sh
 python3 -m unittest discover -s tests -v
 python3 -m tailorpack --max-n 16 --seed 42 --out runs/demo
 ```
 
-No requiere instalación, credenciales ni GPU. La demo guarda CSV, métricas JSON,
-entorno y SVG. En un mismo entorno, configuración y fuentes iguales producen
-resultados deterministas. Las diferencias de trigonometría entre plataformas
-pueden afectar los últimos bits.
+El núcleo no requiere instalación ni GPU. Para repetir la validación oficial hacen falta el notebook descargado de Kaggle y las [dependencias opcionales](docs/official-validation.md).
 
-**37 tests en la suite**: 32 ejecutables sin dependencias adicionales y 5
-regresiones opcionales contra el notebook oficial. Los 37 pasaron en el entorno
-local preparado; sin notebook los cinco opcionales se omiten explícitamente.
-La [CI](.github/workflows/tests.yml) comprueba Python 3.11–3.13 y la app web en cada subida.
-Ver [ejecuciones en GitHub Actions](https://github.com/AraceliFradejas/tailorpack-lab/actions).
+### Comprobaciones y próximos pasos
 
-## Búsqueda y escala
+Hay quince tests web y 37 tests Python: 32 se ejecutan sin dependencias adicionales y cinco necesitan el entorno oficial. GitHub Actions comprueba Python 3.11, 3.12 y 3.13 y construye la app. Puedes consultar las [ejecuciones](https://github.com/AraceliFradejas/tailorpack-lab/actions).
+
+Quiero ampliar las inicializaciones y los movimientos para conseguir mejoras más consistentes. También me interesa comparar una política aprendida con la búsqueda actual, pero todavía no he entrenado un modelo. Los resultados actuales son una base de aprendizaje.
+
+### Documentación
+
+- [Memoria del proyecto](MEMORIA.md).
+- [Reglas verificadas](docs/verification.md) y [validación oficial](docs/official-validation.md).
+- [Búsqueda y resultados](docs/search-results.md) y [pruebas de escala](docs/scaling.md).
+- [Arquitectura y evolución](docs/architecture-roadmap.md).
+- [Procedencia, autoría y licencia](docs/provenance.md).
+
+### Autora
+
+**© 2026 Araceli Fradejas Muñoz · tAilorPack**
+
+[GitHub](https://github.com/AraceliFradejas) · [LinkedIn](https://www.linkedin.com/in/araceli-fradejas-munoz-transformaciondigital/) · [X](https://x.com/AraceliFradejas) · [Medium](https://medium.com/@araceli.fradejas) · [YouTube](https://www.youtube.com/@aracelifradejasmunoz2758)
+
+Proyecto desarrollado con asistencia de OpenAI Codex. Licencia [Apache 2.0](LICENSE). La estética del cubo es una inspiración visual; el proyecto es independiente.
+
+---
+
+## English version
+
+**Author: Araceli Fradejas Muñoz.**
+
+> Everything fits. Until you rotate it.
+
+tAilorPack is my geometry and optimization project inspired by [Kaggle Squares in Squares](https://www.kaggle.com/competitions/squares-in-squares). The task is to fit unit squares inside the smallest possible square container.
+
+After tAilorCode, I wanted another challenge I could learn from, include in my portfolio and enjoy trying. The project combines a reproducible Python lab with an interactive web app. Its colourful faces and dark edges take visual inspiration from a Rubik's cube.
+
+**Demo:** Vercel deployment in preparation. · **[Project report, in Spanish](MEMORIA.md)**
+
+### What you can do
+
+Move and rotate squares, check overlaps and container size, undo changes, run an automatic search, load the five- and ten-square references, and export a CSV. Valid personal records stay in your browser's Local Storage.
+
+The app uses vanilla JavaScript, SVG and a Web Worker. It has no accounts, game server or AI API. Python provides grid and constructive baselines, greedy search, simulated annealing, checkpoints and reproducible experiments.
+
+### Results and scope
+
+The saved five-square construction reduces the container side from 3 to 2.7071067822. The best ten-square search reduces it from 4 to 3.9100797962; only three of ten seeds improved, and the median remained 4.
+
+The saved candidate covers twenty puzzles and 1,986 rows. It was validated **offline against Kaggle's official v17 evaluator**, with a score of 28.7782488224 over the 1,000-puzzle universe, including missing-puzzle penalties. No Kaggle submission has been sent. Browser validation and a downloaded CSV do not establish official acceptance.
+
+### Run locally
+
+With Node.js 22 or later:
 
 ```sh
-# Comparar greedy y annealing en diez semillas
-python3 -m tailorpack.benchmark --ns 10 --evaluations 10000 --out runs/search-n10
-
-# Cinco tamaños, dos semillas, procesos y checkpoints
-python3 -m tailorpack.scale --ns 10 100 250 500 1000 --seeds 0 1 \
-  --evaluations 30 --workers 2 --checkpoint-every 10 \
-  --warm-start examples/m2-best/candidate_NOT_VALIDATED.csv --out runs/scale
-
-# Regenerar las figuras SVG a partir de los resultados guardados
-python3 -m tailorpack.portfolio
+git clone https://github.com/AraceliFradejas/tailorpack-lab.git
+cd tailorpack-lab/app
+npm ci
+npm run dev
 ```
 
-Repetir el comando de escala recupera trabajos completos o continúa desde el
-último checkpoint. Guarda RNG, paso, configuración, hash del motor, estado actual
-y mejor solución. Para cambiar presupuesto o motor, usar otra carpeta; la
-reanudación exacta mantiene el horizonte original. `evaluations` cuenta propuestas,
-incluidas las reparaciones descartadas, no tiempo ni llamadas al evaluador oficial.
+Run `npm test` and `npm run build` from `app/`. From the repository root, Python 3.11 or later runs the lab without additional dependencies:
 
-![Aceleración de las comprobaciones geométricas sobre rejillas](docs/assets/performance.png)
-
-En n=1000, la validación espacial revisó 3.811 candidatos frente a 499.500 pares:
-≈85× en validación y ≈26× en reparación, mediana de tres repeticiones de esta
-carga. El CSV secuencial y paralelo coincidió byte a byte. Son mediciones de
-geometría e infraestructura, no una aceleración universal ni una campaña larga
-de optimización. [Datos y límites](docs/scaling.md).
-
-## Contrato de Kaggle y validación
-
-Verificado el **23-10-2026** en fuentes primarias: n=1..1000, cuadrados unitarios,
-centros continuos, ángulos en radianes, interiores sin intersección y contenedor
-cuadrado alineado a ejes. CSV: `id,n,square_id,x,y,angle`; el lado L se calcula.
-La métrica suma `L/sqrt(n)-1`, menor es mejor; un puzzle omitido recibe la
-penalización de la rejilla. Se omiten puzzles completos, no cuadrados individuales.
-
-El núcleo usa floats y SAT. El adaptador importa **sin modificar** el notebook
-oficial, comprueba el hash revisado y conserva los literales del CSV como cadenas.
-La validación oficial usa sus propias comprobaciones de intervalos. Para repetirla,
-descargar el notebook v17 y sample desde Kaggle a `data/official/` y seguir
-[estas instrucciones](docs/official-validation.md). Los archivos originales no se
-redistribuyen. Nuevas versiones requieren revisión y otro hash.
-
-`candidate_NOT_VALIDATED.csv` es el nombre conservador de todo archivo generado:
-generarlo no lo valida. Un informe oficial offline solo acredita el CSV cuyo hash
-registra. La aceptación en la plataforma exige una respuesta de Kaggle.
-
-## Arquitectura
-
-```mermaid
-flowchart LR
-    A[Rejilla o candidato previo] --> B[Construcción / greedy / annealing]
-    B --> C[Reparación y SAT local]
-    C --> D[Incumbente y checkpoint]
-    D --> E[CSV y métricas]
-    E --> F[Métrica oficial v17 offline]
-    F --> G[Informe con hashes]
+```sh
+python3 -m unittest discover -s tests -v
+python3 -m tailorpack --max-n 16 --seed 42 --out runs/demo
 ```
 
-| Ruta | Responsabilidad |
-|---|---|
-| `tailorpack/geometry.py` | Cuadrados, SAT y filtro espacial; referencia exhaustiva |
-| `tailorpack/solvers.py`, `search.py` | Construcción, movimientos, reparación y checkpoints |
-| `tailorpack/benchmark.py`, `profile_scale.py` | Comparaciones por semilla y rendimiento |
-| `tailorpack/scale.py` | Warm starts, catálogo y procesos paralelos |
-| `tailorpack/official.py` | Adaptador aislado del notebook oficial con hash fijado |
-| `tailorpack/export.py`, `render.py`, `portfolio.py` | CSV, SVG y galería |
-| `tests/`, `tools/check_release.py` | Tests y comprobaciones de la entrega |
-| `examples/` | Datos de referencia, candidatos e informes |
+There are fifteen web tests and 37 Python tests, including five optional official-evaluator checks. [GitHub Actions](https://github.com/AraceliFradejas/tailorpack-lab/actions) checks Python 3.11–3.13 and the web build. A trained policy remains a future experiment; the current optimizer is not a trained AI model.
 
-## Qué demuestra y qué falta
+### Author
 
-Demuestra un proceso completo: formular el problema, conservar controles,
-experimentar con presupuesto fijo, validar el resultado serializado, medir coste,
-reanudar exactamente y presentar resultados junto con sus fracasos.
+**© 2026 Araceli Fradejas Muñoz · tAilorPack**
 
-La meta de calidad de M2 sigue abierta: la búsqueda solo añadió una mejora nueva
-en n=10. Falta diversidad de inicializaciones, movimientos colectivos y mejores
-resultados consistentes. El filtro espacial conserva peor caso cuadrático.
-M3 se comprobó con tamaños representativos y presupuestos cortos, no con una
-campaña competitiva sobre todos los puzzles. No se prometen récords ni premios.
+[GitHub](https://github.com/AraceliFradejas) · [LinkedIn](https://www.linkedin.com/in/araceli-fradejas-munoz-transformaciondigital/) · [X](https://x.com/AraceliFradejas) · [Medium](https://medium.com/@araceli.fradejas) · [YouTube](https://www.youtube.com/@aracelifradejasmunoz2758)
 
-## Informe y publicación
-
-- [Caso de estudio de portfolio](docs/portfolio-case-study.md)
-- [Búsqueda, ablations y resultados negativos](docs/search-results.md)
-- [Mediciones de escala y reanudación](docs/scaling.md)
-- [Reglas verificadas y procedencia](docs/verification.md)
-- [Arquitectura y estado M0–M4](docs/architecture-roadmap.md)
-- [Notas de la versión](CHANGELOG.md) y [preparación para GitHub](docs/github.md)
-
-Copyright © 2026 Araceli Fradejas Muñoz. Publicado bajo [Apache 2.0](LICENSE).
-Desarrollado con asistencia de OpenAI Codex. La [procedencia](docs/provenance.md)
-separa código del proyecto, métodos matemáticos y material externo.
+Developed with OpenAI Codex assistance. [Apache 2.0](LICENSE). See the Spanish [project report](MEMORIA.md) and [provenance](docs/provenance.md) for the technical journey and external sources.

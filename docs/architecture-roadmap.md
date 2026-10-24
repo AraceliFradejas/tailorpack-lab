@@ -17,8 +17,8 @@ y ángulos, sin confundirlos con vértices ni esquinas inferiores.
 | Solvers | Rejilla, familia n=5, greedy y annealing | Movimientos colectivos e inicializaciones diversas |
 | Evaluación | Métrica local y adaptador oficial v17 con hash | Revisar cambios futuros de Kaggle |
 | Artefactos | CSV, JSON, SVG, checkpoints y catálogo por n | Campañas de mayor presupuesto |
-| Calidad | 37 tests, CI definida y comprobador de entrega | Ejecutar CI en el futuro repositorio |
-| Presentación | README, galería, caso de estudio, ablations y guion | Elegir licencia, publicar y grabar si se desea |
+| Calidad | 37 tests, CI definida y comprobador de entrega | Mantener CI en GitHub Actions |
+| Presentación | README, galería, caso de estudio, ablations y guion | Ampliar la demo y los experimentos |
 
 Decisiones: biblioteca estándar para ejecutar sin instalaciones; presupuesto por
 número de muestras, no por reloj; orden estable y RNG privado; entorno separado
@@ -58,13 +58,11 @@ dispersos; conserva coste cuadrático en el peor caso. Ver `scaling.md`.
    paralelismo entre puzzles, checkpoint y caché. Medir antes de añadir NumPy,
    SciPy, compilación o GPU. Aceptación: coste/beneficio documentado hasta n=1000,
    sin degradar mejores soluciones.
-5. **M4 — Entrega local de portfolio preparada.** README consolidado, galería,
-   gráfico de rendimiento, caso de estudio, informe de fracasos y ablations,
-   notas de versión, guion de demo y revisión de procedencia. Apache 2.0 está
-   preparada como propuesta; falta elección definitiva del propietario.
-   La reproducción limpia se registra en `release-validation.md`; el CSV mantiene
-   su contraste oficial. Publicación, release remota y envío quedan pendientes
-   de solicitud del usuario, no se presentan como hechos consumados.
+5. **M4 — Portfolio publicado en GitHub.** Código, app estática, figuras,
+   documentación y CI publicados con licencia Apache 2.0 y autoría de Araceli
+   Fradejas Muñoz. La [memoria](../MEMORIA.md) recoge el recorrido y la
+   [guía de la app](../app/README.md) explica el despliegue en Vercel.
+   El envío a Kaggle sigue pendiente.
 
 No prometer récords ni premios. Para un portfolio es valioso mostrar un resultado
 modesto correcto y por qué una búsqueda no mejora al control. En la demo, incluir

@@ -10,7 +10,7 @@ from sync_references import build_references
 def check(root):
     errors=[]
     for path in root.rglob("*.md"):
-        if any(part in {"runs",".venv",".git"} for part in path.relative_to(root).parts):
+        if any(part in {"runs",".venv",".git","work-local","work","node_modules"} for part in path.relative_to(root).parts):
             continue
         for target in re.findall(r'\]\(([^\s)]+)(?:\s+"[^"]*")?\)',path.read_text(encoding="utf-8")):
             if "://" in target or target.startswith("#") or target.startswith("mailto:"):

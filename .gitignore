@@ -12,3 +12,21 @@ data/official/
 kaggle.json
 node_modules/
 .vercel/
+
+# Material de trabajo y entregas locales
+work-local/
+work/
+MANIFEST.sha256.json
+*.zip
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
+# Preparativos internos, sustituidos por README y MEMORIA
+/docs/github.md
+/docs/publication-plan.md
+/docs/release-validation.*
+/docs/release-notes.md
+/docs/demo-script.md
+/docs/LICENSE-Apache-2.0.proposed.txt
+/tools/package_release.py
