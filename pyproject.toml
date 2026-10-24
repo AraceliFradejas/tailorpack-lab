@@ -8,6 +8,11 @@ version = "0.1.0"
 description = "Reproducible square packing experiments; not the Kaggle evaluator"
 requires-python = ">=3.11"
 dependencies = []
+authors = [{name = "Araceli Fradejas Muñoz"}]
+license = {file = "LICENSE"}
+
+[project.urls]
+Repository = "https://github.com/AraceliFradejas/tailorpack-lab"
 
 [project.scripts]
 tailorpack = "tailorpack.__main__:main"

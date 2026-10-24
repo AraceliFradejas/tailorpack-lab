@@ -31,13 +31,10 @@ Las referencias mantienen el hash y geometría del candidato evaluado.
 Subir una sola raíz con `README.md`, `tailorpack/`, `app/`, `tests/`, `tools/`,
 `docs/`, `examples/` y `.github/`. Los ZIP son entregables, no el contenido del
 repositorio. `runs/`, `app/dist/`, entornos y descargas están excluidos.
-Se propone un primer commit local en `main`. La visibilidad y licencia definitiva
-se decidirán con el propietario; Apache 2.0 sigue preparada como propuesta.
-
-El conector permite consultar la cuenta y trabajar con repositorios existentes,
-pero no expone creación de repositorios. El navegador mostró la pantalla de inicio
-de sesión al abrir `https://github.com/new`; no se han introducido credenciales ni
-creado un repositorio remoto durante esta revisión.
+La autora autorizó publicación pública con su autoría el 24-10-2026.
+Licencia Apache 2.0 aplicada; `NOTICE` identifica a Araceli Fradejas Muñoz
+como autora y documenta la asistencia de Codex.
+Destino: https://github.com/AraceliFradejas/tailorpack-lab.
 
 ## Kaggle: participar sí, prometer competitividad no
 

@@ -1,4 +1,4 @@
-# Procedencia y licencia propuesta
+# Procedencia, autoría y licencia
 
 ## Código y figuras de esta entrega
 
@@ -24,21 +24,22 @@ Acceso y redistribución deben seguir las reglas vigentes de Kaggle.
 Las dependencias opcionales pandas y mpmath se instalan aparte; sus fuentes,
 binarios y ruedas no se incluyen. El núcleo usa la biblioteca estándar de Python.
 
-## Licencia pendiente de decisión del propietario
+## Autoría y licencia
 
-Se preparó [Apache 2.0 como propuesta](LICENSE-Apache-2.0.proposed.txt), obtenida de
-la [fuente oficial de Apache](https://www.apache.org/licenses/LICENSE-2.0.txt).
-Ese archivo es el texto de referencia para revisar, no una declaración de que
-el propietario ya ha concedido esa licencia al código.
+Copyright © 2026 Araceli Fradejas Muñoz (@AraceliFradejas).
+Proyecto creado por Araceli Fradejas Muñoz con asistencia de OpenAI Codex.
+La autoría del proyecto no implica la invención de los métodos matemáticos
+ni la propiedad de las fuentes oficiales de Kaggle.
 
-Antes de publicar, confirmar la elección y mover el texto aprobado a `LICENSE`
-en la raíz; actualizar README y metadatos en consecuencia. No se han inventado
-un titular de copyright ni una entidad legal. Revisar de nuevo las obligaciones
-de licencia del concurso si se prepara una solución premiada.
+El código, documentación y figuras propias se publican bajo [Apache 2.0](../LICENSE),
+autorizada por la autora el 24-10-2026. El texto procede de la
+[fuente oficial de Apache](https://www.apache.org/licenses/LICENSE-2.0.txt).
+Consultar también [NOTICE](../NOTICE). Las fuentes externas conservan su atribución
+y sus condiciones; revisar de nuevo las obligaciones del concurso para una solución premiada.
 
 ## Alcance de la publicación preparada
 
 Incluye código, documentación, figuras propias, candidatos e informes pequeños.
 Excluye datos descargados, credenciales, entornos, cachés y checkpoints de runs.
-No se ha creado repositorio remoto, subido contenido, publicado release ni enviado
-predicción. La validación offline no afirma aceptación por Kaggle.
+Repositorio público: https://github.com/AraceliFradejas/tailorpack-lab.
+No se ha publicado una release ni enviado una predicción. La validación offline no afirma aceptación por Kaggle.

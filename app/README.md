@@ -74,8 +74,8 @@ está separado en `cube.css`, sobre los estilos base legibles de `style.css`.
 `tools/`: servidor local y build estático. [Comprobaciones realizadas](docs/qa.md).
 La [vista móvil](docs/preview-mobile.jpg) se comprobó a 390 px sin desbordamiento
 horizontal. Ratón y teclado se probaron en el navegador; no se probó un dispositivo
-táctil físico. La licencia definitiva del proyecto sigue pendiente de decisión
-del propietario.
+táctil físico. Autora: Araceli Fradejas Muñoz (@AraceliFradejas). Licencia Apache 2.0;
+consultar `LICENSE` y `NOTICE` en la raíz del repositorio.
 
 Las referencias se regeneran desde la raíz del portfolio con
 `python3 tools/sync_references.py`; `--check` verifica que no haya divergencias

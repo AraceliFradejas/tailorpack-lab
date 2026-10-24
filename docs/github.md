@@ -14,9 +14,7 @@ Temas sugeridos: `python`, `computational-geometry`, `optimization`,
 
 ## Revisión final
 
-1. Confirmar licencia definitiva. Apache 2.0 está preparada en
-   [este texto propuesto](LICENSE-Apache-2.0.proposed.txt); al aprobarla, colocarla
-   como `LICENSE` y actualizar README. Aún no se ha aplicado a la obra.
+1. Licencia Apache 2.0 aplicada con autoría de Araceli Fradejas Muñoz. Ver `LICENSE` y `NOTICE`.
 2. Ejecutar `python3 tools/check_release.py` y los tests del README.
 3. Subir código, tests, docs, figuras y ejemplos. Excluir descargas de Kaggle,
    credenciales, entornos y `runs/`; el `.gitignore` cubre estas rutas.
@@ -31,6 +29,5 @@ No decir «submission aceptada», «récord», «top de Kaggle» ni «todos los 
 optimizados». Usar el [caso de estudio](portfolio-case-study.md) como texto base
 y la galería del README como vista inicial.
 
-Esta tarea no ha creado un repositorio remoto, elegido una licencia definitiva,
-subido archivos ni publicado una release. Para que el agente publique después,
-hará falta indicar el repositorio de destino y solicitar esa publicación.
+Destino público autorizado por la autora el 24-10-2026:
+https://github.com/AraceliFradejas/tailorpack-lab. No se ha publicado una release.

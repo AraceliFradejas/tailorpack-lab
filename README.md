@@ -3,7 +3,9 @@
 Geometría computacional y optimización reproducible para explorar
 [Kaggle Squares in Squares](https://www.kaggle.com/competitions/squares-in-squares).
 
-Nombre de repositorio propuesto: **`tailorpack-lab`**. El juego mantiene su nombre
+**Autora: [Araceli Fradejas Muñoz](https://github.com/AraceliFradejas).**
+
+Repositorio: **[`tailorpack-lab`](https://github.com/AraceliFradejas/tailorpack-lab)**. El juego mantiene su nombre
 tAilorPack. [Revisión antes de publicar y siguientes pasos](docs/publication-plan.md).
 
 **Proyecto de portfolio v0.1.0.** Construcción geométrica, búsqueda general y
@@ -145,7 +147,6 @@ campaña competitiva sobre todos los puzzles. No se prometen récords ni premios
 - [Arquitectura y estado M0–M4](docs/architecture-roadmap.md)
 - [Notas de la versión](CHANGELOG.md) y [preparación para GitHub](docs/github.md)
 
-Apache 2.0 está incluida como [propuesta de licencia](docs/LICENSE-Apache-2.0.proposed.txt)
-para revisión del propietario antes de publicar. No se ha aplicado una licencia
-definitiva ni publicado repositorio, release o predicción. La revisión de
-[procedencia](docs/provenance.md) separa código propio, fuentes y archivos externos.
+Copyright © 2026 Araceli Fradejas Muñoz. Publicado bajo [Apache 2.0](LICENSE).
+Desarrollado con asistencia de OpenAI Codex. La [procedencia](docs/provenance.md)
+separa código del proyecto, métodos matemáticos y material externo.
