@@ -16,6 +16,7 @@ jobs:
       - run: python -m tailorpack.portfolio
       - run: python tools/check_release.py
       - run: python tools/check_web_benchmark.py
+      - run: python tools/check_agent_reports.py
   web:
     runs-on: ubuntu-latest
     defaults:

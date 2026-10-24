@@ -1,0 +1,118 @@
+{
+  "status": "LOCAL_FLOAT_NOT_OFFICIALLY_VALIDATED",
+  "provider": "scripted_v1_control",
+  "model": null,
+  "modelExecuted": false,
+  "inferenceAttempts": 0,
+  "inferenceResponses": 0,
+  "config": {
+    "n": 17,
+    "totalBudget": 10000,
+    "maxTrial": 2500,
+    "maxDecisions": 8,
+    "seeds": [
+      10,
+      11,
+      12,
+      13
+    ]
+  },
+  "initialL": 5,
+  "bestL": 5,
+  "usedProposals": 10000,
+  "stopReason": "proposal_limit",
+  "trials": [
+    {
+      "id": 0,
+      "strategy": "v1",
+      "seed": 10,
+      "budget": 2500,
+      "L": 5
+    },
+    {
+      "id": 1,
+      "strategy": "v1",
+      "seed": 11,
+      "budget": 2500,
+      "L": 5
+    },
+    {
+      "id": 2,
+      "strategy": "v1",
+      "seed": 12,
+      "budget": 2500,
+      "L": 5
+    },
+    {
+      "id": 3,
+      "strategy": "v1",
+      "seed": 13,
+      "budget": 2500,
+      "L": 5
+    }
+  ],
+  "events": [
+    {
+      "turn": 0,
+      "event": "experiment",
+      "trial": 0,
+      "decision": {
+        "tool": "run_experiment",
+        "arguments": {
+          "strategy": "v1",
+          "seed": 10,
+          "budget": 2500
+        }
+      }
+    },
+    {
+      "turn": 1,
+      "event": "experiment",
+      "trial": 1,
+      "decision": {
+        "tool": "run_experiment",
+        "arguments": {
+          "strategy": "v1",
+          "seed": 11,
+          "budget": 2500
+        }
+      }
+    },
+    {
+      "turn": 2,
+      "event": "experiment",
+      "trial": 2,
+      "decision": {
+        "tool": "run_experiment",
+        "arguments": {
+          "strategy": "v1",
+          "seed": 12,
+          "budget": 2500
+        }
+      }
+    },
+    {
+      "turn": 3,
+      "event": "experiment",
+      "trial": 3,
+      "decision": {
+        "tool": "run_experiment",
+        "arguments": {
+          "strategy": "v1",
+          "seed": 13,
+          "budget": 2500
+        }
+      }
+    }
+  ],
+  "sources": {
+    "agent/campaign.mjs": "fb2cd53d879487de886f5032c2b995be0e45f31d4ba28283a9328eff71e4defc",
+    "agent/policies.mjs": "7bd4f3c17a99bc9000a9cf5583149cb454776366231b72ba7e23ebfff51fa45e",
+    "agent/protocol.mjs": "d689a38f2272b16c2f812575d5183cf7d4d2d8100f0e4c89d25ae8b31c5547bd",
+    "public/solver.js": "2bca9a2280d94f48cf83f8a0439cbf22b6b4e8142d548832b0b44cef39b6f4e7",
+    "public/solver-v1.js": "d834e44f89f9d247327f485e3a214211b8bb51e19adf9d7e6887ccfad736f711",
+    "public/search-moves.js": "dcf236fa7bd8bfa186b937a51175b0bf414651512c7463ba21e72680bf33d4fc",
+    "public/engine.js": "f07dd87c7df6a9a0ad1ad921bf7f8fb355c234a54db70d5b70a567aa288a4d47"
+  },
+  "candidate_sha256": "a9fd6878f8db1b55b6aa414ddd27a87ecb676e95290c7b9a70d7f090bd198493"
+}

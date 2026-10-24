@@ -70,7 +70,7 @@ No se añade límite de tiempo ni penalización de juego a las reglas oficiales.
 `public/`: controlador `app.js`, dibujo `board-view.js`, métricas `metrics.js`,
 persistencia `records.js`, geometría, solver, worker y referencias. El tema visual
 está separado en `cube.css`, sobre los estilos base legibles de `style.css`.
-`tests/`: 22 tests del motor y estado web, incluida una rejilla de mil cuadrados.
+`tests/`: 30 tests de JavaScript (22 del juego y 8 del investigador) del motor y estado web, incluida una rejilla de mil cuadrados.
 `tools/`: servidor local y build estático. [Comprobaciones realizadas](docs/qa.md).
 La [vista móvil](docs/preview-mobile.jpg) se comprobó a 390 px sin desbordamiento
 horizontal. Ratón y teclado se probaron en el navegador; no se probó un dispositivo
@@ -93,3 +93,10 @@ mejor estado de ambos. Las cifras al detenerla son parciales.
 Desde la raíz, `node app/tools/benchmark.mjs --out runs/web-v02` reproduce la serie
 definida por defecto. `python3 tools/check_web_benchmark.py` comprueba la evidencia
 guardada; `--folder runs/web-v02` comprueba una nueva ejecución.
+
+## Investigador desde Node
+
+`agent/` contiene un orquestador de experimentos y un adaptador local Ollama.
+No se copia a `dist/` ni se ejecuta en el navegador o Vercel. Los controles se han
+probado sin IA; Gemma sigue pendiente de configuración y ejecución real.
+Ver [guía del investigador](../docs/agent-research.md).

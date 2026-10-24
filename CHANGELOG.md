@@ -1,5 +1,14 @@
 # Historial
 
+## Investigador experimental — 24-10-2026
+
+- Orquestador Node con dos herramientas permitidas, contabilidad de propuestas,
+  rechazo de duplicados y límite de decisiones; sin ejecución de código del modelo.
+- Controles programados reproducidos con los motores reales y etiquetados sin IA.
+- Adaptador local Ollama con JSON estructurado y ocho tests nuevos. No se ha
+  ejecutado Gemma ni se afirma mejora de IA; configuración y evaluación pendientes.
+- Guía y memoria ampliadas; comprobador independiente de controles en Python.
+
 ## App 0.2.0 — 24-10-2026
 
 - Motor web v1 conservado sin cambios y v2 experimental con inicios alternativos,

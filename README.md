@@ -51,6 +51,12 @@ He añadido una segunda estrategia con otros puntos de partida, reinicios y movi
 
 En 240 ejecuciones, la v2 mejora los casos de 5, 17 y 37 cuadrados desde la rejilla. Las mejoras proceden de una construcción preparada: cuando ambos motores reciben ese mismo inicio, empatan. En los otros seis tamaños probados no hay mejora. La v2 también necesita más tiempo. He conservado los resultados y las limitaciones en el [informe v0.2](docs/search-v02.md).
 
+### Investigador experimental · siguiente paso hacia Gemma
+
+He preparado un investigador que puede elegir motor, semilla y presupuesto, ejecutar experimentos y conservar el mejor resultado. Tiene dos herramientas acotadas y registra lo que realmente ejecuta.
+
+Los controles programados ya funcionan con los motores reales. El adaptador local para Gemma mediante Ollama está preparado, pero **todavía no he ejecutado Gemma**: falta configurar el modelo. La app de Vercel sigue usando sus motores locales. El [documento del investigador](docs/agent-research.md) explica cómo probarlo y qué queda por evaluar.
+
 ### Resultados y relación con Kaggle
 
 | Caso | Lado de la rejilla | Mejor lado guardado | Origen |
@@ -117,7 +123,7 @@ El núcleo no requiere instalación ni GPU. Para repetir la validación oficial 
 
 ### Comprobaciones y próximos pasos
 
-Hay 22 tests web y 37 tests Python: 32 se ejecutan sin dependencias adicionales y cinco necesitan el entorno oficial. GitHub Actions comprueba Python 3.11, 3.12 y 3.13 y construye la app. Puedes consultar las [ejecuciones](https://github.com/AraceliFradejas/tailorpack-lab/actions).
+Hay 30 tests de JavaScript (22 de juego y 8 del investigador) y 37 tests Python: 32 se ejecutan sin dependencias adicionales y cinco necesitan el entorno oficial. GitHub Actions comprueba Python 3.11, 3.12 y 3.13 y construye la app. Puedes consultar las [ejecuciones](https://github.com/AraceliFradejas/tailorpack-lab/actions).
 
 Quiero ampliar las inicializaciones y los movimientos para conseguir mejoras más consistentes. También me interesa comparar una política aprendida con la búsqueda actual, pero todavía no he entrenado un modelo. Los resultados actuales son una base de aprendizaje.
 
@@ -126,6 +132,7 @@ Quiero ampliar las inicializaciones y los movimientos para conseguir mejoras má
 - [Memoria del proyecto](MEMORIA.md).
 - [Reglas verificadas](docs/verification.md) y [validación oficial](docs/official-validation.md).
 - [Comparación v0.2](docs/search-v02.md).
+- [Investigador experimental y preparación de Gemma](docs/agent-research.md).
 - [Búsqueda y resultados](docs/search-results.md) y [pruebas de escala](docs/scaling.md).
 - [Arquitectura y evolución](docs/architecture-roadmap.md).
 - [Procedencia, autoría y licencia](docs/provenance.md).
@@ -166,6 +173,10 @@ In **Laboratorio → Comparar actual y nuevo**, both engines receive the same st
 
 Across 240 runs, v2 improves the 5-, 17- and 37-square grid starts. These gains come from the explicit construction: both engines tie when given the same constructed start. Neither improves the other six tested sizes. V2 takes more time. See the [v0.2 report, in Spanish](docs/search-v02.md).
 
+### Experimental researcher
+
+A Node.js researcher can select a strategy, seed and proposal budget, execute bounded experiments and keep the best measured result. The scripted controls run real solvers and are labelled as **no model inference**. An Ollama adapter is prepared, but **Gemma has not been executed**. Model setup and evaluation remain pending; the public web app continues to use its local engines. See the [researcher guide, in Spanish](docs/agent-research.md).
+
 ### Results and scope
 
 The saved five-square construction reduces the container side from 3 to 2.7071067822. The best ten-square search reduces it from 4 to 3.9100797962; only three of ten seeds improved, and the median remained 4.
@@ -190,7 +201,7 @@ python3 -m unittest discover -s tests -v
 python3 -m tailorpack --max-n 16 --seed 42 --out runs/demo
 ```
 
-There are 22 web tests and 37 Python tests, including five optional official-evaluator checks. [GitHub Actions](https://github.com/AraceliFradejas/tailorpack-lab/actions) checks Python 3.11–3.13 and the web build. A trained policy remains a future experiment; the current optimizer is not a trained AI model.
+There are 30 JavaScript tests (22 game tests and 8 researcher tests) and 37 Python tests, including five optional official-evaluator checks. [GitHub Actions](https://github.com/AraceliFradejas/tailorpack-lab/actions) checks Python 3.11–3.13 and the web build. A trained policy remains a future experiment; the current optimizer is not a trained AI model.
 
 ### Author
 

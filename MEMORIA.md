@@ -107,7 +107,7 @@ El guardado local comprueba los resultados al leerlos. Si hay datos corruptos o 
 
 ## 8 Validación y resultados conservados
 
-La suite Python contiene 37 tests: 32 funcionan con la biblioteca estándar y cinco necesitan el notebook y las dependencias opcionales. Los 37 pasaron en el entorno local preparado; una ejecución sin ese entorno omite explícitamente los cinco oficiales. La app tiene 22 tests de geometría, búsqueda y estado.
+La suite Python contiene 37 tests: 32 funcionan con la biblioteca estándar y cinco necesitan el notebook y las dependencias opcionales. Los 37 pasaron en el entorno local preparado; una ejecución sin ese entorno omite explícitamente los cinco oficiales. Hay 30 tests de JavaScript: 22 de geometría, búsqueda y estado, y ocho del investigador experimental.
 
 GitHub Actions comprueba Python 3.11, 3.12 y 3.13 y ejecuta los tests y el build de la app. Las [ejecuciones públicas](https://github.com/AraceliFradejas/tailorpack-lab/actions) permiten consultar el resultado correspondiente a cada commit.
 
@@ -164,6 +164,16 @@ La serie de diez semillas, nueve tamaños y controles con construcción comparti
 La primera construcción pasaba las comprobaciones locales, pero el evaluador oficial dejaba algunos contactos como indecidibles. Añadí separación positiva entre las piezas de cada bloque y repetí los experimentos. El CSV corregido de nueve puzzles fue aceptado offline por el evaluador v17. El [informe v0.2](docs/search-v02.md) conserva protocolo, resultados, tiempos y validación; no se ha enviado a Kaggle.
 
 Esta ampliación está implementada en el motor JavaScript y se puede reproducir desde Node. El motor histórico de Python y las referencias anteriores siguen conservados. No he conectado Gemma: primero he creado una comparación que permitirá medir si un futuro agente aporta una mejora.
+
+## 14 Preparación del agente investigador
+
+He añadido un orquestador en Node que recibe una política y le permite seleccionar experimentos con los motores existentes. Cada decisión debe ajustarse a dos herramientas: ejecutar una búsqueda o terminar. La aplicación comprueba argumentos, semillas, repeticiones y presupuesto antes de ejecutar nada. El modelo no puede usar una terminal ni publicar archivos.
+
+Primero probé el circuito con dos controles programados: uno usa siempre v1 y otro alterna v1/v2. Con diez mil propuestas para diecisiete piezas obtuvieron lados 5 y 4,7071068202. La diferencia vuelve a proceder de la construcción preparada de v2; no es un resultado de inteligencia artificial. Los informes indican que no se ha ejecutado un modelo.
+
+El adaptador de Ollama está implementado con respuestas JSON acotadas, timeout y registro separado de intentos y respuestas de inferencia. Sus pruebas usan respuestas de ejemplo. Todavía no hay una ejecución real de Gemma ni un proveedor configurado. La interfaz pública permanece como juego local; el investigador se ejecuta desde la CLI.
+
+El [documento de esta fase](docs/agent-research.md) conserva comandos, controles y límites. El siguiente paso requiere elegir dónde ejecutar Gemma y comparar sus decisiones con estos controles, incluyendo errores y tiempo de inferencia.
 
 ## Autora
 

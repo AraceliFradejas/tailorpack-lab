@@ -1,0 +1,47 @@
+{
+  "node": "v22.23.2",
+  "platform": "darwin",
+  "arch": "arm64",
+  "rows": [
+    {
+      "turn": 0,
+      "kind": "decision",
+      "seconds": 0.00004591599999999829
+    },
+    {
+      "turn": 0,
+      "kind": "solver",
+      "seconds": 0.07527145900000001
+    },
+    {
+      "turn": 1,
+      "kind": "decision",
+      "seconds": 0.00002137500000000614
+    },
+    {
+      "turn": 1,
+      "kind": "solver",
+      "seconds": 0.13575637499999998
+    },
+    {
+      "turn": 2,
+      "kind": "decision",
+      "seconds": 0.000021707999999989625
+    },
+    {
+      "turn": 2,
+      "kind": "solver",
+      "seconds": 0.05073779099999999
+    },
+    {
+      "turn": 3,
+      "kind": "decision",
+      "seconds": 0.0000175830000000019
+    },
+    {
+      "turn": 3,
+      "kind": "solver",
+      "seconds": 0.12945858400000004
+    }
+  ]
+}
