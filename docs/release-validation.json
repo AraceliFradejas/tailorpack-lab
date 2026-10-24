@@ -1,0 +1,88 @@
+{
+  "status": "CLEAN_LOCAL_COPY_VERIFIED_NOT_REMOTE_CI",
+  "python": "Python 3.12.13",
+  "environment": "New venv without pip or installed packages; separate unzipped copy; same host OS",
+  "tests_discovered": 37,
+  "tests_passed": 32,
+  "tests_skipped": 5,
+  "skip_reason": "Optional official notebook/dependencies deliberately absent",
+  "winning_seed_side": 3.9100797962141782,
+  "commands": [
+    {
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "returncode": 0,
+      "output": "{\"status\": \"LOCAL_PROTOTYPE_NOT_OFFICIALLY_VALIDATED\", \"output\": \"/var/folders/7z/nt5h9f012cq9bcpkyqxzx5400000gp/T/tmpv69z9bqw/a\", \"subset_improvement\": 0.1309858290359065}\n{\"status\": \"LOCAL_PROTOTYPE_NOT_OFFICIALLY_VALIDATED\", \"output\": \"/var/folders/7z/nt5h9f012cq9bcpkyqxzx5400000gp/T/tmpv69z9bqw/b\", \"subset_improvement\": 0.1309858290359065}\ntest_contact_accepted_overlap_rejected (test_official.OfficialRegressionTests.test_contact_accepted_overlap_rejected) ... skipped 'Optional: set TAILORPACK_METRIC_NOTEBOOK and install requirements-official.txt'\ntest_duplicate_or_missing_square (test_official.OfficialRegressionTests.test_duplicate_or_missing_square) ... skipped 'Optional: set TAILORPACK_METRIC_NOTEBOOK and install requirements-official.txt'\ntest_invalid_decimal (test_official.OfficialRegressionTests.test_invalid_decimal) ... skipped 'Optional: set TAILORPACK_METRIC_NOTEBOOK and install requirements-official.txt'\ntest_invalid_n_is_global_error (test_official.OfficialRegressionTests.test_invalid_n_is_global_error) ... skipped 'Optional: set TAILORPACK_METRIC_NOTEBOOK and install requirements-official.txt'\ntest_missing_puzzle_penalty (test_official.OfficialRegressionTests.test_missing_puzzle_penalty) ... skipped 'Optional: set TAILORPACK_METRIC_NOTEBOOK and install requirements-official.txt'\ntest_unreviewed_notebook_rejected (test_official.SnapshotTests.test_unreviewed_notebook_rejected) ... ok\ntest_checkpoint_rejects_source_change (test_scale.ScaleTests.test_checkpoint_rejects_source_change) ... ok\ntest_exact_resume_and_completed_cache (test_scale.ScaleTests.test_exact_resume_and_completed_cache) ... ok\ntest_grid_1000_spatial_validation (test_scale.ScaleTests.test_grid_1000_spatial_validation) ... ok\ntest_parallel_and_serial_outputs_and_cache (test_scale.ScaleTests.test_parallel_and_serial_outputs_and_cache) ... ok\ntest_repair_matches_exhaustive_random_layouts (test_scale.ScaleTests.test_repair_matches_exhaustive_random_layouts) ... ok\ntest_search_matches_exhaustive (test_scale.ScaleTests.test_search_matches_exhaustive) ... ok\ntest_spatial_validation_contains_all_collisions (test_scale.ScaleTests.test_spatial_validation_contains_all_collisions) ... ok\ntest_warm_start_cannot_degrade_best (test_scale.ScaleTests.test_warm_start_cannot_degrade_best) ... ok\ntest_coincident_centres_declined (test_search.SearchTests.test_coincident_centres_declined) ... ok\ntest_improves_loose_feasible_start (test_search.SearchTests.test_improves_loose_feasible_start) ... ok\ntest_invalid_budget_method_initial (test_search.SearchTests.test_invalid_budget_method_initial) ... ok\ntest_repair_rotated_overlaps (test_search.SearchTests.test_repair_rotated_overlaps) ... ok\ntest_repair_translated_family (test_search.SearchTests.test_repair_translated_family) ... ok\ntest_reproducible_and_never_worse (test_search.SearchTests.test_reproducible_and_never_worse) ... ok\ntest_csv_roundtrip (test_tailorpack.ArtifactTests.test_csv_roundtrip) ... ok\ntest_end_to_end_reproducibility (test_tailorpack.ArtifactTests.test_end_to_end_reproducibility) ... ok\ntest_export_rejects_before_overwrite (test_tailorpack.ArtifactTests.test_export_rejects_before_overwrite) ... ok\ntest_area_bound (test_tailorpack.GeometryTests.test_area_bound) ... ok\ntest_contact_and_gap (test_tailorpack.GeometryTests.test_contact_and_gap) ... ok\ntest_invalid_packing (test_tailorpack.GeometryTests.test_invalid_packing) ... ok\ntest_nonfinite (test_tailorpack.GeometryTests.test_nonfinite) ... ok\ntest_rotated_overlap_and_separation (test_tailorpack.GeometryTests.test_rotated_overlap_and_separation) ... ok\ntest_rotation_bounds (test_tailorpack.GeometryTests.test_rotation_bounds) ... ok\ntest_translation_and_permutation (test_tailorpack.GeometryTests.test_translation_and_permutation) ... ok\ntest_constructive_family (test_tailorpack.SolverTests.test_constructive_family) ... ok\ntest_fallback (test_tailorpack.SolverTests.test_fallback) ... ok\ntest_five_improvement_and_ablation (test_tailorpack.SolverTests.test_five_improvement_and_ablation) ... ok\ntest_grid_domain (test_tailorpack.SolverTests.test_grid_domain) ... ok\ntest_grid_small_suite (test_tailorpack.SolverTests.test_grid_small_suite) ... ok\ntest_invalid_parameters (test_tailorpack.SolverTests.test_invalid_parameters) ... ok\ntest_seed_reproducibility (test_tailorpack.SolverTests.test_seed_reproducibility) ... ok\n\n----------------------------------------------------------------------\nRan 37 tests in 0.471s\n\nOK (skipped=5)\n"
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "tailorpack",
+        "--max-n",
+        "16",
+        "--seed",
+        "42",
+        "--out",
+        "runs/clean-demo"
+      ],
+      "returncode": 0,
+      "output": "{\"status\": \"LOCAL_PROTOTYPE_NOT_OFFICIALLY_VALIDATED\", \"output\": \"runs/clean-demo\", \"subset_improvement\": 0.1309858290359065}\n"
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "tailorpack.scale",
+        "--ns",
+        "10",
+        "1000",
+        "--seeds",
+        "0",
+        "--evaluations",
+        "10",
+        "--workers",
+        "2",
+        "--warm-start",
+        "examples/m2-best/candidate_NOT_VALIDATED.csv",
+        "--out",
+        "runs/clean-scale"
+      ],
+      "returncode": 0,
+      "output": "n=10 seed=0 side=3.9100797962 cached=False\nn=1000 seed=0 side=32.0000000000 cached=False\n"
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "tailorpack.portfolio"
+      ],
+      "returncode": 0,
+      "output": "Generated docs/assets/gallery.svg and performance.svg from saved artifacts\n"
+    },
+    {
+      "command": [
+        "python",
+        "tools/check_release.py"
+      ],
+      "returncode": 0,
+      "output": "Release checks passed: local links, final CSV hash, 20 accepted puzzles, 1986 rows, figures\n"
+    },
+    {
+      "command": [
+        "python",
+        "-c",
+        "from tailorpack.search import search; r=search(10,seed=4,evaluations=10000); assert abs(r.best_side-3.9100797962141782)<1e-12; print(\"Winning seed reproduced:\",r.best_side)"
+      ],
+      "returncode": 0,
+      "output": "Winning seed reproduced: 3.9100797962141782\n"
+    }
+  ]
+}

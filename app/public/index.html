@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f6f5ef">
+  <meta name="description" content="Un pequeño juego de geometría. Mueve, gira y encaja cuadrados en el menor espacio posible.">
+  <title>tAilorPack — Todo encaja</title>
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="cube.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="./" aria-label="tAilorPack, inicio"><span class="brandmark" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>tAilorPack<span class="brandtag">PLAYGROUND</span></a>
+    <nav aria-label="Modo"><button class="nav-button active" id="play-tab" aria-pressed="true">Jugar</button><button class="nav-button" id="lab-tab" aria-pressed="false">Laboratorio</button></nav>
+    <button class="project-button" id="about-open">El proyecto <span aria-hidden="true">↗</span></button>
+  </header>
+  <main>
+    <section class="intro">
+      <div><p class="eyebrow"><span></span> UN PEQUEÑO RETO DE GEOMETRÍA</p><h1>Todo encaja.<br><em>Hasta que lo giras.</em></h1></div>
+      <p class="intro-copy">Mueve y gira los cuadrados.<br>Encuentra el contenedor más pequeño.<br><strong>Menos espacio. Más ingenio.</strong></p>
+    </section>
+    <div class="workspace">
+      <section class="board-card" aria-label="Zona de juego">
+        <div class="board-header"><span class="section-title"><span class="tiny-square"></span> TU TABLERO <span id="board-n">/ 05</span></span><span class="valid-pill" id="valid-pill"><span></span> Sin solapamientos</span></div>
+        <div class="board-wrap">
+          <svg id="board" viewBox="-.8 -3.8 4.6 4.6" aria-label="Tablero de cuadrados. Selecciona uno y usa las flechas para moverlo, Q y E para girarlo." role="group" tabindex="0">
+            <defs><pattern id="dots" width=".25" height=".25" patternUnits="userSpaceOnUse"><circle cx="0" cy="0" r=".009" fill="#c8c6bf"/></pattern></defs>
+            <rect id="board-bg" x="-1000" y="-1000" width="2000" height="2000" fill="url(#dots)"/>
+            <rect id="container" fill="none" stroke="#293a36" stroke-width=".018" stroke-dasharray=".055 .045"/>
+            <g id="pieces"></g>
+          </svg>
+          <div class="board-overlay"><span class="live-dot"></span><span id="board-note">Arrastra un cuadrado para empezar</span></div>
+          <div class="board-zoom"><button id="fit" title="Ajustar tablero" aria-label="Ajustar tablero">⛶</button><button id="undo" title="Deshacer" aria-label="Deshacer último cambio" disabled>↶</button></div>
+        </div>
+        <div class="board-footer"><span><kbd>↑↓←→</kbd> mover <kbd>Q</kbd><kbd>E</kbd> girar</span><span>Un cuadrado. Infinitas posibilidades.</span></div>
+      </section>
+      <aside class="control-panel" aria-label="Controles">
+        <div class="challenge-head"><span class="eyebrow">01 / EL RETO</span><button id="help-open" class="text-button" aria-label="Cómo jugar">¿Cómo se juega?</button></div>
+        <h2>¿Cuántos encajamos?</h2>
+        <div class="presets" aria-label="Elegir número de cuadrados"><button data-n="5" class="selected" aria-pressed="true">5</button><button data-n="10" aria-pressed="false">10</button><button data-n="25" aria-pressed="false">25</button><button data-n="100" aria-pressed="false">100</button></div>
+        <div class="custom-n"><label for="n-input">O elige tu propio reto</label><input id="n-input" type="number" min="1" max="1000" value="5" inputmode="numeric" aria-label="Número de cuadrados"><button id="n-apply" aria-label="Aplicar número de cuadrados">→</button></div>
+        <div class="score-grid"><div><span class="stat-label">LADO DEL CONTENEDOR</span><strong id="side-value">3,0000</strong><small>unidades</small></div><div><span class="stat-label">FRENTE A LA REJILLA</span><strong id="improvement-value" class="accent">0,00<span>%</span></strong><small id="improvement-note">Tu punto de partida</small></div></div>
+        <div class="occupancy"><div><span>Ocupación del espacio</span><strong id="occupancy-value">55,6 %</strong></div><progress id="occupancy-meter" max="100" value="55.6" aria-label="Porcentaje de ocupación"></progress></div>
+        <div class="selected-editor"><div class="editor-title"><span class="section-title">CUADRADO <b id="selected-id">01</b></span><span id="angle-value">0°</span></div><label class="sr-only" for="angle">Ángulo del cuadrado seleccionado</label><input id="angle" type="range" min="-180" max="180" step="1" value="0"><div class="rotation-buttons"><button id="rotate-left">↶ <span>Girar −5°</span></button><button id="rotate-right"><span>Girar +5°</span> ↷</button></div></div>
+        <section id="lab-settings" class="lab-settings" hidden><p class="eyebrow">AJUSTES DEL MOTOR</p><div class="lab-fields"><label>Método<select id="method"><option value="annealing">Annealing</option><option value="greedy">Greedy</option></select></label><label>Semilla<input id="seed" type="number" value="42" min="0" max="4294967295"></label><label>Propuestas<select id="budget"><option value="250">250</option><option value="2500" selected>2.500</option><option value="10000">10.000</option></select></label></div><p>Motor JavaScript local. La misma semilla no reproduce el RNG de Python.</p></section>
+        <button id="optimize" class="primary"><span aria-hidden="true">✳</span> <span id="optimize-label">Que lo intente el motor</span><span class="primary-arrow" aria-hidden="true">↗</span></button>
+        <div class="solver-progress" id="solver-progress" hidden><progress id="solver-meter" max="2500" value="0" aria-label="Progreso del optimizador"></progress><span id="solver-count">0 / 2.500 propuestas</span></div>
+        <div class="secondary-actions"><button id="reference">Ver mejor guardada <span>↗</span></button><button id="reset" title="Volver a la rejilla" aria-label="Volver a la rejilla">↺</button></div>
+        <div class="record"><span>MI MEJOR EN ESTE NAVEGADOR</span><strong id="record-value">—</strong></div>
+      </aside>
+    </div>
+    <section class="under-board"><div><span class="eyebrow">LA REGLA ES SIMPLE</span><p>Todos dentro. Ninguno encima.</p></div><div class="rule-note"><span class="rule-icon">□</span><p>Los cuadrados pueden tocarse.<br>Sus interiores no pueden solaparse.</p></div><button id="export" class="export-button">Exportar candidato CSV <span>↓</span></button></section>
+    <p id="status" class="status" role="status" aria-live="polite">El tablero es tuyo. Selecciona una pieza y prueba a girarla.</p>
+    <footer class="site-footer"><span>tAilorPack <span class="muted">/ geometría para jugar</span></span><span>Validación local con decimales · <button id="details-open">Qué significa</button></span><a href="https://www.kaggle.com/competitions/squares-in-squares" target="_blank" rel="noopener noreferrer">Inspirado en Squares in Squares ↗</a></footer>
+  </main>
+  <dialog id="about"><button class="dialog-close" aria-label="Cerrar">×</button><p class="eyebrow">DE EXPERIMENTO A PLAYGROUND</p><h2>Una caja pequeña.<br>Un problema enorme.</h2><p>tAilorPack explora cómo encajar cuadrados unitarios dentro del menor cuadrado posible. Puedes resolverlo a mano o dejar que un motor local mueva y rote las piezas.</p><h3>Lo que estás viendo</h3><p>Las referencias de 5 y 10 cuadrados vienen del proyecto Python y se validaron offline con la métrica oficial v17. Las ediciones y búsquedas de esta app usan geometría float en JavaScript: no están certificadas por Kaggle.</p><p>No hay cuenta, ranking global ni envíos automáticos. Tu mejor resultado se guarda solo en este navegador. La meta del juego es mejorar la rejilla; no se afirma que las referencias sean óptimas.</p><a class="dialog-link" href="https://www.kaggle.com/code/metric/squares-in-squares" target="_blank" rel="noopener noreferrer">Ver métrica oficial ↗</a></dialog>
+  <dialog id="help"><button class="dialog-close" aria-label="Cerrar">×</button><p class="eyebrow">CÓMO JUGAR</p><h2>Haz sitio a tus ideas.</h2><ol><li>Elige un número de cuadrados.</li><li>Arrastra las piezas. La línea discontinua muestra el contenedor que necesitan.</li><li>Selecciona una pieza y gírala con el deslizador o Q/E. Las flechas la mueven; Shift permite pasos mayores.</li><li>Las piezas atenuadas con contorno magenta se solapan. Corrígelas para que cuente tu resultado.</li><li>Intenta reducir el lado frente a la rejilla o prueba el motor.</li></ol><p>«Ver mejor guardada» carga las referencias del proyecto para 5 y 10 cuadrados. En retos grandes, empieza con un presupuesto pequeño en Laboratorio. Puedes detener el motor en cualquier momento.</p></dialog>
+</body>
+</html>

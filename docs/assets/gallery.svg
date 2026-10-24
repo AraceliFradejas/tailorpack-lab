@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="960" viewBox="0 0 1200 960" role="img" aria-labelledby="title desc">
+<title id="title">tAilorPack: grid and improved square packings</title>
+<desc id="desc">Five squares: container side 3 to 2.7071. Ten squares: 4 to 3.9101. Same unit scale within each comparison. Offline validation only.</desc>
+<rect width="1200" height="960" fill="#eef3f7"/>
+<text x="40" y="54" font-family="sans-serif" font-size="36" fill="#14293d" font-weight="700" text-anchor="start">tAilorPack</text>
+<text x="40" y="88" font-family="sans-serif" font-size="21" fill="#526879" font-weight="400" text-anchor="start">Geometría, búsqueda y verificación reproducible</text>
+<rect x="40" y="120" width="550" height="345" rx="16" fill="white"/>
+<text x="62" y="155" font-family="sans-serif" font-size="20" fill="#14293d" font-weight="700" text-anchor="start">n=5 · Rejilla de referencia</text>
+<text x="62" y="184" font-family="sans-serif" font-size="18" fill="#526879" font-weight="400" text-anchor="start">L = 3.000000</text>
+<rect x="64" y="207" width="231.0" height="231.0" fill="#f5f8fa" stroke="#14293d" stroke-width="1.8"/>
+<polygon points="64.0000,438.0000 141.0000,438.0000 141.0000,361.0000 64.0000,361.0000" fill="#176fa1" fill-opacity=".22" stroke="#176fa1" stroke-width="1.5"/>
+<text x="102.5" y="404.5" font-family="sans-serif" font-size="14" fill="#14293d" font-weight="400" text-anchor="middle">0</text>
+<polygon points="141.0000,438.0000 218.0000,438.0000 218.0000,361.0000 141.0000,361.0000" fill="#176fa1" fill-opacity=".22" stroke="#176fa1" stroke-width="1.5"/>
+<text x="179.5" y="404.5" font-family="sans-serif" font-size="14" fill="#14293d" font-weight="400" text-anchor="middle">1</text>
+<polygon points="218.0000,438.0000 295.0000,438.0000 295.0000,361.0000 218.0000,361.0000" fill="#176fa1" fill-opacity=".22" stroke="#176fa1" stroke-width="1.5"/>
+<text x="256.5" y="404.5" font-family="sans-serif" font-size="14" fill="#14293d" font-weight="400" text-anchor="middle">2</text>
+<polygon points="64.0000,361.0000 141.0000,361.0000 141.0000,284.0000 64.0000,284.0000" fill="#176fa1" fill-opacity=".22" stroke="#176fa1" stroke-width="1.5"/>
+<text x="102.5" y="327.5" font-family="sans-serif" font-size="14" fill="#14293d" font-weight="400" text-anchor="middle">3</text>
+<polygon points="141.0000,361.0000 218.0000,361.0000 218.0000,284.0000 141.0000,284.0000" fill="#176fa1" fill-opacity=".22" stroke="#176fa1" stroke-width="1.5"/>
+<text x="179.5" y="327.5" font-family="sans-serif" font-size="14" fill="#14293d" font-weight="400" text-anchor="middle">4</text>
+<rect x="610" y="120" width="550" height="345" rx="16" fill="white"/>
+<text x="632" y="155" font-family="sans-serif" font-size="20" fill="#14293d" font-weight="700" text-anchor="start">n=5 · Mejor candidato guardado</text>
+<text x="632" y="184" font-family="sans-serif" font-size="18" fill="#526879" font-weight="400" text-anchor="start">L = 2.707107</text>
+<rect x="634" y="207" width="208.44722222836415" height="208.44722222836415" fill="#f5f8fa" stroke="#14293d" stroke-width="1.8"/>
+<polygon points="634.0000,415.4472 711.0000,415.4472 711.0000,338.4472 634.0000,338.4472" fill="#008574" fill-opacity=".22" stroke="#008574" stroke-width="1.5"/>
+<text x="672.5" y="381.9472222283641" font-family="sans-serif" font-size="14" fill="#14293d" font-weight="400" text-anchor="middle">0</text>
+<polygon points="765.4472,415.4472 842.4472,415.4472 842.4472,338.4472 765.4472,338.4472" fill="#008574" fill-opacity=".22" stroke="#008574" stroke-width="1.5"/>
+<text x="803.9472222283641" y="381.9472222283641" font-family="sans-serif" font-size="14" fill="#14293d" font-weight="400" text-anchor="middle">1</text>
+<polygon points="634.0000,284.0000 711.0000,284.0000 711.0000,207.0000 634.0000,207.0000" fill="#008574" fill-opacity=".22" stroke="#008574" stroke-width="1.5"/>
+<text x="672.5" y="250.5" font-family="sans-serif" font-size="14" fill="#14293d" font-weight="400" text-anchor="middle">2</text>
+<polygon points="765.4472,284.0000 842.4472,284.0000 842.4472,207.0000 765.4472,207.0000" fill="#008574" fill-opacity=".22" stroke="#008574" stroke-width="1.5"/>
+<text x="803.9472222283641" y="250.5" font-family="sans-serif" font-size="14" fill="#14293d" font-weight="400" text-anchor="middle">3</text>
+<polygon points="738.2236,365.6708 792.6708,311.2236 738.2236,256.7764 683.7764,311.2236" fill="#008574" fill-opacity=".22" stroke="#008574" stroke-width="1.5"/>
+<text x="738.2236111141821" y="316.22361111418206" font-family="sans-serif" font-size="14" fill="#14293d" font-weight="400" text-anchor="middle">4</text>
+<text x="925" y="280" font-family="sans-serif" font-size="34" fill="#008574" font-weight="700" text-anchor="start">−9.76%</text>
+<text x="925" y="310" font-family="sans-serif" font-size="16" fill="#526879" font-weight="400" text-anchor="start">lado del contenedor</text>
+<text x="925" y="355" font-family="sans-serif" font-size="17" fill="#14293d" font-weight="700" text-anchor="start">Validado offline</text>
+<text x="925" y="381" font-family="sans-serif" font-size="16" fill="#526879" font-weight="400" text-anchor="start">métrica oficial v17</text>
+<rect x="40" y="485" width="550" height="345" rx="16" fill="white"/>
+<text x="62" y="520" font-family="sans-serif" font-size="20" fill="#14293d" font-weight="700" text-anchor="start">n=10 · Rejilla de referencia</text>
+<text x="62" y="549" font-family="sans-serif" font-size="18" fill="#526879" font-weight="400" text-anchor="start">L = 4.000000</text>
+<rect x="64" y="572" width="232.0" height="232.0" fill="#f5f8fa" stroke="#14293d" stroke-width="1.8"/>
+<polygon points="64.0000,804.0000 122.0000,804.0000 122.0000,746.0000 64.0000,746.0000" fill="#176fa1" fill-opacity=".22" stroke="#176fa1" stroke-width="1.5"/>
+<text x="93.0" y="780.0" font-family="sans-serif" font-size="14" fill="#14293d" font-weight="400" text-anchor="middle">0</text>
+<polygon points="122.0000,804.0000 180.0000,804.0000 180.0000,746.0000 122.0000,746.0000" fill="#176fa1" fill-opacity=".22" stroke="#176fa1" stroke-width="1.5"/>
+<text x="151.0" y="780.0" font-family="sans-serif" font-size="14" fill="#14293d" font-weight="400" text-anchor="middle">1</text>
+<polygon points="180.0000,804.0000 238.0000,804.0000 238.0000,746.0000 180.0000,746.0000" fill="#176fa1" fill-opacity=".22" stroke="#176fa1" stroke-width="1.5"/>
+<text x="209.0" y="780.0" font-family="sans-serif" font-size="14" fill="#14293d" font-weight="400" text-anchor="middle">2</text>
+<polygon points="238.0000,804.0000 296.0000,804.0000 296.0000,746.0000 238.0000,746.0000" fill="#176fa1" fill-opacity=".22" stroke="#176fa1" stroke-width="1.5"/>
+<text x="267.0" y="780.0" font-family="sans-serif" font-size="14" fill="#14293d" font-weight="400" text-anchor="middle">3</text>
+<polygon points="64.0000,746.0000 122.0000,746.0000 122.0000,688.0000 64.0000,688.0000" fill="#176fa1" fill-opacity=".22" stroke="#176fa1" stroke-width="1.5"/>
+<text x="93.0" y="722.0" font-family="sans-serif" font-size="14" fill="#14293d" font-weight="400" text-anchor="middle">4</text>
+<polygon points="122.0000,746.0000 180.0000,746.0000 180.0000,688.0000 122.0000,688.0000" fill="#176fa1" fill-opacity=".22" stroke="#176fa1" stroke-width="1.5"/>
+<text x="151.0" y="722.0" font-family="sans-serif" font-size="14" fill="#14293d" font-weight="400" text-anchor="middle">5</text>
+<polygon points="180.0000,746.0000 238.0000,746.0000 238.0000,688.0000 180.0000,688.0000" fill="#176fa1" fill-opacity=".22" stroke="#176fa1" stroke-width="1.5"/>
+<text x="209.0" y="722.0" font-family="sans-serif" font-size="14" fill="#14293d" font-weight="400" text-anchor="middle">6</text>
+<polygon points="238.0000,746.0000 296.0000,746.0000 296.0000,688.0000 238.0000,688.0000" fill="#176fa1" fill-opacity=".22" stroke="#176fa1" stroke-width="1.5"/>
+<text x="267.0" y="722.0" font-family="sans-serif" font-size="14" fill="#14293d" font-weight="400" text-anchor="middle">7</text>
+<polygon points="64.0000,688.0000 122.0000,688.0000 122.0000,630.0000 64.0000,630.0000" fill="#176fa1" fill-opacity=".22" stroke="#176fa1" stroke-width="1.5"/>
+<text x="93.0" y="664.0" font-family="sans-serif" font-size="14" fill="#14293d" font-weight="400" text-anchor="middle">8</text>
+<polygon points="122.0000,688.0000 180.0000,688.0000 180.0000,630.0000 122.0000,630.0000" fill="#176fa1" fill-opacity=".22" stroke="#176fa1" stroke-width="1.5"/>
+<text x="151.0" y="664.0" font-family="sans-serif" font-size="14" fill="#14293d" font-weight="400" text-anchor="middle">9</text>
+<rect x="610" y="485" width="550" height="345" rx="16" fill="white"/>
+<text x="632" y="520" font-family="sans-serif" font-size="20" fill="#14293d" font-weight="700" text-anchor="start">n=10 · Mejor candidato guardado</text>
+<text x="632" y="549" font-family="sans-serif" font-size="18" fill="#526879" font-weight="400" text-anchor="start">L = 3.910080</text>
+<rect x="634" y="572" width="226.78462818042235" height="226.78462818042235" fill="#f5f8fa" stroke="#14293d" stroke-width="1.8"/>
+<polygon points="647.6797,795.0100 705.4773,790.1688 700.6361,732.3712 642.8385,737.2123" fill="#008574" fill-opacity=".22" stroke="#008574" stroke-width="1.5"/>
+<text x="674.1578966157485" y="768.6905823054917" font-family="sans-serif" font-size="14" fill="#14293d" font-weight="400" text-anchor="middle">0</text>
+<polygon points="704.2645,728.9420 761.1134,717.4440 749.6154,660.5951 692.7665,672.0931" fill="#008574" fill-opacity=".22" stroke="#008574" stroke-width="1.5"/>
+<text x="726.9399247361918" y="699.7685478655296" font-family="sans-serif" font-size="14" fill="#14293d" font-weight="400" text-anchor="middle">1</text>
+<polygon points="750.5318,798.3243 799.6764,767.5216 768.8737,718.3770 719.7291,749.1797" fill="#008574" fill-opacity=".22" stroke="#008574" stroke-width="1.5"/>
+<text x="759.7027393854603" y="763.3506585346366" font-family="sans-serif" font-size="14" fill="#14293d" font-weight="400" text-anchor="middle">2</text>
+<polygon points="801.6125,798.7846 859.6034,797.7554 858.5742,739.7645 800.5833,740.7938" fill="#008574" fill-opacity=".22" stroke="#008574" stroke-width="1.5"/>
+<text x="830.093371139067" y="774.274584150708" font-family="sans-serif" font-size="14" fill="#14293d" font-weight="400" text-anchor="middle">3</text>
+<polygon points="634.8030,703.1954 692.8007,702.6738 692.2791,644.6761 634.2814,645.1977" fill="#008574" fill-opacity=".22" stroke="#008574" stroke-width="1.5"/>
+<text x="663.5410449868688" y="678.9357427571908" font-family="sans-serif" font-size="14" fill="#14293d" font-weight="400" text-anchor="middle">4</text>
+<polygon points="715.9199,648.6772 769.5764,626.6551 747.5543,572.9986 693.8978,595.0207" fill="#008574" fill-opacity=".22" stroke="#008574" stroke-width="1.5"/>
+<text x="731.7370932835095" y="615.8379131209872" font-family="sans-serif" font-size="14" fill="#14293d" font-weight="400" text-anchor="middle">5</text>
+<polygon points="806.7006,647.0541 860.7846,626.1039 839.8343,572.0198 785.7503,592.9701" fill="#008574" fill-opacity=".22" stroke="#008574" stroke-width="1.5"/>
+<text x="823.2674530321021" y="614.5369717674663" font-family="sans-serif" font-size="14" fill="#14293d" font-weight="400" text-anchor="middle">6</text>
+<polygon points="797.8299,741.4021 854.4640,728.8891 841.9510,672.2550 785.3168,684.7680" fill="#008574" fill-opacity=".22" stroke="#008574" stroke-width="1.5"/>
+<text x="819.8904180578801" y="711.8285428096907" font-family="sans-serif" font-size="14" fill="#14293d" font-weight="400" text-anchor="middle">7</text>
+<polygon points="691.9625,639.2735 694.0485,581.3110 636.0860,579.2250 634.0000,637.1875" fill="#008574" fill-opacity=".22" stroke="#008574" stroke-width="1.5"/>
+<text x="664.0242334335221" y="614.2492484318059" font-family="sans-serif" font-size="14" fill="#14293d" font-weight="400" text-anchor="middle">8</text>
+<polygon points="762.8749,693.7037 816.7390,672.1942 795.2295,618.3301 741.3654,639.8396" fill="#008574" fill-opacity=".22" stroke="#008574" stroke-width="1.5"/>
+<text x="779.0522234779601" y="661.016856097198" font-family="sans-serif" font-size="14" fill="#14293d" font-weight="400" text-anchor="middle">9</text>
+<text x="925" y="645" font-family="sans-serif" font-size="34" fill="#008574" font-weight="700" text-anchor="start">−2.25%</text>
+<text x="925" y="675" font-family="sans-serif" font-size="16" fill="#526879" font-weight="400" text-anchor="start">lado del contenedor</text>
+<text x="925" y="720" font-family="sans-serif" font-size="17" fill="#14293d" font-weight="700" text-anchor="start">Validado offline</text>
+<text x="925" y="746" font-family="sans-serif" font-size="16" fill="#526879" font-weight="400" text-anchor="start">métrica oficial v17</text>
+<text x="40" y="885" font-family="sans-serif" font-size="18" fill="#14293d" font-weight="400" text-anchor="start">Escala unitaria común en cada fila. El giro de los cuadrados es parte de la solución.</text>
+<text x="40" y="918" font-family="sans-serif" font-size="17" fill="#526879" font-weight="400" text-anchor="start">Sin envío a Kaggle. No se afirma optimalidad, récord ni posición en el leaderboard.</text>
+</svg>

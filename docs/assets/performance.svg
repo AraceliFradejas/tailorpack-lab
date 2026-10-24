@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="570" viewBox="0 0 1200 570" role="img" aria-labelledby="title desc">
+<title id="title">Spatial geometry speedup against exhaustive checks</title>
+<desc id="desc">Median of three repeats on axis-aligned grids. Validation and repair speedups are workload specific.</desc>
+<rect width="1200" height="570" fill="#eef3f7"/>
+<text x="40" y="50" font-family="sans-serif" font-size="30" fill="#14293d" font-weight="700" text-anchor="start">Comprobar menos pares, conservar el resultado</text>
+<text x="40" y="84" font-family="sans-serif" font-size="18" fill="#526879" font-weight="400" text-anchor="start">Aceleración medida frente al recorrido exhaustivo · rejillas · mediana de 3 repeticiones</text>
+<text x="840" y="118" font-family="sans-serif" font-size="17" fill="#176fa1" font-weight="400" text-anchor="start">Validación</text>
+<text x="1000" y="118" font-family="sans-serif" font-size="17" fill="#008574" font-weight="400" text-anchor="start">Reparación</text>
+<text x="40" y="175" font-family="sans-serif" font-size="20" fill="#14293d" font-weight="700" text-anchor="start">n=10</text>
+<rect x="165" y="155" width="12.05" height="17" rx="3" fill="#176fa1"/>
+<text x="187.0528681790886" y="170" font-family="sans-serif" font-size="16" fill="#176fa1" font-weight="400" text-anchor="start">1.40×</text>
+<rect x="165" y="178" width="6.55" height="17" rx="3" fill="#008574"/>
+<text x="181.5528521206863" y="193" font-family="sans-serif" font-size="16" fill="#008574" font-weight="400" text-anchor="start">0.76×</text>
+<text x="40" y="241" font-family="sans-serif" font-size="20" fill="#14293d" font-weight="700" text-anchor="start">n=100</text>
+<rect x="165" y="221" width="83.42" height="17" rx="3" fill="#176fa1"/>
+<text x="258.42326847354707" y="236" font-family="sans-serif" font-size="16" fill="#176fa1" font-weight="400" text-anchor="start">9.70×</text>
+<rect x="165" y="244" width="26.57" height="17" rx="3" fill="#008574"/>
+<text x="201.56710362574236" y="259" font-family="sans-serif" font-size="16" fill="#008574" font-weight="400" text-anchor="start">3.09×</text>
+<text x="40" y="307" font-family="sans-serif" font-size="20" fill="#14293d" font-weight="700" text-anchor="start">n=250</text>
+<rect x="165" y="287" width="189.48" height="17" rx="3" fill="#176fa1"/>
+<text x="364.482098995256" y="302" font-family="sans-serif" font-size="16" fill="#176fa1" font-weight="400" text-anchor="start">22.03×</text>
+<rect x="165" y="310" width="60.11" height="17" rx="3" fill="#008574"/>
+<text x="235.1147342548482" y="325" font-family="sans-serif" font-size="16" fill="#008574" font-weight="400" text-anchor="start">6.99×</text>
+<text x="40" y="373" font-family="sans-serif" font-size="20" fill="#14293d" font-weight="700" text-anchor="start">n=500</text>
+<rect x="165" y="353" width="370.82" height="17" rx="3" fill="#176fa1"/>
+<text x="545.8239140946189" y="368" font-family="sans-serif" font-size="16" fill="#176fa1" font-weight="400" text-anchor="start">43.12×</text>
+<rect x="165" y="376" width="116.58" height="17" rx="3" fill="#008574"/>
+<text x="291.5846622206957" y="391" font-family="sans-serif" font-size="16" fill="#008574" font-weight="400" text-anchor="start">13.56×</text>
+<text x="40" y="439" font-family="sans-serif" font-size="20" fill="#14293d" font-weight="700" text-anchor="start">n=1000</text>
+<rect x="165" y="419" width="730.03" height="17" rx="3" fill="#176fa1"/>
+<text x="905.0308980262561" y="434" font-family="sans-serif" font-size="16" fill="#176fa1" font-weight="400" text-anchor="start">84.89×</text>
+<rect x="165" y="442" width="220.52" height="17" rx="3" fill="#008574"/>
+<text x="395.5207496039365" y="457" font-family="sans-serif" font-size="16" fill="#008574" font-weight="400" text-anchor="start">25.64×</text>
+<text x="40" y="520" font-family="sans-serif" font-size="18" fill="#14293d" font-weight="400" text-anchor="start">La reparación puede ser más lenta en n pequeño. Los tiempos varían con equipo y carga.</text>
+<text x="40" y="548" font-family="sans-serif" font-size="17" fill="#526879" font-weight="400" text-anchor="start">Es una medición de geometría, no una aceleración equivalente del optimizador completo.</text>
+</svg>

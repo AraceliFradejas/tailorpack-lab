@@ -1,0 +1,226 @@
+{
+  "config": {
+    "evaluations": 2000,
+    "initialization": "axis-five",
+    "ns": [
+      5
+    ],
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "initialization": "Axis-aligned corner/centre family for n=5; M0 otherwise",
+  "rows": [
+    {
+      "accepted_moves": 35,
+      "best_side": 2.7341433509034854,
+      "evaluations": 2000,
+      "initial_side": 3.000000001,
+      "method": "greedy",
+      "n": 5,
+      "seed": 0
+    },
+    {
+      "accepted_moves": 9,
+      "best_side": 2.7161355034600128,
+      "evaluations": 2000,
+      "initial_side": 3.000000001,
+      "method": "greedy",
+      "n": 5,
+      "seed": 1
+    },
+    {
+      "accepted_moves": 40,
+      "best_side": 2.720069408564269,
+      "evaluations": 2000,
+      "initial_side": 3.000000001,
+      "method": "greedy",
+      "n": 5,
+      "seed": 2
+    },
+    {
+      "accepted_moves": 10,
+      "best_side": 2.7167209412050104,
+      "evaluations": 2000,
+      "initial_side": 3.000000001,
+      "method": "greedy",
+      "n": 5,
+      "seed": 3
+    },
+    {
+      "accepted_moves": 9,
+      "best_side": 2.7125322544312187,
+      "evaluations": 2000,
+      "initial_side": 3.000000001,
+      "method": "greedy",
+      "n": 5,
+      "seed": 4
+    },
+    {
+      "accepted_moves": 10,
+      "best_side": 2.7136979926473628,
+      "evaluations": 2000,
+      "initial_side": 3.000000001,
+      "method": "greedy",
+      "n": 5,
+      "seed": 5
+    },
+    {
+      "accepted_moves": 10,
+      "best_side": 2.7165734245472484,
+      "evaluations": 2000,
+      "initial_side": 3.000000001,
+      "method": "greedy",
+      "n": 5,
+      "seed": 6
+    },
+    {
+      "accepted_moves": 54,
+      "best_side": 2.7308847031936416,
+      "evaluations": 2000,
+      "initial_side": 3.000000001,
+      "method": "greedy",
+      "n": 5,
+      "seed": 7
+    },
+    {
+      "accepted_moves": 49,
+      "best_side": 2.7244348374175185,
+      "evaluations": 2000,
+      "initial_side": 3.000000001,
+      "method": "greedy",
+      "n": 5,
+      "seed": 8
+    },
+    {
+      "accepted_moves": 49,
+      "best_side": 2.7198648808222488,
+      "evaluations": 2000,
+      "initial_side": 3.000000001,
+      "method": "greedy",
+      "n": 5,
+      "seed": 9
+    },
+    {
+      "accepted_moves": 1159,
+      "best_side": 2.8710492929735425,
+      "evaluations": 2000,
+      "initial_side": 3.000000001,
+      "method": "annealing",
+      "n": 5,
+      "seed": 0
+    },
+    {
+      "accepted_moves": 1100,
+      "best_side": 3.000000001,
+      "evaluations": 2000,
+      "initial_side": 3.000000001,
+      "method": "annealing",
+      "n": 5,
+      "seed": 1
+    },
+    {
+      "accepted_moves": 1168,
+      "best_side": 2.9224043388740175,
+      "evaluations": 2000,
+      "initial_side": 3.000000001,
+      "method": "annealing",
+      "n": 5,
+      "seed": 2
+    },
+    {
+      "accepted_moves": 1162,
+      "best_side": 3.000000001,
+      "evaluations": 2000,
+      "initial_side": 3.000000001,
+      "method": "annealing",
+      "n": 5,
+      "seed": 3
+    },
+    {
+      "accepted_moves": 1168,
+      "best_side": 2.849053988652891,
+      "evaluations": 2000,
+      "initial_side": 3.000000001,
+      "method": "annealing",
+      "n": 5,
+      "seed": 4
+    },
+    {
+      "accepted_moves": 1120,
+      "best_side": 2.963801818102257,
+      "evaluations": 2000,
+      "initial_side": 3.000000001,
+      "method": "annealing",
+      "n": 5,
+      "seed": 5
+    },
+    {
+      "accepted_moves": 1162,
+      "best_side": 2.8368123368432174,
+      "evaluations": 2000,
+      "initial_side": 3.000000001,
+      "method": "annealing",
+      "n": 5,
+      "seed": 6
+    },
+    {
+      "accepted_moves": 1140,
+      "best_side": 2.8517115750236623,
+      "evaluations": 2000,
+      "initial_side": 3.000000001,
+      "method": "annealing",
+      "n": 5,
+      "seed": 7
+    },
+    {
+      "accepted_moves": 1108,
+      "best_side": 2.891246769323616,
+      "evaluations": 2000,
+      "initial_side": 3.000000001,
+      "method": "annealing",
+      "n": 5,
+      "seed": 8
+    },
+    {
+      "accepted_moves": 1070,
+      "best_side": 3.000000001,
+      "evaluations": 2000,
+      "initial_side": 3.000000001,
+      "method": "annealing",
+      "n": 5,
+      "seed": 9
+    }
+  ],
+  "source_sha256": "df7e79a23f14e4e93bc754ddabb65e6c1ad24e9978182a695ec4dbbdc65a3a20",
+  "status": "LOCAL_SEARCH_NOT_OFFICIALLY_VALIDATED",
+  "summary": [
+    {
+      "best": 2.7125322544312187,
+      "improved_runs": 10,
+      "mean": 2.7205057297192017,
+      "median": 2.71829291101363,
+      "method": "greedy",
+      "n": 5,
+      "stdev": 0.006845106796387368
+    },
+    {
+      "best": 2.8368123368432174,
+      "improved_runs": 7,
+      "mean": 2.9186080122793205,
+      "median": 2.906825554098817,
+      "method": "annealing",
+      "n": 5,
+      "stdev": 0.06398809037809917
+    }
+  ]
+}

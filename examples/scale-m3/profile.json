@@ -1,0 +1,69 @@
+{
+  "engine_sha256": "fdd33b6e5b7da01f68544a7aff63832a444231c9d96d51fd74a95e69300b6766",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "python": "3.12.13",
+  "repeats": 3,
+  "workload": "axis-aligned grid per n; not arbitrary dense inputs",
+  "rows": [
+    {
+      "n": 10,
+      "total_pairs": 45,
+      "validation_spatial_pairs": 22,
+      "validate_all-pairs_median_seconds": 7.02499964972958e-05,
+      "validate_spatial_median_seconds": 5.012499605072662e-05,
+      "validate_speedup": 1.4014962998940215,
+      "repair_all-pairs_median_seconds": 4.70830054837279e-05,
+      "repair_spatial_median_seconds": 6.179200136102736e-05,
+      "repair_speedup": 0.7619595489170137,
+      "repair_equal": true
+    },
+    {
+      "n": 100,
+      "total_pairs": 4950,
+      "validation_spatial_pairs": 342,
+      "validate_all-pairs_median_seconds": 0.006120124999142718,
+      "validate_spatial_median_seconds": 0.0006309160016826354,
+      "validate_speedup": 9.700380055063613,
+      "repair_all-pairs_median_seconds": 0.0034344159939792007,
+      "repair_spatial_median_seconds": 0.0011117500034742989,
+      "repair_speedup": 3.0891980960165535,
+      "repair_equal": true
+    },
+    {
+      "n": 250,
+      "total_pairs": 31125,
+      "validation_spatial_pairs": 907,
+      "validate_all-pairs_median_seconds": 0.03714362500613788,
+      "validate_spatial_median_seconds": 0.0016858329981914721,
+      "validate_speedup": 22.0328022087507,
+      "repair_all-pairs_median_seconds": 0.021413832997495774,
+      "repair_spatial_median_seconds": 0.003063458003452979,
+      "repair_speedup": 6.99008537847072,
+      "repair_equal": true
+    },
+    {
+      "n": 500,
+      "total_pairs": 124750,
+      "validation_spatial_pairs": 1868,
+      "validate_all-pairs_median_seconds": 0.15276725000148872,
+      "validate_spatial_median_seconds": 0.0035429170020506717,
+      "validate_speedup": 43.119059778444054,
+      "repair_all-pairs_median_seconds": 0.08748933300375938,
+      "repair_spatial_median_seconds": 0.006453750000218861,
+      "repair_speedup": 13.55635607217392,
+      "repair_equal": true
+    },
+    {
+      "n": 1000,
+      "total_pairs": 499500,
+      "validation_spatial_pairs": 3811,
+      "validate_all-pairs_median_seconds": 0.585319249999884,
+      "validate_spatial_median_seconds": 0.006895250000525266,
+      "validate_speedup": 84.88731372398327,
+      "repair_all-pairs_median_seconds": 0.3489719579956727,
+      "repair_spatial_median_seconds": 0.013609417001134716,
+      "repair_speedup": 25.64194762836471,
+      "repair_equal": true
+    }
+  ]
+}

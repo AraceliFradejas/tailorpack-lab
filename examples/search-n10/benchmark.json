@@ -1,0 +1,226 @@
+{
+  "config": {
+    "evaluations": 10000,
+    "initialization": "m0",
+    "ns": [
+      10
+    ],
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "initialization": "M0 experiment: grid except constructive five-square packing",
+  "rows": [
+    {
+      "accepted_moves": 0,
+      "best_side": 4.0,
+      "evaluations": 10000,
+      "initial_side": 4.0,
+      "method": "greedy",
+      "n": 10,
+      "seed": 0
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 4.0,
+      "evaluations": 10000,
+      "initial_side": 4.0,
+      "method": "greedy",
+      "n": 10,
+      "seed": 1
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 4.0,
+      "evaluations": 10000,
+      "initial_side": 4.0,
+      "method": "greedy",
+      "n": 10,
+      "seed": 2
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 4.0,
+      "evaluations": 10000,
+      "initial_side": 4.0,
+      "method": "greedy",
+      "n": 10,
+      "seed": 3
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 4.0,
+      "evaluations": 10000,
+      "initial_side": 4.0,
+      "method": "greedy",
+      "n": 10,
+      "seed": 4
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 4.0,
+      "evaluations": 10000,
+      "initial_side": 4.0,
+      "method": "greedy",
+      "n": 10,
+      "seed": 5
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 4.0,
+      "evaluations": 10000,
+      "initial_side": 4.0,
+      "method": "greedy",
+      "n": 10,
+      "seed": 6
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 4.0,
+      "evaluations": 10000,
+      "initial_side": 4.0,
+      "method": "greedy",
+      "n": 10,
+      "seed": 7
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 4.0,
+      "evaluations": 10000,
+      "initial_side": 4.0,
+      "method": "greedy",
+      "n": 10,
+      "seed": 8
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 4.0,
+      "evaluations": 10000,
+      "initial_side": 4.0,
+      "method": "greedy",
+      "n": 10,
+      "seed": 9
+    },
+    {
+      "accepted_moves": 6373,
+      "best_side": 4.0,
+      "evaluations": 10000,
+      "initial_side": 4.0,
+      "method": "annealing",
+      "n": 10,
+      "seed": 0
+    },
+    {
+      "accepted_moves": 6178,
+      "best_side": 3.940206233101441,
+      "evaluations": 10000,
+      "initial_side": 4.0,
+      "method": "annealing",
+      "n": 10,
+      "seed": 1
+    },
+    {
+      "accepted_moves": 6358,
+      "best_side": 4.0,
+      "evaluations": 10000,
+      "initial_side": 4.0,
+      "method": "annealing",
+      "n": 10,
+      "seed": 2
+    },
+    {
+      "accepted_moves": 6351,
+      "best_side": 4.0,
+      "evaluations": 10000,
+      "initial_side": 4.0,
+      "method": "annealing",
+      "n": 10,
+      "seed": 3
+    },
+    {
+      "accepted_moves": 6364,
+      "best_side": 3.9100797962141782,
+      "evaluations": 10000,
+      "initial_side": 4.0,
+      "method": "annealing",
+      "n": 10,
+      "seed": 4
+    },
+    {
+      "accepted_moves": 6103,
+      "best_side": 4.0,
+      "evaluations": 10000,
+      "initial_side": 4.0,
+      "method": "annealing",
+      "n": 10,
+      "seed": 5
+    },
+    {
+      "accepted_moves": 6285,
+      "best_side": 3.9895246548996353,
+      "evaluations": 10000,
+      "initial_side": 4.0,
+      "method": "annealing",
+      "n": 10,
+      "seed": 6
+    },
+    {
+      "accepted_moves": 6330,
+      "best_side": 4.0,
+      "evaluations": 10000,
+      "initial_side": 4.0,
+      "method": "annealing",
+      "n": 10,
+      "seed": 7
+    },
+    {
+      "accepted_moves": 6314,
+      "best_side": 4.0,
+      "evaluations": 10000,
+      "initial_side": 4.0,
+      "method": "annealing",
+      "n": 10,
+      "seed": 8
+    },
+    {
+      "accepted_moves": 6383,
+      "best_side": 4.0,
+      "evaluations": 10000,
+      "initial_side": 4.0,
+      "method": "annealing",
+      "n": 10,
+      "seed": 9
+    }
+  ],
+  "source_sha256": "df7e79a23f14e4e93bc754ddabb65e6c1ad24e9978182a695ec4dbbdc65a3a20",
+  "status": "LOCAL_SEARCH_NOT_OFFICIALLY_VALIDATED",
+  "summary": [
+    {
+      "best": 4.0,
+      "improved_runs": 0,
+      "mean": 4.0,
+      "median": 4.0,
+      "method": "greedy",
+      "n": 10,
+      "stdev": 0.0
+    },
+    {
+      "best": 3.9100797962141782,
+      "improved_runs": 3,
+      "mean": 3.9839810684215253,
+      "median": 4.0,
+      "method": "annealing",
+      "n": 10,
+      "stdev": 0.030339098164935883
+    }
+  ]
+}

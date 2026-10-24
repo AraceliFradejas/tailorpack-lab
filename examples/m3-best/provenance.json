@@ -1,0 +1,7 @@
+{
+  "recipe": "Union M2 incumbent and M3 scale output; choose smaller locally validated side per n",
+  "inputs": {
+    "examples/m2-best/candidate_NOT_VALIDATED.csv": "19bb0a1c981b2a3b8aa98851fb6c45dd875c17e6314f00de8a2a07b159a5ca46",
+    "examples/scale-m3/candidate_NOT_VALIDATED.csv": "3f3cd44f0a55a742608b171c92f96cb303a77448d2327553301ed9970759cb3c"
+  }
+}

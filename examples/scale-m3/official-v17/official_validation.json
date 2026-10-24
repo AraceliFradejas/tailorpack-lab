@@ -1,0 +1,64 @@
+{
+  "candidate_sha256": "3f3cd44f0a55a742608b171c92f96cb303a77448d2327553301ed9970759cb3c",
+  "environment": {
+    "mpmath": "1.4.1",
+    "pandas": "2.2.3",
+    "python": "3.12.14"
+  },
+  "full_score_offline": 28.909234651387617,
+  "metric_kernel_version": 360167936,
+  "metric_source_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+  "metric_url": "https://www.kaggle.com/code/metric/squares-in-squares",
+  "notebook_sha256": "5c42955b6347e721dccaf72abec83f9e88fd488e3b9c40c1d23f476dc7189d94",
+  "omitted_penalty": 28.620309880325568,
+  "puzzles": [
+    {
+      "L": "3.91007979621417828787198252408015964607642872883883",
+      "n": 10,
+      "reason": "ok",
+      "score": 0.23647579890438242
+    },
+    {
+      "L": "10.00000000000000000000000000000000000000000000000000",
+      "n": 100,
+      "reason": "ok",
+      "score": 0.0
+    },
+    {
+      "L": "16.00000000000000000000000000000000000000000000000000",
+      "n": 250,
+      "reason": "ok",
+      "score": 0.011928851253881323
+    },
+    {
+      "L": "23.00000000000000000000000000000000000000000000000000",
+      "n": 500,
+      "reason": "ok",
+      "score": 0.028591269649903106
+    },
+    {
+      "L": "32.00000000000000000000000000000000000000000000000000",
+      "n": 1000,
+      "reason": "ok",
+      "score": 0.011928851253881323
+    }
+  ],
+  "sample": {
+    "grid_prefix_matches_through_n": 16,
+    "header": [
+      "id",
+      "n",
+      "square_id",
+      "x",
+      "y",
+      "angle"
+    ],
+    "puzzles": 1000,
+    "rows": 500500,
+    "sha256": "a7f736d6cc72975459732a15d6ce6ae6588ad97d0c84f4d26905fd31ec09c74c"
+  },
+  "scoring_universe": 1000,
+  "status": "VALIDATED_OFFLINE_WITH_KAGGLE_METRIC_V17_NOT_SUBMITTED",
+  "submitted_puzzles": 5,
+  "subset_score": 0.28892477106204817
+}

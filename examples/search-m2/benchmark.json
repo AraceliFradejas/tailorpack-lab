@@ -1,0 +1,1022 @@
+{
+  "config": {
+    "evaluations": 2000,
+    "initialization": "m0",
+    "ns": [
+      5,
+      6,
+      7,
+      8,
+      10
+    ],
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "initialization": "M0 experiment: grid except constructive five-square packing",
+  "rows": [
+    {
+      "accepted_moves": 0,
+      "best_side": 2.7071067821865475,
+      "evaluations": 2000,
+      "initial_side": 2.7071067821865475,
+      "method": "greedy",
+      "n": 5,
+      "seed": 0
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 2.7071067821865475,
+      "evaluations": 2000,
+      "initial_side": 2.7071067821865475,
+      "method": "greedy",
+      "n": 5,
+      "seed": 1
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 2.7071067821865475,
+      "evaluations": 2000,
+      "initial_side": 2.7071067821865475,
+      "method": "greedy",
+      "n": 5,
+      "seed": 2
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 2.7071067821865475,
+      "evaluations": 2000,
+      "initial_side": 2.7071067821865475,
+      "method": "greedy",
+      "n": 5,
+      "seed": 3
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 2.7071067821865475,
+      "evaluations": 2000,
+      "initial_side": 2.7071067821865475,
+      "method": "greedy",
+      "n": 5,
+      "seed": 4
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 2.7071067821865475,
+      "evaluations": 2000,
+      "initial_side": 2.7071067821865475,
+      "method": "greedy",
+      "n": 5,
+      "seed": 5
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 2.7071067821865475,
+      "evaluations": 2000,
+      "initial_side": 2.7071067821865475,
+      "method": "greedy",
+      "n": 5,
+      "seed": 6
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 2.7071067821865475,
+      "evaluations": 2000,
+      "initial_side": 2.7071067821865475,
+      "method": "greedy",
+      "n": 5,
+      "seed": 7
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 2.7071067821865475,
+      "evaluations": 2000,
+      "initial_side": 2.7071067821865475,
+      "method": "greedy",
+      "n": 5,
+      "seed": 8
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 2.7071067821865475,
+      "evaluations": 2000,
+      "initial_side": 2.7071067821865475,
+      "method": "greedy",
+      "n": 5,
+      "seed": 9
+    },
+    {
+      "accepted_moves": 1049,
+      "best_side": 2.7071067821865475,
+      "evaluations": 2000,
+      "initial_side": 2.7071067821865475,
+      "method": "annealing",
+      "n": 5,
+      "seed": 0
+    },
+    {
+      "accepted_moves": 1182,
+      "best_side": 2.7071067821865475,
+      "evaluations": 2000,
+      "initial_side": 2.7071067821865475,
+      "method": "annealing",
+      "n": 5,
+      "seed": 1
+    },
+    {
+      "accepted_moves": 1189,
+      "best_side": 2.7071067821865475,
+      "evaluations": 2000,
+      "initial_side": 2.7071067821865475,
+      "method": "annealing",
+      "n": 5,
+      "seed": 2
+    },
+    {
+      "accepted_moves": 1110,
+      "best_side": 2.7071067821865475,
+      "evaluations": 2000,
+      "initial_side": 2.7071067821865475,
+      "method": "annealing",
+      "n": 5,
+      "seed": 3
+    },
+    {
+      "accepted_moves": 1175,
+      "best_side": 2.7071067821865475,
+      "evaluations": 2000,
+      "initial_side": 2.7071067821865475,
+      "method": "annealing",
+      "n": 5,
+      "seed": 4
+    },
+    {
+      "accepted_moves": 1102,
+      "best_side": 2.7071067821865475,
+      "evaluations": 2000,
+      "initial_side": 2.7071067821865475,
+      "method": "annealing",
+      "n": 5,
+      "seed": 5
+    },
+    {
+      "accepted_moves": 1120,
+      "best_side": 2.7071067821865475,
+      "evaluations": 2000,
+      "initial_side": 2.7071067821865475,
+      "method": "annealing",
+      "n": 5,
+      "seed": 6
+    },
+    {
+      "accepted_moves": 1133,
+      "best_side": 2.7071067821865475,
+      "evaluations": 2000,
+      "initial_side": 2.7071067821865475,
+      "method": "annealing",
+      "n": 5,
+      "seed": 7
+    },
+    {
+      "accepted_moves": 1162,
+      "best_side": 2.7071067821865475,
+      "evaluations": 2000,
+      "initial_side": 2.7071067821865475,
+      "method": "annealing",
+      "n": 5,
+      "seed": 8
+    },
+    {
+      "accepted_moves": 1076,
+      "best_side": 2.7071067821865475,
+      "evaluations": 2000,
+      "initial_side": 2.7071067821865475,
+      "method": "annealing",
+      "n": 5,
+      "seed": 9
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "greedy",
+      "n": 6,
+      "seed": 0
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "greedy",
+      "n": 6,
+      "seed": 1
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "greedy",
+      "n": 6,
+      "seed": 2
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "greedy",
+      "n": 6,
+      "seed": 3
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "greedy",
+      "n": 6,
+      "seed": 4
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "greedy",
+      "n": 6,
+      "seed": 5
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "greedy",
+      "n": 6,
+      "seed": 6
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "greedy",
+      "n": 6,
+      "seed": 7
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "greedy",
+      "n": 6,
+      "seed": 8
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "greedy",
+      "n": 6,
+      "seed": 9
+    },
+    {
+      "accepted_moves": 1181,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "annealing",
+      "n": 6,
+      "seed": 0
+    },
+    {
+      "accepted_moves": 1091,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "annealing",
+      "n": 6,
+      "seed": 1
+    },
+    {
+      "accepted_moves": 1222,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "annealing",
+      "n": 6,
+      "seed": 2
+    },
+    {
+      "accepted_moves": 1164,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "annealing",
+      "n": 6,
+      "seed": 3
+    },
+    {
+      "accepted_moves": 1147,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "annealing",
+      "n": 6,
+      "seed": 4
+    },
+    {
+      "accepted_moves": 1192,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "annealing",
+      "n": 6,
+      "seed": 5
+    },
+    {
+      "accepted_moves": 1248,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "annealing",
+      "n": 6,
+      "seed": 6
+    },
+    {
+      "accepted_moves": 1237,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "annealing",
+      "n": 6,
+      "seed": 7
+    },
+    {
+      "accepted_moves": 1189,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "annealing",
+      "n": 6,
+      "seed": 8
+    },
+    {
+      "accepted_moves": 1164,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "annealing",
+      "n": 6,
+      "seed": 9
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "greedy",
+      "n": 7,
+      "seed": 0
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "greedy",
+      "n": 7,
+      "seed": 1
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "greedy",
+      "n": 7,
+      "seed": 2
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "greedy",
+      "n": 7,
+      "seed": 3
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "greedy",
+      "n": 7,
+      "seed": 4
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "greedy",
+      "n": 7,
+      "seed": 5
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "greedy",
+      "n": 7,
+      "seed": 6
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "greedy",
+      "n": 7,
+      "seed": 7
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "greedy",
+      "n": 7,
+      "seed": 8
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "greedy",
+      "n": 7,
+      "seed": 9
+    },
+    {
+      "accepted_moves": 1219,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "annealing",
+      "n": 7,
+      "seed": 0
+    },
+    {
+      "accepted_moves": 1190,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "annealing",
+      "n": 7,
+      "seed": 1
+    },
+    {
+      "accepted_moves": 1258,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "annealing",
+      "n": 7,
+      "seed": 2
+    },
+    {
+      "accepted_moves": 1212,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "annealing",
+      "n": 7,
+      "seed": 3
+    },
+    {
+      "accepted_moves": 1292,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "annealing",
+      "n": 7,
+      "seed": 4
+    },
+    {
+      "accepted_moves": 1184,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "annealing",
+      "n": 7,
+      "seed": 5
+    },
+    {
+      "accepted_moves": 1177,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "annealing",
+      "n": 7,
+      "seed": 6
+    },
+    {
+      "accepted_moves": 1263,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "annealing",
+      "n": 7,
+      "seed": 7
+    },
+    {
+      "accepted_moves": 1300,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "annealing",
+      "n": 7,
+      "seed": 8
+    },
+    {
+      "accepted_moves": 1175,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "annealing",
+      "n": 7,
+      "seed": 9
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "greedy",
+      "n": 8,
+      "seed": 0
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "greedy",
+      "n": 8,
+      "seed": 1
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "greedy",
+      "n": 8,
+      "seed": 2
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "greedy",
+      "n": 8,
+      "seed": 3
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "greedy",
+      "n": 8,
+      "seed": 4
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "greedy",
+      "n": 8,
+      "seed": 5
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "greedy",
+      "n": 8,
+      "seed": 6
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "greedy",
+      "n": 8,
+      "seed": 7
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "greedy",
+      "n": 8,
+      "seed": 8
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "greedy",
+      "n": 8,
+      "seed": 9
+    },
+    {
+      "accepted_moves": 1256,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "annealing",
+      "n": 8,
+      "seed": 0
+    },
+    {
+      "accepted_moves": 1348,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "annealing",
+      "n": 8,
+      "seed": 1
+    },
+    {
+      "accepted_moves": 1297,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "annealing",
+      "n": 8,
+      "seed": 2
+    },
+    {
+      "accepted_moves": 1263,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "annealing",
+      "n": 8,
+      "seed": 3
+    },
+    {
+      "accepted_moves": 1203,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "annealing",
+      "n": 8,
+      "seed": 4
+    },
+    {
+      "accepted_moves": 1266,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "annealing",
+      "n": 8,
+      "seed": 5
+    },
+    {
+      "accepted_moves": 1268,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "annealing",
+      "n": 8,
+      "seed": 6
+    },
+    {
+      "accepted_moves": 1328,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "annealing",
+      "n": 8,
+      "seed": 7
+    },
+    {
+      "accepted_moves": 1308,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "annealing",
+      "n": 8,
+      "seed": 8
+    },
+    {
+      "accepted_moves": 1280,
+      "best_side": 3.0,
+      "evaluations": 2000,
+      "initial_side": 3.0,
+      "method": "annealing",
+      "n": 8,
+      "seed": 9
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 4.0,
+      "evaluations": 2000,
+      "initial_side": 4.0,
+      "method": "greedy",
+      "n": 10,
+      "seed": 0
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 4.0,
+      "evaluations": 2000,
+      "initial_side": 4.0,
+      "method": "greedy",
+      "n": 10,
+      "seed": 1
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 4.0,
+      "evaluations": 2000,
+      "initial_side": 4.0,
+      "method": "greedy",
+      "n": 10,
+      "seed": 2
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 4.0,
+      "evaluations": 2000,
+      "initial_side": 4.0,
+      "method": "greedy",
+      "n": 10,
+      "seed": 3
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 4.0,
+      "evaluations": 2000,
+      "initial_side": 4.0,
+      "method": "greedy",
+      "n": 10,
+      "seed": 4
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 4.0,
+      "evaluations": 2000,
+      "initial_side": 4.0,
+      "method": "greedy",
+      "n": 10,
+      "seed": 5
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 4.0,
+      "evaluations": 2000,
+      "initial_side": 4.0,
+      "method": "greedy",
+      "n": 10,
+      "seed": 6
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 4.0,
+      "evaluations": 2000,
+      "initial_side": 4.0,
+      "method": "greedy",
+      "n": 10,
+      "seed": 7
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 4.0,
+      "evaluations": 2000,
+      "initial_side": 4.0,
+      "method": "greedy",
+      "n": 10,
+      "seed": 8
+    },
+    {
+      "accepted_moves": 0,
+      "best_side": 4.0,
+      "evaluations": 2000,
+      "initial_side": 4.0,
+      "method": "greedy",
+      "n": 10,
+      "seed": 9
+    },
+    {
+      "accepted_moves": 1307,
+      "best_side": 4.0,
+      "evaluations": 2000,
+      "initial_side": 4.0,
+      "method": "annealing",
+      "n": 10,
+      "seed": 0
+    },
+    {
+      "accepted_moves": 1284,
+      "best_side": 4.0,
+      "evaluations": 2000,
+      "initial_side": 4.0,
+      "method": "annealing",
+      "n": 10,
+      "seed": 1
+    },
+    {
+      "accepted_moves": 1349,
+      "best_side": 4.0,
+      "evaluations": 2000,
+      "initial_side": 4.0,
+      "method": "annealing",
+      "n": 10,
+      "seed": 2
+    },
+    {
+      "accepted_moves": 1294,
+      "best_side": 4.0,
+      "evaluations": 2000,
+      "initial_side": 4.0,
+      "method": "annealing",
+      "n": 10,
+      "seed": 3
+    },
+    {
+      "accepted_moves": 1368,
+      "best_side": 4.0,
+      "evaluations": 2000,
+      "initial_side": 4.0,
+      "method": "annealing",
+      "n": 10,
+      "seed": 4
+    },
+    {
+      "accepted_moves": 1292,
+      "best_side": 4.0,
+      "evaluations": 2000,
+      "initial_side": 4.0,
+      "method": "annealing",
+      "n": 10,
+      "seed": 5
+    },
+    {
+      "accepted_moves": 1254,
+      "best_side": 4.0,
+      "evaluations": 2000,
+      "initial_side": 4.0,
+      "method": "annealing",
+      "n": 10,
+      "seed": 6
+    },
+    {
+      "accepted_moves": 1400,
+      "best_side": 4.0,
+      "evaluations": 2000,
+      "initial_side": 4.0,
+      "method": "annealing",
+      "n": 10,
+      "seed": 7
+    },
+    {
+      "accepted_moves": 1373,
+      "best_side": 4.0,
+      "evaluations": 2000,
+      "initial_side": 4.0,
+      "method": "annealing",
+      "n": 10,
+      "seed": 8
+    },
+    {
+      "accepted_moves": 1366,
+      "best_side": 4.0,
+      "evaluations": 2000,
+      "initial_side": 4.0,
+      "method": "annealing",
+      "n": 10,
+      "seed": 9
+    }
+  ],
+  "source_sha256": "df7e79a23f14e4e93bc754ddabb65e6c1ad24e9978182a695ec4dbbdc65a3a20",
+  "status": "LOCAL_SEARCH_NOT_OFFICIALLY_VALIDATED",
+  "summary": [
+    {
+      "best": 2.7071067821865475,
+      "improved_runs": 0,
+      "mean": 2.7071067821865475,
+      "median": 2.7071067821865475,
+      "method": "greedy",
+      "n": 5,
+      "stdev": 0.0
+    },
+    {
+      "best": 2.7071067821865475,
+      "improved_runs": 0,
+      "mean": 2.7071067821865475,
+      "median": 2.7071067821865475,
+      "method": "annealing",
+      "n": 5,
+      "stdev": 0.0
+    },
+    {
+      "best": 3.0,
+      "improved_runs": 0,
+      "mean": 3.0,
+      "median": 3.0,
+      "method": "greedy",
+      "n": 6,
+      "stdev": 0.0
+    },
+    {
+      "best": 3.0,
+      "improved_runs": 0,
+      "mean": 3.0,
+      "median": 3.0,
+      "method": "annealing",
+      "n": 6,
+      "stdev": 0.0
+    },
+    {
+      "best": 3.0,
+      "improved_runs": 0,
+      "mean": 3.0,
+      "median": 3.0,
+      "method": "greedy",
+      "n": 7,
+      "stdev": 0.0
+    },
+    {
+      "best": 3.0,
+      "improved_runs": 0,
+      "mean": 3.0,
+      "median": 3.0,
+      "method": "annealing",
+      "n": 7,
+      "stdev": 0.0
+    },
+    {
+      "best": 3.0,
+      "improved_runs": 0,
+      "mean": 3.0,
+      "median": 3.0,
+      "method": "greedy",
+      "n": 8,
+      "stdev": 0.0
+    },
+    {
+      "best": 3.0,
+      "improved_runs": 0,
+      "mean": 3.0,
+      "median": 3.0,
+      "method": "annealing",
+      "n": 8,
+      "stdev": 0.0
+    },
+    {
+      "best": 4.0,
+      "improved_runs": 0,
+      "mean": 4.0,
+      "median": 4.0,
+      "method": "greedy",
+      "n": 10,
+      "stdev": 0.0
+    },
+    {
+      "best": 4.0,
+      "improved_runs": 0,
+      "mean": 4.0,
+      "median": 4.0,
+      "method": "annealing",
+      "n": 10,
+      "stdev": 0.0
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "candidate_sha256": "14e49f89f9bcfcc5ce1751d9ea888d0bf5787a73b8c48c3ef192d2c012d5970b",
+  "environment": {
+    "mpmath": "1.4.1",
+    "pandas": "2.2.3",
+    "python": "3.12.14"
+  },
+  "full_score_offline": 28.909234651387617,
+  "metric_kernel_version": 360167936,
+  "metric_source_sha256": "312458227c78f56bd5e2eec3dc5fbb8787989422bbf72ce66c3c290048e89733",
+  "metric_url": "https://www.kaggle.com/code/metric/squares-in-squares",
+  "notebook_sha256": "5c42955b6347e721dccaf72abec83f9e88fd488e3b9c40c1d23f476dc7189d94",
+  "omitted_penalty": 28.672758852483234,
+  "puzzles": [
+    {
+      "L": "3.91007979621417828787198252408015964607642872883883",
+      "n": 10,
+      "reason": "ok",
+      "score": 0.23647579890438242
+    }
+  ],
+  "sample": {
+    "grid_prefix_matches_through_n": 16,
+    "header": [
+      "id",
+      "n",
+      "square_id",
+      "x",
+      "y",
+      "angle"
+    ],
+    "puzzles": 1000,
+    "rows": 500500,
+    "sha256": "a7f736d6cc72975459732a15d6ce6ae6588ad97d0c84f4d26905fd31ec09c74c"
+  },
+  "scoring_universe": 1000,
+  "status": "VALIDATED_OFFLINE_WITH_KAGGLE_METRIC_V17_NOT_SUBMITTED",
+  "submitted_puzzles": 1,
+  "subset_score": 0.23647579890438242
+}
